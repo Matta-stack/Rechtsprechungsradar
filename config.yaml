@@ -1,0 +1,59 @@
+# Konfiguration des Rechtsprechungs-Trackers
+# Rechtsgebiete: Schlagworte werden in Normenkette, Leitsatz und Volltext gesucht.
+# Die KI-Prüfung entscheidet danach endgültig über die Relevanz.
+
+site:
+  title: "Rechtsprechungs-Radar Datenschutz & KI"
+  subtitle: "Neue Entscheidungen von Bundesgerichten und EuGH, täglich aktualisiert und kurz eingeordnet"
+  base_url: ""          # z. B. https://deinname.github.io/rechtsprechungs-tracker
+  author: "Dr. Gagandeep Matta"
+
+lookback_days: 14       # wie weit zurück beim täglichen Lauf gesucht wird
+max_new_per_run: 60     # Sicherheitsgrenze für KI-Kosten
+
+areas:
+  datenschutz:
+    label: "Datenschutzrecht"
+    keywords:
+      - "DSGVO"
+      - "DS-GVO"
+      - "2016/679"
+      - "Datenschutz-Grundverordnung"
+      - "BDSG"
+      - "TDDDG"
+      - "TTDSG"
+      - "personenbezogene Daten"
+      - "personenbezogener Daten"
+      - "Auskunfteien"
+      - "Art. 82"
+  ki:
+    label: "KI-Recht"
+    keywords:
+      - "künstliche Intelligenz"
+      - "Künstliche Intelligenz"
+      - "KI-Verordnung"
+      - "2024/1689"
+      - "KI-System"
+      - "KI-Modell"
+      - "Sprachmodell"
+      - "generative"
+      - "Text und Data Mining"
+      - "Text- und Data-Mining"
+      - "§ 44b UrhG"
+      - "automatisierte Entscheidung"
+      - "Art. 22 DSGVO"
+      - "Algorithmus"
+
+sources:
+  rii:
+    enabled: true
+    toc_url: "https://www.rechtsprechung-im-internet.de/rii-toc.xml"
+  eu:
+    enabled: true
+    sparql_url: "https://publications.europa.eu/webapi/rdf/sparql"
+    text_url: "https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:{celex}"
+
+llm:
+  provider: "anthropic"
+  model: "claude-haiku-5-5"   # günstig und schnell genug für Zusammenfassungen
+  max_chars: 24000            # so viel Urteilstext geht pro Entscheidung an das Modell

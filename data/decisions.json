@@ -1,0 +1,371 @@
+[
+ {
+  "id": "OLGF-11U2-26",
+  "gericht": "OLG Frankfurt am Main",
+  "datum": "2026-10-01",
+  "aktenzeichen": "11 U 2/26",
+  "typ": "Urteil",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Liedtext bleibt geschützt, auch wenn der Song mit KI (Suno) erzeugt wurde",
+  "kurzfassung": "Eine Texterin schrieb einen Liedtext, den ihr Produzent mit dem KI-System Suno zu einem Song verarbeitete. Gegen Songversionen der Beklagten, die wesentliche Teile des Textes übernahmen, hatte sie eine einstweilige Verfügung erwirkt. Das OLG bestätigte diese im Wesentlichen.",
+  "kernaussagen": [
+   "Ein menschlich geschaffener Text bleibt geschützt, wenn seine prägenden schöpferischen Elemente im KI-Erzeugnis unverändert fortbestehen.",
+   "Das Ergebnis eines KI-Detektors erschüttert eine glaubhaft gemachte menschliche Urheberschaft nicht ohne Weiteres.",
+   "Zu unbestimmte Verbotsbegriffe wie „Verwertung“ tragen kein Unterlassungsgebot."
+  ],
+  "normen": [
+   "§ 2 UrhG",
+   "§ 97 UrhG"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "KI-Detektoren sind als Beweismittel für fehlende Urheberschaft schwach; die Dokumentation des menschlichen Schaffensprozesses bleibt entscheidend.",
+  "url": "https://cms.law/de/deu/legal-updates/kein-schutzverlust-durch-ki-olg-frankfurt-staerkt-rechte-von-urhebern",
+  "quelle": "CMS Legal Update",
+  "vorinstanz": "LG Frankfurt a. M., 2-06 O 401/25",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "EuGH-GA-C-250-25",
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-03",
+  "aktenzeichen": "C-250/25",
+  "typ": "Schlussanträge",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Like Company / Google Ireland – erstes EuGH-Verfahren zu generativer KI",
+  "kurzfassung": "Ein ungarischer Presseverlag macht geltend, Googles Chatbot Gemini sei mit seinen Artikeln trainiert worden und könne sie auf Abruf zusammenfassen. Er beruft sich auf das Leistungsschutzrecht der Presseverleger. Erster Generalanwalt Szpunar hat seine Schlussanträge vorgelegt; das Urteil steht noch aus.",
+  "kernaussagen": [
+   "Erstes Vorabentscheidungsverfahren zu generativer KI vor dem EuGH.",
+   "Betrifft Training von Sprachmodellen und KI-Zusammenfassungen von Presseartikeln (u. a. Leistungsschutzrecht der Presseverleger).",
+   "Die Schlussanträge binden den Gerichtshof nicht."
+  ],
+  "normen": [
+   "Art. 15 RL (EU) 2019/790",
+   "Art. 4 RL (EU) 2019/790"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Leitentscheidung für KI-Training und Ausgaben in der EU zu erwarten; laufende Lizenz- und Opt-out-Strategien im Blick behalten.",
+  "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155de.pdf",
+  "quelle": "EuGH, Pressemitteilung Nr. 155/26",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "LGM-42O763-25",
+  "gericht": "LG München I",
+  "datum": "2026-07-31",
+  "aktenzeichen": "42 O 763/25",
+  "typ": "Endurteil",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Verwertungsgesellschaft gegen KI-Musikgenerator Suno",
+  "kurzfassung": "Eine Verwertungsgesellschaft für Musikrechte klagte gegen die US-Anbieterin des KI-Musikgenerators Suno. Das Gericht untersagte überwiegend die Vervielfältigung von sechs Musikwerken beim Training und im Modell sowie ihre Wiedergabe in den Ausgaben. Berufung ist beim OLG München anhängig (6 U 2314/26 e).",
+  "kernaussagen": [
+   "Ist ein Werk so memorisiert, dass einfache Prompts es wiedererkennbar reproduzieren, liegt eine Vervielfältigung im Modell vor.",
+   "Die TDM-Schranke des § 44b UrhG deckt nur Kopien zur Vorbereitung des Trainingskorpus, nicht die Übernahme in die Modellparameter.",
+   "Die Haftungsprivilegien des Art. 6 DSA greifen nicht für Ausgaben auf einfache, offene Prompts."
+  ],
+  "normen": [
+   "§ 16 UrhG",
+   "§ 44b UrhG",
+   "§ 44a UrhG",
+   "Art. 6 DSA"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Bestätigt die Linie aus GEMA/OpenAI für Musik-KI; Memorisierung ist das zentrale Haftungsrisiko für Modellanbieter.",
+  "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-17961",
+  "quelle": "gesetze-bayern.de (amtliche Veröffentlichung)",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "EuGH-C-199-24",
+  "gericht": "EuGH",
+  "datum": "2026-07-09",
+  "aktenzeichen": "C-199/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Kostenpflichtige Online-Datenbank mit Strafurteilen",
+  "kurzfassung": "Ein schwedisches Unternehmen betreibt eine kostenpflichtige Datenbank mit Strafverfahren gegen Privatpersonen. Ein Betroffener verlangte Löschung und Schadensersatz; nach schwedischem Recht blieb ihm nur eine Klage wegen Verleumdung. Der EuGH hält diese pauschale Ausnahme für unionsrechtswidrig.",
+  "kernaussagen": [
+   "Die Veröffentlichung ungeschwärzter amtlicher Urteile gegen Entgelt ist nicht automatisch Verarbeitung zu journalistischen Zwecken.",
+   "Die Mitgliedstaaten dürfen die Rechtsbehelfe der DSGVO nicht auf nationale Verleumdungsklagen beschränken."
+  ],
+  "normen": [
+   "Art. 85 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 82 DSGVO"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Personensuch- und Urteilsdatenbanken können sich nicht pauschal auf das Medienprivileg berufen.",
+  "url": "https://www.vzbv.de/urteile/zum-datenschutz-bei-online-datenbanken-fuer-strafurteile",
+  "quelle": "vzbv, Urteilsdatenbank",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "BGH-VIZR97-22",
+  "gericht": "BGH, VI. Zivilsenat",
+  "datum": "2026-06-23",
+  "aktenzeichen": "VI ZR 97/22",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Xing-Nachricht mit Gehaltsdaten an falschen Empfänger",
+  "kurzfassung": "Eine Privatbank schickte eine Nachricht zum Bewerbungsverfahren samt Gehaltsangaben per Xing versehentlich an einen unbeteiligten früheren Kollegen des Bewerbers. Der BGH bejaht den Schadensersatzanspruch dem Grunde nach, verneint aber den Unterlassungsanspruch; zur Höhe wurde an das OLG Frankfurt zurückverwiesen.",
+  "kernaussagen": [
+   "Ein immaterieller Schaden kann spätestens entstehen, wenn der Dritte die Nachricht zur Kenntnis nimmt und beim Betroffenen nachfragt.",
+   "Ein Unterlassungsanspruch folgt nicht aus der DSGVO, wenn keine Löschung verlangt wurde; nach nationalem Recht fehlte die Wiederholungsgefahr."
+  ],
+  "normen": [
+   "Art. 82 Abs. 1 DSGVO",
+   "Art. 4 Nr. 2 DSGVO",
+   "§ 1004 BGB"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Fehlversand im Bewerbungsprozess ist haftungsrelevant; Unterlassungsklagen haben nach Abschluss des Verfahrens kaum Aussicht.",
+  "url": "https://www.lto.de/recht/nachrichten/n/bgh-vizr9722-immaterieller-schadensersatz-82-dsgvo-xing",
+  "quelle": "LTO",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "EuGH-C-484-24",
+  "gericht": "EuGH",
+  "datum": "2026-06-18",
+  "aktenzeichen": "C-484/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "NTH Haustechnik – DSGVO-widrig erlangte Beweise im Zivilprozess",
+  "kurzfassung": "Der EuGH klärt, unter welchen Voraussetzungen Gerichte personenbezogene Daten verwerten dürfen, die eine Partei unter Verstoß gegen die DSGVO erlangt hat. Ein absolutes Beweisverwertungsverbot folgt aus der DSGVO nicht.",
+  "kernaussagen": [
+   "Die DSGVO gilt auch für die Datenverarbeitung durch Gerichte im Rahmen ihrer justiziellen Tätigkeit.",
+   "Datenschutzwidrig erlangte Beweise dürfen nicht pauschal ausgeschlossen werden; erforderlich ist eine Abwägung."
+  ],
+  "normen": [
+   "DSGVO"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Wichtig für Arbeitsgerichtsprozesse mit Überwachungs- und Videobeweisen.",
+  "url": "https://www.datev-magazin.de/nachrichten-steuern-recht/recht/gerichte-duerfen-mit-illegal-erlangten-beweisen-arbeiten-147369",
+  "quelle": "DATEV magazin / BRAK",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "OLGD-I20W2-26",
+  "gericht": "OLG Düsseldorf",
+  "datum": "2026-04-02",
+  "aktenzeichen": "I-20 W 2/26",
+  "typ": "Beschluss",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "KI-generiertes Bild verletzt Rechte der Fotografin nicht",
+  "kurzfassung": "Eine Fotografin wandte sich im Eilverfahren gegen die Veröffentlichung eines KI-generierten Bildes. Das OLG wies die sofortige Beschwerde zurück: Weder Urheberrecht noch Lichtbildschutz waren verletzt.",
+  "kernaussagen": [
+   "Die Veröffentlichung des KI-Bildes verletzte weder das Urheberrecht noch das Leistungsschutzrecht als Lichtbildnerin.",
+   "Das Gericht äußert sich zu den Voraussetzungen, unter denen ein KI-Bild selbst geschützt sein kann."
+  ],
+  "normen": [
+   "§ 2 UrhG",
+   "§ 72 UrhG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Bei KI-Bildern muss die Übernahme konkreter geschützter Elemente dargelegt werden; bloße Stilähnlichkeit genügt nicht.",
+  "url": "https://www.mtrlegal.com/magazin/urheberrecht-bei-ki-bildern-olg-duesseldorf-zur-verwendung-fremder-fotografien/",
+  "quelle": "MTR Legal",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "EuGH-C-526-24",
+  "gericht": "EuGH",
+  "datum": "2026-03-19",
+  "aktenzeichen": "C-526/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Brillen Rottler – missbräuchliche Auskunftsersuchen",
+  "kurzfassung": "Auf Vorlage des AG Arnsberg entschied der EuGH, dass schon ein erstes Auskunftsersuchen nach Art. 15 DSGVO als exzessiv abgelehnt werden kann, wenn es missbräuchlich gestellt wird. Zugleich erstreckt er Art. 82 DSGVO auf Verletzungen des Auskunftsrechts.",
+  "kernaussagen": [
+   "Auch ein erster Auskunftsantrag kann wegen Rechtsmissbrauchs abgelehnt werden; erforderlich sind belegte Umstände.",
+   "Art. 82 DSGVO erfasst auch Schäden aus der Verletzung des Auskunftsrechts."
+  ],
+  "normen": [
+   "Art. 12 Abs. 5 DSGVO",
+   "Art. 15 DSGVO",
+   "Art. 82 DSGVO"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Instrument gegen „DSGVO-Hopping“; Verantwortliche sollten die Missbrauchsgründe sauber dokumentieren.",
+  "url": "https://www.gtlaw.com/de/insights/2026/3/cjeu-first-request-for-access-may-be-rejected-as-abusive-under-gdpr",
+  "quelle": "Greenberg Traurig",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "OLGHamm-8U13-25",
+  "gericht": "OLG Hamm",
+  "datum": "2026-03-09",
+  "aktenzeichen": "8 U 13/25",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Schadensersatz wegen unbefugter Werbung",
+  "kurzfassung": "Wegen unbefugter Werbung sprach das OLG Hamm dem Betroffenen immateriellen Schadensersatz nach Art. 82 DSGVO zu, laut Urteilsübersicht 1.500 Euro (GRUR-RS 2026, 10126).",
+  "kernaussagen": [
+   "Unbefugte Werbung kann einen ersatzfähigen immateriellen Schaden nach Art. 82 DSGVO begründen."
+  ],
+  "normen": [
+   "Art. 82 DSGVO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Vergleichsweise hoher Betrag; Gegenlinie zu BGH VI ZR 109/23 (kein Schaden bei einzelner Werbemail) beachten.",
+  "url": "https://cms.law/de/deu/legal-updates/DSGVO-Schadensersatz-laufend-aktualisierte-Urteilsuebersicht",
+  "quelle": "CMS Urteilsübersicht (Eintrag, ungeprüft)",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "AGM-142C9786-25",
+  "gericht": "AG München",
+  "datum": "2026-02-13",
+  "aktenzeichen": "142 C 9786/25",
+  "typ": "Endurteil",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Kein Urheberrechtsschutz für per Prompt erzeugte KI-Logos",
+  "kurzfassung": "Der Kläger hatte mit generativer KI drei Logos erstellt und verlangte Unterlassung ihrer Nutzung. Das AG München wies die Klage ab.",
+  "kernaussagen": [
+   "Ob KI-Erzeugnisse Werke im Sinne von § 2 Abs. 2 UrhG sind, hängt davon ab, wie viel menschlicher schöpferischer Einfluss trotz des softwaregesteuerten Prozesses verbleibt."
+  ],
+  "normen": [
+   "§ 2 Abs. 2 UrhG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Reines Prompting reicht für Schutz regelmäßig nicht; Gestaltungsschritte dokumentieren.",
+  "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-GRURRS-B-2026-N-1513",
+  "quelle": "gesetze-bayern.de (amtliche Veröffentlichung)",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "OLGHH-5U104-24",
+  "gericht": "OLG Hamburg",
+  "datum": "2025-12-10",
+  "aktenzeichen": "5 U 104/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Kneschke / LAION – Erstellung eines KI-Trainingsdatensatzes",
+  "kurzfassung": "Ein Fotograf wandte sich gegen die Vervielfältigung seines Fotos für den Trainingsdatensatz von LAION. Das OLG Hamburg hielt die Vervielfältigung als Text und Data Mining für zulässig und bestätigte damit im Ergebnis das LG Hamburg.",
+  "kernaussagen": [
+   "Die Vervielfältigung zur Erstellung eines KI-Trainingsdatensatzes kann von den TDM-Schranken gedeckt sein."
+  ],
+  "normen": [
+   "§ 44b UrhG",
+   "§ 60d UrhG"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Datensatzerstellung ist privilegiert; das Training selbst und Memorisierung beurteilen Münchner Gerichte strenger.",
+  "url": "https://www.morganlewis.com/de/pubs/2026/06/ai-and-copyright-judicial-landscape-in-germany",
+  "quelle": "Morgan Lewis",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "LGM-42O14139-24",
+  "gericht": "LG München I",
+  "datum": "2025-11-11",
+  "aktenzeichen": "42 O 14139/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "GEMA / OpenAI – Liedtexte in ChatGPT",
+  "kurzfassung": "Die GEMA klagte gegen OpenAI wegen der Nutzung von Liedtexten. Die 42. Zivilkammer sah darin eine Urheberrechtsverletzung.",
+  "kernaussagen": [
+   "KI-Anbieter unterliegen der Lizenzpflicht; die Neuheit der Technologie rechtfertigt keine Ausnahme.",
+   "Erste deutsche Entscheidung zu Nutzungshandlungen, die dem Training nachgelagert sind."
+  ],
+  "normen": [
+   "§ 16 UrhG",
+   "§ 19a UrhG",
+   "§ 44b UrhG"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Grundlage für die Folgeentscheidung gegen Suno (LG München I, 42 O 763/25).",
+  "url": "https://www.lto.de/recht/nachrichten/n/42o1413924-lg-muenchen-i-gema-openai-chatgpt-songtexte-ki/print.html",
+  "quelle": "LTO",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "BGH-VIZR426-24",
+  "gericht": "BGH, VI. Zivilsenat",
+  "datum": "2025-07-29",
+  "aktenzeichen": "VI ZR 426/24",
+  "typ": "Urteil",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Medienprivileg: kein Art.-82-Anspruch bei journalistischer Verarbeitung",
+  "kurzfassung": "Der BGH entschied, dass eine Verarbeitung zu journalistischen Zwecken nicht an Art. 6 und 7 DSGVO zu messen ist. Ein darauf gestützter Schadensersatzanspruch aus Art. 82 DSGVO scheidet dann aus.",
+  "kernaussagen": [
+   "Bei Verarbeitung zu journalistischen Zwecken (Art. 85 Abs. 2 DSGVO i. V. m. § 23 Abs. 1 S. 4 MStV) gelten Art. 6 und 7 DSGVO nicht.",
+   "„Zu journalistischen Zwecken“ ist weit und in Anlehnung an Art. 85 DSGVO auszulegen."
+  ],
+  "normen": [
+   "Art. 85 DSGVO",
+   "§ 23 MStV",
+   "Art. 82 DSGVO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Zusammen lesen mit EuGH C-199/24: Das Medienprivileg ist weit, aber nicht pauschal.",
+  "url": "https://curia.europa.eu/site/jcms/p1_1000070159/cs/bundesgerichtshof-urteil-vom-29-juli-2025-vi-zr-426/24",
+  "quelle": "CURIA (Rechtsprechung der Mitgliedstaaten)",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "VO-2026-1744",
+  "gericht": "EU-Gesetzgeber",
+  "datum": "2026-07-27",
+  "aktenzeichen": "VO (EU) 2026/1744",
+  "typ": "Gesetzgebung",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Digital-Omnibus zur KI-Verordnung in Kraft",
+  "kurzfassung": "Die Verordnung (EU) 2026/1744 vom 8. Juli 2026 ändert die KI-Verordnung und ist am 27. Juli 2026 in Kraft getreten. Kern ist die Verschiebung der Pflichten für Hochrisiko-KI-Systeme; zudem kommen neue verbotene Praktiken hinzu.",
+  "kernaussagen": [
+   "Hochrisiko-Pflichten werden verschoben (nach Fachberichten: Anhang III auf Dezember 2027, Anhang I auf August 2028).",
+   "Die Verbote des Art. 5 und die KI-Kompetenzpflicht des Art. 4 gelten weiter."
+  ],
+  "normen": [
+   "VO (EU) 2024/1689",
+   "VO (EU) 2026/1744"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Compliance-Fahrpläne an die neuen Fristen anpassen; Transparenzpflichten nicht übersehen.",
+  "url": "https://www.ihk.de/ihklw/produkte/beratung-und-service/ecommerce-und-internet/digital-omnibus-verordnung-zur-ki-tritt-in-kraft-7142858",
+  "quelle": "IHK Lüneburg-Wolfsburg",
+  "ki_geprueft": false,
+  "redaktionell": true
+ }
+]
