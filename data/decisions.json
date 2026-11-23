@@ -12,15 +12,25 @@
   "gebiete": [
    "datenschutz"
   ],
-  "titel": "Urteil des Gerichtshofs (Vierte Kammer) vom 19. November 2026.#LK gegen Firmenauskunft P.U.R. GmbH.#Vorabentscheidungsersuchen der Landgericht Saarbrücken.#Vorlage zur Vorabentscheidung – Richtlinie 2002/58/EG – Art. 13 Abs. 3 und 5 – Schutz der Privatsphäre und personenbezogener Daten – Unerbetene ",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "EuGH: Schutz selbständiger natürlicher Personen vor unerbetenen Werbeanrufen (Art. 13 RL 2002/58)",
+  "sachverhalt": "Eine freiberufliche Übersetzerin (LK) wurde am 3. März 2021 ohne vorherige Zustimmung von einem Mitarbeiter der Firmenauskunft P.U.R. GmbH zu Werbezwecken angerufen. Im Gespräch, dessen letzter Teil mit ihrem Einverständnis aufgezeichnet wurde, bejahte sie, einen kostenpflichtigen dreijährigen Eintrag im Branchenverzeichnis zu einem Gesamtpreis von 3000 Euro netto beauftragt zu haben. Nach Rechnungsstellung focht sie den Vertrag wegen Täuschung und Erklärungsirrtums an und verlangte die Löschung des Eintrags. Das Amtsgericht Saarbrücken verurteilte sie zur Zahlung eines Teilbetrags von 2380 Euro nebst Zinsen; sie rechnete mit Schadensersatzansprüchen nach dem UWG auf. Das Landgericht Saarbrücken legte dem EuGH die Frage vor, ob Art. 13 Abs. 3 und 5 der Richtlinie 2002/58 es gebietet, auch unternehmerisch handelnde natürliche Personen vor Cold Calling zu schützen, solche Anrufe als unerlaubte Handlung zu behandeln und die Vertragsfolgen als ersatzfähigen Schaden anzusehen.",
+  "entscheidung": "Der Gerichtshof hat die Vorlagefrage im Wesentlichen dahin umformuliert, ob Art. 13 Abs. 3 und Abs. 5 Satz 1 der Richtlinie 2002/58 dem entgegensteht, dass unerbetene Werbeanrufe an natürliche, geschäftlich handelnde Personen gerichtet werden, wenn der Mitgliedstaat nur ein Opt-out- oder ein Opt-in-System vorsieht, und ob die Mitgliedstaaten sicherstellen müssen, dass Betroffene die Ungültigkeit des so zustande gekommenen Vertrags geltend machen oder Schadensersatz erlangen können. Tragend ist, dass Art. 13 Abs. 3 und 5 Satz 1 nicht zwischen privaten und geschäftlichen Zwecken unterscheiden, da der Begriff „Teilnehmer“ nicht auf Verbraucher beschränkt ist und Art. 2 Buchst. a RL 2002/58 eine solche Einschränkung nicht trägt. Die Auslegung wird durch den Zusammenhang mit dem Begriff der personenbezogenen Daten gestützt, der auch Informationen im beruflichen Kontext umfasst.",
+  "kurzfassung": "Eine freiberufliche Übersetzerin wehrte sich gegen einen unerbetenen Werbeanruf, nach dem sie einen kostenpflichtigen Verzeichniseintrag bestellt hatte, und das Landgericht Saarbrücken legte dem EuGH die Frage vor, ob der Schutz aus der ePrivacy-Richtlinie auch geschäftlich handelnde natürliche Personen umfasst. Nach dem vorliegenden Text bejaht der EuGH den Schutz ohne Beschränkung auf Verbraucher; die Frage nach Vertragsnichtigkeit und Schadensersatz ist im vorliegenden Auszug noch nicht beantwortet, da der Text gekürzt ist.",
+  "kernaussagen": [
+   "Art. 13 Abs. 3 und Abs. 5 Satz 1 der Richtlinie 2002/58 schützen natürliche Personen vor unerbetenen Werbeanrufen unabhängig davon, ob sie privat oder geschäftlich handeln.",
+   "Der Begriff „Teilnehmer“ in Art. 13 der Richtlinie 2002/58 ist nicht auf Verbraucher beschränkt."
+  ],
+  "normen": [
+   "Art. 13 Abs. 3 und Abs. 5 Satz 1 Richtlinie 2002/58/EG",
+   "Art. 2 Buchst. a Richtlinie 2002/58/EG i. V. m. Art. 2 Buchst. a Richtlinie 95/46/EG",
+   "Art. 4 Nr. 1 DSGVO",
+   "Art. 7 und 8 GRCh",
+   "§ 7 Abs. 1 und 2 UWG",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Unternehmen dürfen auch selbständige Freiberufler und andere natürliche Einzelpersonen im B2B-Bereich nicht ohne deren Einwilligung oder – je nach nationalem Modell – ohne Widerspruchsmöglichkeit telefonisch bewerben, und Berater sollten prüfen, ob das deutsche UWG-Schutzniveau für solche Personen unionsrechtskonform ausgelegt werden muss.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -34,17 +44,29 @@
   "leitsatz": "",
   "id": "ECLI:EU:C:2026:1001",
   "gebiete": [
-   "datenschutz"
+   "datenschutz",
+   "ki"
   ],
-  "titel": "Schlussanträge der Generalanwältin L. Medina vom 19. November 2026.###",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Gratis-Werbung für Facebook und die Frage nach Datenpreisgabe als „Kosten“",
+  "sachverhalt": "Der Bundesverband der Verbraucherzentralen klagt gegen Meta, die Facebook in der EU betreibt, weil die Anmeldemaske im Februar 2015 mit der Aussage „Facebook ist und bleibt kostenlos“ warb. Der Verband hält dies für irreführend, da Nutzer ihre personenbezogenen Daten als Gegenleistung bereitstellen und in deren kommerzielle Nutzung einwilligen. Er beantragte Unterlassung der Aussage für Verbraucher mit Wohnsitz in Deutschland. Das Landgericht Berlin wies die Klage 2018 ab, da Anhang I Nr. 20 der Richtlinie 2005/29 nur versteckte Zahlungspflichten oder pekuniäre Belastungen erfasse; das Kammergericht wies die Berufung 2019 zurück. Der Bundesgerichtshof hat das Verfahren ausgesetzt und dem EuGH die Frage vorgelegt, ob der Kostenbegriff auch die Preisgabe personenbezogener Daten und die Einwilligung in deren kommerzielle Nutzung erfasst.",
+  "entscheidung": "Der Generalanwalt hat den Vorlagefragen-Teil zum Anwendungsbereich bejaht: Der Betrieb eines sozialen Netzwerks ist eine Dienstleistung im Sinne von Art. 2 Buchst. c der Richtlinie 2005/29, und die Beschreibung als „kostenlos“ auf der Registrierungsseite ist eine Geschäftspraxis im Sinne von Art. 2 Buchst. d. Zur Vorlagefrage selbst liegt im bereitgestellten Text nur der Teil bis Nr. 34 vor; eine Schlussfolgerung zur Auslegung des Kostenbegriffs (Preisgabe von Daten als „zu tragende“ Kosten) ist dem gekürzten Text nicht zu entnehmen. Die Auslegung stützt sich auf Wortlaut, Zusammenhang und Ziel der Richtlinie, wobei die Sprachfassungen unterschiedlich formuliert sind.",
+  "kurzfassung": "Der BGH legt dem EuGH die Frage vor, ob die Preisgabe personenbezogener Daten und die Einwilligung in deren kommerzielle Nutzung als „Kosten“ im Sinne von Anhang I Nr. 20 der Richtlinie 2005/29 gelten, sodass die Werbung eines Netzwerks als „kostenlos“ stets unlauter wäre. Der vorliegende Text ist gekürzt und endet vor der Würdigung der Vorlagefrage, sodass das Ergebnis der Schlussanträge aus dem Auszug nicht vollständig ersichtlich ist.",
+  "kernaussagen": [
+   "Der Betrieb eines sozialen Netzwerks und dessen Bereitstellung für Nutzer ist eine Dienstleistung im Sinne von Art. 2 Buchst. c der Richtlinie 2005/29.",
+   "Die Beschreibung eines solchen Dienstes als kostenlos auf der Registrierungsseite ist eine Geschäftspraxis im Sinne von Art. 2 Buchst. d der Richtlinie 2005/29.",
+   "Die Sprachfassungen von Anhang I Nr. 20 unterscheiden sich darin, ob sie auf Geldzahlung oder auf jede Art von Belastung abstellen."
+  ],
+  "normen": [
+   "Richtlinie 2005/29/EG Art. 2 Buchst. c und d",
+   "Richtlinie 2005/29/EG Art. 5 Abs. 1 und Abs. 5",
+   "Richtlinie 2005/29/EG Anhang I Nr. 20",
+   "Richtlinie (EU) 2019/770 Art. 3 Abs. 1",
+   "Richtlinie (EU) 2019/2161 Art. 3 Abs. 1 Buchst. a und Art. 4 Abs. 2",
+   "§ 3 Abs. 3 UWG i. V. m. Anhang Nr. 20, 21"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Unternehmen mit datenbasierten Gratisangeboten sollten „kostenlos“-Werbung überprüfen, da der EuGH möglicherweise entscheidet, dass Datenpreisgabe als zu tragende Kosten gilt und solche Aussagen dann unter allen Umständen unlauter sind.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -60,15 +82,24 @@
   "gebiete": [
    "datenschutz"
   ],
-  "titel": "Urteil des Gerichtshofs (Große Kammer) vom 17. November 2026.#Europäischer Datenschutzbeauftragter gegen Europäisches Parlament und Rat der Europäischen Union.#Rechtsmittel – Institutionelles Recht – Zusammenarbeit auf dem Gebiet der Strafverfolgung – Verordnung (EU) 2016/794 – Verarbeitung personen",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "EuGH: EDSB darf Nichtigkeitsklage gegen Europol-Übergangsregeln erheben",
+  "sachverhalt": "Der Europäische Datenschutzbeauftragte (EDSB) wandte sich gegen Übergangsbestimmungen (Art. 74a und 74b der Europol-Verordnung in der durch Verordnung 2022/991 geänderten Fassung), die es Europol erlauben, personenbezogene Daten von Personen zu verarbeiten, die nicht zu den Kategorien des Anhangs II gehören, und die vor dem 28. Juni 2022 übermittelt wurden. Nach einer Entscheidung des EDSB vom 3. Januar 2022 über die Datenverarbeitung durch Europol erhob der EDSB Klage vor dem Gericht der EU, um die Art. 74a und 74b für nichtig erklären zu lassen. Das Gericht erklärte die Klage mit Beschluss vom 6. September 2023 (T-578/22) für unzulässig. Dagegen legte der EDSB Rechtsmittel beim EuGH ein, das am 16. November 2023 eingelegt wurde. Das Parlament, der Rat sowie Deutschland, Frankreich und die Kommission traten als Verfahrensbeteiligte auf. Der vorliegende Text ist eine vorläufige, gekürzte Fassung; die Entscheidungsgründe zur Zulässigkeit im Einzelnen und der Tenor sind nicht vollständig wiedergegeben.",
+  "entscheidung": "Der Text ist insoweit unvollständig, als der Tenor und die Ausführungen des Gerichtshofs zur Begründetheit des Rechtsmittels nicht enthalten sind; das Urteil betrifft das Rechtsmittel gegen die Unzulässigkeitsentscheidung des Gerichts. Nach dem mitgelieferten Text prüft der Gerichtshof als Schwerpunkt die Zulässigkeit der Nichtigkeitsklage des EDSB, insbesondere die Voraussetzungen der unmittelbaren Betroffenheit nach Art. 263 Abs. 4 AEUV sowie den Grundsatz des institutionellen Gleichgewichts. Ob und mit welcher Begründung der Gerichtshof den Beschluss des Gerichts aufhebt oder bestätigt, lässt sich dem gekürzten Text nicht sicher entnehmen.",
+  "kurzfassung": "Der Europäische Datenschutzbeauftragte wendet sich mit einem Rechtsmittel dagegen, dass das Gericht seine Nichtigkeitsklage gegen Übergangsregeln der geänderten Europol-Verordnung als unzulässig verworfen hat. Die Entscheidung des EuGH zum Ergebnis ist im vorliegenden, gekürzten Text nicht enthalten, sodass das Ergebnis nicht abschließend beurteilt werden kann.",
+  "kernaussagen": [
+   "Der EDSB kann als Organ zur Wahrung seiner Unabhängigkeit Nichtigkeitsklage gegen Handlungen mit Rechtswirkung gegenüber Dritten erheben, sofern die Voraussetzungen des Art. 263 Abs. 4 AEUV erfüllt sind.",
+   "Die Zulässigkeit einer Klage nach Art. 263 Abs. 4 AEUV setzt voraus, dass der Kläger unmittelbar betroffen ist."
+  ],
+  "normen": [
+   "Art. 263 Abs. 4 AEUV",
+   "Art. 16 Abs. 2 AEUV",
+   "Art. 52 ff. VO (EU) 2018/1725",
+   "Art. 74a und 74b VO (EU) 2016/794 in der Fassung der VO (EU) 2022/991",
+   "Art. 18a VO (EU) 2016/794 in der Fassung der VO (EU) 2022/991"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Für Datenschutzaufsichtsbehörden und Berater ist relevant, dass der EDSB als Kontrollinstanz über Europol eigene Klagewege gegen Übergangsregeln für die Verarbeitung personenbezogener Daten haben kann, wobei das endgültige Ergebnis erst aus dem vollständigen Urteil ersichtlich wird.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -82,17 +113,29 @@
   "leitsatz": "",
   "id": "ECLI:EU:C:2026:974",
   "gebiete": [
-   "datenschutz"
+   "datenschutz",
+   "ki"
   ],
-  "titel": "Schlussanträge des Generalanwalts D. Spielmann vom 12. November 2026.###",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
+  "titel": "Auskunftsansprüche von Verwertungsgesellschaften gegen Kabelnetzbetreiber: Reichweite von Art. 8 RL 2004/48 und Art. 17 RL 2014/26",
+  "sachverhalt": "Die Verwertungsgesellschaft SAWP, die ausübende Künstler kollektiv vertritt, verlangte vom Kabelfernsehbetreiber E auf Grundlage von Art. 48 des polnischen Gesetzes über die kollektive Rechtewahrnehmung Auskunft darüber, welche Hörfunk- und Fernsehsendungen mit Musik- und Wort-Musik-Werken (auch in audiovisuellen Werken) E in einem bestimmten Zeitraum ausgestrahlt hat, welche Einnahmen sie daraus erzielte und wie viele Abonnenten sie hatte. Zwischen den Parteien besteht kein Vertrag über die Weiterverbreitung dieser Darbietungen; SAWP legte weder Daten der betroffenen Künstler noch Belege für bestehende Zahlungsansprüche vor. E bestreitet solche Ansprüche, weil die Verwertungsrechte an Darbietungen in audiovisuellen Werken nach nationalem Recht beim Produzenten lägen, und hält die Auskunftsverlangen für unzulässig, weil ein Verletzungsverfahren nach Art. 479 113 ff. der Zivilprozessordnung eine Glaubhaftmachung von Rechtsverletzungen verlange. Das Regionalgericht Gdańsk setzte das Verfahren aus und legte dem EuGH zwei Fragen zur Auslegung von Art. 8 Abs. 1 i. V. m. Art. 3 Abs. 2 der Richtlinie 2004/48 und Art. 17 i. V. m. Erwägungsgrund 33 der Richtlinie 2014/26 vor. Der vorliegende Text ist eine vorläufige, gekürzte Fassung der Schlussanträge; ein Ergebnis des Gerichtshofs liegt nicht vor.",
+  "entscheidung": "Der Generalanwalt hat die Schlussanträge im Vorabentscheidungsverfahren gestellt, die auf die Begrenzung der Auskunftsrechte von Verwertungsgesellschaften zielen; die Auskunft kann nicht allein auf ein nationales materiell-rechtliches Auskunftsrecht gestützt werden, das ohne Verletzungs- oder Vergütungszusammenhang besteht. Der Text enthält in der vorliegenden gekürzten Fassung nur die Einleitung, den Rechtsrahmen, den Sachverhalt und den Beginn der Würdigung; die tragende Begründung und der Tenor fehlen im mitgelieferten Auszug weitgehend und können deshalb nicht abschließend wiedergegeben werden.",
+  "kurzfassung": "Ein polnisches Regionalgericht legt dem EuGH die Frage vor, ob Verwertungsgesellschaften von einem Kabelfernsehbetreiber Nutzungsauskünfte verlangen können, ohne Verletzungs- oder Vergütungsansprüche nachweisen zu müssen. Der Generalanwalt hat in den vorliegenden, unvollständigen Schlussanträgen die Zulässigkeit eines solchen voraussetzungslosen Auskunftsanspruchs gegenüber Nutzern in Frage gestellt; der mitgelieferte Text ist gekürzt, Tenor und abschließende Begründung fehlen.",
+  "kernaussagen": [
+   "Auskunftsrechte nach Art. 8 Abs. 1 der Richtlinie 2004/48 setzen einen begründeten, die Verhältnismäßigkeit wahrenden Antrag im Zusammenhang mit einem Verfahren wegen Verletzung eines Rechts des geistigen Eigentums voraus.",
+   "Das Auskunftsrecht nach Art. 17 der Richtlinie 2014/26 dient der Einziehung und Verteilung von Vergütungen und ist nach Auffassung des vorlegenden Gerichts nicht auf Verletzungsfälle erstreckt."
+  ],
+  "normen": [
+   "Art. 8 Abs. 1 und 2 RL 2004/48/EG",
+   "Art. 3 Abs. 2 RL 2004/48/EG",
+   "Art. 2 Abs. 1 RL 2004/48/EG",
+   "Art. 17 RL 2014/26/EU",
+   "Erwägungsgrund 33 RL 2014/26/EU",
+   "Art. 48 polnisches Gesetz über die kollektive Rechtewahrnehmung",
+   "Art. 479 113 ff. polnische Zivilprozessordnung"
+  ],
   "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "praxis": "Verwertungsgesellschaften können Nutzungsauskünfte von Sendeunternehmen nur im Rahmen eines Verletzungs- oder Vergütungsbezugs verlangen, weshalb Betreiber bei voraussetzungslosen Auskunftsverlangen auf Nachweispflichten bestehen sollten; das endgültige Urteil des EuGH bleibt abzuwarten.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -108,15 +151,24 @@
   "gebiete": [
    "datenschutz"
   ],
-  "titel": "Urteil des Gerichtshofs (Dritte Kammer) vom 5. November 2026.#Joachim Lindenberg gegen Bayerisches Landesamt für Datenschutzaufsicht.#Vorabentscheidungsersuchen des Bayerischen Verwaltungsgerichts Ansbach.#Vorlage zur Vorabentscheidung – Rechtsangleichung – Schutz natürlicher Personen bei der Verarb",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Auskunftsrecht nach Art. 15 DSGVO gegenüber Datenschutzaufsichtsbehörde in Beschwerdeakten",
+  "sachverhalt": "Ein Beschwerdeführer hatte beim Bayerischen Landesamt für Datenschutzaufsicht eine Beschwerde gegen einen Dritten eingelegt. Gestützt auf Art. 15 DSGVO verlangte er Einsicht in die bei der Behörde geführte Akte des Beschwerdeverfahrens. Das Landesamt verweigerte die Einsicht unter Berufung auf Art. 20 Abs. 2 BayDSG, wonach Auskunfts- oder Einsichtsrechte hinsichtlich Akten und Dateien der Aufsichtsbehörden nicht bestehen. Das Bayerische Verwaltungsgericht Ansbach hat das Verfahren ausgesetzt und dem EuGH Fragen zur Auslegung der Begriffe „Verantwortlicher“ und „Aufsichtsbehörde“ sowie zu Art. 15, 23 und 77 DSGVO zur Vorabentscheidung vorgelegt. Der vorliegende Text ist gekürzt; die Entscheidungsgründe und der Tenor sind nicht enthalten.",
+  "entscheidung": "Der Auszug enthält weder Entscheidungsgründe noch Tenor, sodass die Entscheidung des EuGH inhaltlich nicht bewertet werden kann. Der Text beschränkt sich auf Sachverhalt, Vorlagefragen und den rechtlichen Rahmen (insbesondere Art. 4 Nrn. 7 und 21, Art. 15, 23, 77 DSGVO sowie Art. 20 Abs. 2 BayDSG). Ein tragendes Ergebnis lässt sich daraus nicht ableiten.",
+  "kurzfassung": "Im Vorabentscheidungsverfahren C-205/25 ging es um die Frage, ob ein Beschwerdeführer gegenüber dem Bayerischen Landesamt für Datenschutzaufsicht nach Art. 15 DSGVO Einsicht in seine Verfahrensakte verlangen kann, obwohl Art. 20 Abs. 2 BayDSG solche Rechte pauschal ausschließt. Der vorliegende Text ist gekürzt und enthält weder Entscheidungsgründe noch Tenor, sodass das Ergebnis des EuGH hier nicht mitgeteilt werden kann.",
+  "kernaussagen": [
+   "Der Text enthält keine tragenden Entscheidungsgründe; eine Kernaussage kann nicht sicher abgeleitet werden."
+  ],
+  "normen": [
+   "Art. 4 Nr. 7 DSGVO",
+   "Art. 4 Nr. 21 DSGVO",
+   "Art. 15 DSGVO",
+   "Art. 23 DSGVO",
+   "Art. 77 DSGVO",
+   "Art. 20 Abs. 2 BayDSG"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Die Entscheidung ist für Aufsichtsbehörden und Beschwerdeführer relevant, sollte aber erst nach Vorliegen des vollständigen Urteils mit Entscheidungsgründen und Tenor auf Praxisfolgen hin ausgewertet werden.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -132,15 +184,25 @@
   "gebiete": [
    "datenschutz"
   ],
-  "titel": "Schlussanträge des Generalanwalts M. Szpunar vom 5. November 2026.###",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Dynamische IP-Adresse als personenbezogenes Datum bei Übermittlung an Google Fonts",
+  "sachverhalt": "Ein Websitebetreiber band Google Fonts in dynamischer Standardkonfiguration ein, sodass beim Aufruf der Seite die IP-Adresse des Besuchers automatisch an Google in die USA übermittelt wurde. Ein Nutzer richtete ein automatisiertes System ein, das solche Websites aufspürte und gezielt aufrufen ließ, um die Übermittlung zu provozieren. Anschließend mahnte sein Beauftragter den Websitebetreiber wegen des Verstoßes gegen Art. 6 Abs. 1 DSGVO ab und bot Verzicht auf weitere Schritte gegen Zahlung von 170 Euro an, die der Betreiber leistete. Der Betreiber verlangte das Geld zurück; das Amtsgericht sprach 70 Euro zu, das Landgericht verurteilte den Nutzer und den Anwalt als Gesamtschuldner zur Erstattung der vollen 170 Euro wegen sittenwidriger vorsätzlicher Schädigung nach § 826 BGB und ließ die DSGVO-Frage offen. Der Bundesgerichtshof legte dem EuGH Fragen zur Personenbezogenheit dynamischer IP-Adressen, zum immateriellen Schaden nach Art. 82 Abs. 1 DSGVO und zum Rechtsmissbrauch vor.",
+  "entscheidung": "Generalanwalt Szpunar hat in den vorliegenden Schlussanträgen nur die erste Vorlagefrage ausführlich behandelt, nämlich ob eine dynamische IP-Adresse bereits dann personenbezogen ist, wenn ein Dritter über das Zusatzwissen verfügt, oder ob es auf die Mittel des Verantwortlichen beziehungsweise des Empfängers ankommt. Der Text bricht vor dem Ergebnis der Würdigung ab, sodass ein Ergebnis oder eine tragende Begründung dem übermittelten Auszug nicht entnommen werden können. Die Schlussanträge sind für den Gerichtshof nicht bindend.",
+  "kurzfassung": "Der Bundesgerichtshof legt dem EuGH die Frage vor, ob eine dynamische IP-Adresse, die ein Websitebetreiber automatisch an Google übermittelt, ein personenbezogenes Datum ist und ob ein Nutzer, der solche Übermittlungen gezielt provoziert, Schadensersatz nach Art. 82 DSGVO verlangen kann. Der übermittelte Text ist gekürzt und bricht vor der Würdigung der zweiten und dritten Frage sowie vor dem Ergebnis ab, sodass das Ergebnis der Schlussanträge in dieser Fassung nicht bewertbar ist.",
+  "kernaussagen": [
+   "Eine Information ist nach Art. 4 Nr. 1 DSGVO auch dann personenbezogen, wenn die zur Identifizierung erforderlichen Informationen nicht in den Händen einer einzigen Stelle liegen (Schlussanträge, Rn. 30).",
+   "Die Frage, ob ein relativer oder absoluter Ansatz gilt, ist in Rechtsprechung und Lehre umstritten und war Gegenstand der Würdigung (Schlussanträge, Rn. 31 ff.)."
+  ],
+  "normen": [
+   "Art. 4 Nr. 1 DSGVO",
+   "Art. 6 Abs. 1 DSGVO",
+   "Art. 44 DSGVO",
+   "Art. 82 Abs. 1 DSGVO",
+   "§ 826 BGB",
+   "§ 812 BGB"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Websitebetreiber sollten Google Fonts lokal einbinden und die Übermittlung dynamischer IP-Adressen an Drittstaaten vermeiden, bis der EuGH die Personenbezogenheit und die Schadensfrage endgültig geklärt hat.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -156,15 +218,26 @@
   "gebiete": [
    "datenschutz"
   ],
-  "titel": "Urteil des Gerichtshofs (Vierte Kammer) vom 5. November 2026.#SR gegen Netz Niederösterreich GmbH.#Vorabentscheidungsersuchen des Landesgerichts St. Pölten.#Vorlage zur Vorabentscheidung – Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten – Richtlinie 2002/58/EG – Art. 5 Abs. ",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
+  "titel": "EuGH zu intelligenten Stromzählern: Ablehnung, Sicherheit der Messdaten und Endeinrichtungsbegriff",
+  "sachverhalt": "Eine natürliche Person (SR) weigert sich, dass die Netzbetreiberin Netz Niederösterreich GmbH das in deren Eigentum stehende mechanische Elektrizitätsmessgerät an ihrem Wohnsitz durch einen intelligenten Zähler ersetzt. Der Streit vor dem Landesgericht St. Pölten betrifft damit die Frage, ob und unter welchen Bedingungen ein Endkunde die Installation eines solchen Zählers ablehnen kann. Der vorlegende Richter fragt insbesondere nach der Sicherheit der von intelligenten Zählern übermittelten Daten. Den mitgelieferten Auszügen lässt sich der Ausgang des Ausgangsverfahrens vor den Vorinstanzen nicht entnehmen. Ebenso fehlen die Tenorierung und die konkreten Anträge der Parteien. Der Text ist gekürzt; die Entscheidungsgründe zur Beantwortung der Vorlagefragen sind nur teilweise enthalten.",
+  "entscheidung": "Die Entscheidung im Volltext ist im mitgelieferten Auszug nicht enthalten; der Tenor fehlt. Die Prüfung der Vorlagefragen zu Art. 5 Abs. 3 der Richtlinie 2002/58 (Begriff „Endgerät“), zu Art. 22 der Richtlinie (EU) 2019/944 und zu Art. 5 Abs. 1 Buchst. f, Art. 32 DSGVO ist im Auszug nicht abgeschlossen dokumentiert. Eine tragende Begründung lässt sich aus dem vorliegenden Text daher nicht sicher ableiten.",
+  "kurzfassung": "Ein Endkunde in Österreich wehrt sich gegen den Austausch seines mechanischen Stromzählers durch einen intelligenten Zähler, und das vorlegende Landesgericht St. Pölten bittet den EuGH um Auslegung u. a. von Datenschutz- und Energierecht. Der mitgelieferte Text ist gekürzt und enthält weder Tenor noch Entscheidungsgründe, sodass das Ergebnis aus dem Auszug nicht verlässlich bestimmt werden kann.",
+  "kernaussagen": [
+   "Die Sicherheit der von intelligenten Stromzählern übermittelten Daten ist nach Art. 5 Abs. 1 Buchst. f und Art. 32 DSGVO zu beurteilen (Vorlagefrage, Entscheidungsinhalt im Auszug nicht enthalten)."
+  ],
+  "normen": [
+   "Art. 5 Abs. 3 Richtlinie 2002/58/EG",
+   "Art. 22 Richtlinie (EU) 2019/944",
+   "Art. 5 Abs. 1 Buchst. f DSGVO",
+   "Art. 13 DSGVO",
+   "Art. 32 Abs. 2 DSGVO",
+   "Art. 2 Abs. 1 Richtlinie 2014/32/EU",
+   "Art. 6 Abs. 1 Richtlinie 85/374/EWG",
+   "Art. 7, Art. 8 GRCh"
+  ],
   "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "praxis": "Netzbetreiber und Messstellenbetreiber sollten bei Rollout intelligenter Zähler die Datensicherheit- und Informationspflichten nach DSGVO dokumentieren und die Entscheidung abwarten, bevor sie aus dem Urteil konkrete Anforderungen ableiten.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -205,17 +278,27 @@
   "leitsatz": "",
   "id": "ECLI:EU:C:2026:856",
   "gebiete": [
+   "datenschutz",
    "ki"
   ],
-  "titel": "Urteil des Gerichtshofs (Zweite Kammer) vom 15. Oktober 2026.#B. Ż. und V. sp. z o.o. gegen T. SA und Ł.W.#Vorlage zur Vorabentscheidung – Rechtsstaatlichkeit – Art. 19 Abs. 1 Unterabs. 2 EUV – Richterliche Unabhängigkeit – Unabhängiges, unparteiisches und durch Gesetz errichtetes Gericht – National",
-  "sachverhalt": "",
-  "entscheidung": "",
+  "titel": "EuGH zu Richterentbindung und zufallsgesteuerter Fallzuweisung in Polen (Rechtsstaatlichkeit)",
+  "sachverhalt": "In zwei Berufungsverfahren über Zahlungsforderungen aus Handelsgeschäften (Richtlinie 2011/7/EU) wurde eine Richterin des Regionalgerichts Warschau im Juni 2024 per IT-System SLPS zufällig für die Entscheidung ausgewählt. Nach ihrer Versetzung in eine andere Kammer entband das Kollegium des Gerichts sie auf eigenen Antrag von 100 ihr zugewiesenen Rechtssachen, ohne Begründung. Diese Verfahren wurden im Januar 2025 per Zufallsauslosung neu verteilt, wobei einer anderen Richterin 56 Rechtssachen einschließlich der Berufungen zugewiesen wurden; ihre Beschwerde wies der Gerichtspräsident zurück. Die nun als Einzelrichterin entscheidende Richterin legte dem EuGH die Frage vor, ob ein so zusammengesetztes Gericht unabhängig, unparteiisch und gesetzlich errichtet sei und ob ein Rechtsbehelf gegen die Zuweisung bestehe. Der Text enthält die Vorlagefrage und die Vorbemerkungen, die tragende Antwort ist im vorliegenden Auszug nicht enthalten.",
+  "entscheidung": "Der Gerichtshof (Zweite Kammer) prüft die Vorlagefrage zu Art. 19 Abs. 1 UAbs. 2 EUV unter Berücksichtigung von Art. 47 der Charta. Er stellt fest, dass Art. 2 EUV neben Art. 19 nicht eigenständig auszulegen sei, dass der 61. Erwägungsgrund der KI-Verordnung 2024/1689 für den Sachverhalt nicht maßgeblich ist, da die Verordnung erst ab 2. August 2026 gilt und die Neuzuweisung 2025 erfolgte, und dass Art. 20 der Charta nicht hinreichend begründet ist. Die Anwendbarkeit von Art. 47 der Charta hält er vorbehaltlich der Prüfung durch das vorlegende Gericht für zweifelhaft, da unklar ist, ob Handelsrechtsstreitigkeiten Rechte aus der Richtlinie 2011/7 betreffen. Der im Auszug abgedruckte Teil enthält die tragende Antwort in der Sache nicht; sie kann daraus nicht sicher rekonstruiert werden.</entscheidung>\n<parameter name=\"kurzfassung\">Der EuGH musste klären, ob die polnische Praxis der Entbindung eines Richters von zugewiesenen Verfahren und die anschließende zufallsgesteuerte Neuzuweisung über das IT-System SLPS den Anforderungen an ein unabhängiges, unparteiisches und gesetzlich errichtetes Gericht genügt. Der vorliegende Auszug bricht vor der Beantwortung der Frage in der Sache ab, sodass das Ergebnis aus dem übermittelten Text nicht abschließend feststellbar ist.</kurzfassung>\n<parameter name=\"kernaussagen\">[\"Art. 19 Abs. 1 UAbs. 2 EUV verpflichtet die Mitgliedstaaten, Rechtsbehelfe zu schaffen, die wirksamen Rechtsschutz in den vom Unionsrecht erfassten Bereichen gewährleisten, und ist auf jedes nationale Gericht anwendbar, das über Fragen des Unionsrechts entscheidet.\", \"Art. 47 der Charta ist bei der Auslegung von Art. 19 Abs. 1 UAbs. 2 EUV zu berücksichtigen, auch wenn er im Ausgangsverfahren möglicherweise nicht unmittelbar anwendbar ist.\", \"Der 61. Erwägungsgrund der KI-Verordnung 2024/1689 ist für Neuzuweisungen vor dem 2. August 2026 nicht maßgeblich.\"]",
   "kurzfassung": "",
   "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "normen": [
+   "Art. 19 Abs. 1 Unterabs. 2 EUV",
+   "Art. 2 EUV",
+   "Art. 47 der Charta der Grundrechte der Europäischen Union",
+   "Art. 20 der Charta der Grundrechte der Europäischen Union",
+   "Art. 51 Abs. 1 der Charta der Grundrechte der Europäischen Union",
+   "Verordnung (EU) 2024/1689 (KI-Verordnung), 61. Erwägungsgrund und Art. 113 Abs. 2",
+   "Richtlinie 2011/7/EU",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Unternehmen und Berater sollten Justizverwaltungsentscheidungen zur Richterzuweisung in Mitgliedstaaten mit Rechtsstaatsdefiziten als Verfahrensrisiko beobachten, da die endgültige Beantwortung der Vorlagefrage im übermittelten Auszug fehlt und erst im vollständigen Urteil geprüft werden sollte.</praxis>\n</invoke>\n",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -229,17 +312,29 @@
   "leitsatz": "",
   "id": "ECLI:EU:C:2026:857",
   "gebiete": [
-   "datenschutz"
+   "ki"
   ],
-  "titel": "Urteil des Gerichtshofs (Dritte Kammer) vom 15. Oktober 2026.#Europäische Kommission gegen Königreich Dänemark.#Vertragsverletzung eines Mitgliedstaats – Richtlinie (EU) 2017/2397 – Anerkennung von Berufsqualifikationen in der Binnenschifffahrt – Art. 39 Abs. 3 – Beschränkte Umsetzungspflicht – Art.",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Binnenschifffahrt: Umsetzungspflicht trotz fehlender Großwasserstraßen (EuGH C-879/24)",
+  "sachverhalt": "Die Europäische Kommission hat Dänemark im Wege der Vertragsverletzungsklage nach Art. 258 und Art. 260 Abs. 3 AEUV verklagt, weil Dänemark die Richtlinie (EU) 2017/2397 über die Anerkennung von Berufsqualifikationen in der Binnenschifffahrt und die Richtlinie (EU) 2021/1233 (Übergangsmaßnahmen für Zeugnisse aus Drittländern) bis zum 17. Januar 2022 nicht umgesetzt und der Kommission keine Umsetzungsmaßnahmen mitgeteilt hat. Dänemark berief sich darauf, mangels Binnenwasserstraßen von jeder Umsetzungspflicht nach Art. 39 Abs. 4 der Richtlinie 2017/2397 befreit zu sein, und verwies auf Hafen, Fjorde und Kanäle sowie auf andere Kartenwerke. Die Kommission hielt dagegen, dass in Dänemark Wasserstraßen wie die Gudenå und die Odense Å sowie Häfen existierten, weshalb zumindest eine beschränkte Umsetzungspflicht nach Art. 39 Abs. 3 bestehe. Die Kommission beantragt die Feststellung des Verstoßes, einen Pauschalbetrag von mindestens 1.599.000 Euro sowie ein Zwangsgeld; der Text liegt nur gekürzt vor, die Entscheidung über die Rechtsfolgen ist im vorliegenden Auszug nicht enthalten.",
+  "entscheidung": "Der Gerichtshof hat Art. 39 Abs. 3 und Abs. 4 der Richtlinie 2017/2397 ausgelegt: Der Begriff „Binnenwasserstraße“ schließt mit dem Meer verbundene Wasserstraßen nicht aus, sofern sie für Schiffe oder schwimmende Geräte befahrbar sind, und die Anwendbarkeit der Richtlinie setzt keine „großen Fluss- und Kanalnetze“ voraus. Die bloße Nutzung von Binnengewässern für Sportschifffahrt und kleine Boote begründet keine technische Unmöglichkeit der Binnenschifffahrt im Sinne des Art. 39 Abs. 4, sondern führt zu der beschränkten Umsetzungspflicht des Art. 39 Abs. 3. Die im Auszug enthaltenen Erwägungen deuten daher auf eine Vertragsverletzung hin; über die Begründetheit im Ganzen und die finanziellen Sanktionen kann der gekürzte Text allein nicht abschließend Auskunft geben.",
+  "kurzfassung": "Der EuGH prüfte, ob Dänemark von der Umsetzung der EU-Richtlinien zur Anerkennung von Binnenschifffahrtsqualifikationen befreit ist, weil es keine klassischen Binnenwasserstraßen habe, und ob die Kommission Zwangsgeld und Pauschalbetrag verlangen kann. Nach dem vorliegenden, gekürzten Text ist die Befreiung nach Art. 39 Abs. 4 der Richtlinie 2017/2397 nicht gegeben, da Binnenschifffahrt nicht technisch unmöglich ist; über die finanziellen Sanktionen enthält der Auszug keine Aussage.",
+  "kernaussagen": [
+   "Eine mit dem Meer verbundene Wasserstraße kann eine Binnenwasserstraße im Sinne des Art. 3 Nr. 1 der Richtlinie 2017/2397 sein, sofern sie für Schiffe oder schwimmende Geräte befahrbar ist.",
+   "Die Nutzung von Binnengewässern nur für Sportschifffahrt und kleine Boote macht die Binnenschifffahrt nicht technisch unmöglich im Sinne des Art. 39 Abs. 4 der Richtlinie 2017/2397.",
+   "Mitgliedstaaten ohne Binnenschifffahrt im Sinne des Art. 2 Abs. 3 unterliegen einer beschränkten Umsetzungspflicht nach Art. 39 Abs. 3 der Richtlinie 2017/2397."
+  ],
+  "normen": [
+   "Richtlinie (EU) 2017/2397 Art. 2 Abs. 3",
+   "Richtlinie (EU) 2017/2397 Art. 3 Nr. 1",
+   "Richtlinie (EU) 2017/2397 Art. 39 Abs. 3",
+   "Richtlinie (EU) 2017/2397 Art. 39 Abs. 4",
+   "Richtlinie (EU) 2021/1233 Art. 2 Abs. 1",
+   "Art. 258 AEUV",
+   "Art. 260 Abs. 3 AEUV"
+  ],
+  "bedeutung": "gering",
+  "praxis": "Mitgliedstaaten, die sich auf eine Befreiung von EU-Binnenschifffahrtsrichtlinien berufen, müssen konkret nachweisen, dass Binnenschifffahrt technisch unmöglich ist; bloße Sport- oder Kleinbootnutzung genügt dafür nicht.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -256,15 +351,26 @@
    "datenschutz",
    "ki"
   ],
-  "titel": "Schlussanträge der Generalanwältin L. Medina vom 15. Oktober 2026.###",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Automatisierte Bonitätsprüfung und Zahlungsartenausschluss im Versandhandel: Art. 22 DSGVO",
+  "sachverhalt": "Der Verein für Konsumenteninformation, ein österreichischer Verbandskläger, wirft dem Versandhändler Universal Versand vor, Kunden bestimmte Zahlungsarten („Teilzahlung“, „auf offene Rechnung“) allein auf Grundlage einer automatisierten Einschätzung der Zahlungsausfallswahrscheinlichkeit zu verwehren. Bei rund 90 % der monatlich mehreren Zehntausend Bestellungen wird eine „unsichere“ Zahlungsart gewählt; bei Neukunden wird eine Auskunftei abgefragt, bei bekannten Kunden greift ein internes Scoring mit den Ampelfarben Rot (automatische Ablehnung), Gelb (Prüfung durch einen Mitarbeiter) und Grün. Der Verein beantragte per Verbandsklage nach § 28a KSchG die Unterlassung dieser Praxis als systematischen Verstoß gegen Art. 22 DSGVO. Das Landesgericht Salzburg wies die Klage ab, das Oberlandesgericht Linz wies die Revision zurück; der Oberste Gerichtshof legte dem EuGH drei Fragenkomplexe zur Auslegung des Art. 22 DSGVO vor. Der vorliegende Text ist eine Schlussantragsschrift der Generalanwältin und enthält nur die Würdigung zur ersten Vorlagefrage bis Nr. 29; die Schlussfolgerungen zu den Fragen 2 und 3 und die Stellungnahme zum Ergebnis fehlen im übermittelten Auszug.",
+  "entscheidung": "Die Generalanwältin prüft die dritte Voraussetzung des Art. 22 Abs. 1 DSGVO (rechtliche Wirkung oder ähnlich erhebliche Beeinträchtigung) und legt sie autonom und unionsweit einheitlich aus. Eine „rechtliche Wirkung“ liegt vor, wenn die Entscheidung geeignet ist, Rechte oder Pflichten einer Person in Inhalt oder Ausübung zu ändern; die „erhebliche Beeinträchtigung“ verlangt konkrete, über nebensächliche Auswirkungen hinausgehende Folgen, die denen einer Rechtsänderung vergleichbar sind. Der Gerichtshof hat in SCHUFA (Scoring) bereits eine solche Beeinträchtigung angenommen, wenn ein automatisierter Wahrscheinlichkeitswert fast systematisch zur Kreditverweigerung führt; ob die Zahlungsartenbeschränkung vergleichbare Folgen hat, muss das vorlegende Gericht im konkreten Kontext beurteilen, wozu der EuGH Hinweise geben soll.",
+  "kurzfassung": "Im Streit zwischen einem österreichischen Verbraucherverband und einem Versandhändler geht es um die automatisierte Verweigerung von Rechnungs- und Teilzahlung auf Basis einer Bonitätseinschätzung; die Generalanwältin legt in ihren Schlussanträgen den Begriff der „rechtlichen Wirkung“ oder „ähnlich erheblichen Beeinträchtigung“ nach Art. 22 Abs. 1 DSGVO aus. Das Ergebnis ist kein Urteil, sondern eine Empfehlung, wonach die Zahlungsartenbeschränkung nur dann unter das Verbot fällt, wenn sie vergleichbar gravierende Folgen wie eine Kreditverweigerung hat; der Auszug ist unvollständig, da die Antworten auf die Fragen 2 und 3 fehlen.",
+  "kernaussagen": [
+   "Eine Entscheidung entfaltet rechtliche Wirkung, wenn sie geeignet ist, Rechte oder Pflichten einer Person in ihrem Inhalt oder ihrer Ausübung zu ändern.",
+   "Eine erhebliche Beeinträchtigung erfordert konkrete, über marginale Auswirkungen hinausgehende Folgen, die mit einer Rechtsänderung vergleichbar sind.",
+   "Nach SCHUFA (Scoring) kann eine ähnlich erhebliche Beeinträchtigung vorliegen, wenn ein automatisierter Wahrscheinlichkeitswert fast systematisch zur Kreditverweigerung führt."
+  ],
+  "normen": [
+   "Art. 22 Abs. 1 DSGVO",
+   "Art. 22 Abs. 2 Buchst. a DSGVO",
+   "Art. 22 Abs. 3 DSGVO",
+   "Art. 4 Nr. 4 DSGVO",
+   "Erwägungsgrund 71 DSGVO",
+   "§ 28a KSchG"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Versandhändler und Zahlungsdienstleister sollten ihre automatisierte Bonitätsprüfung, insbesondere die Ablehnung von Rechnungskauf, auf Art. 22 DSGVO prüfen und die Einordnung der Auswirkungen sowie die Ausnahme nach Art. 22 Abs. 2 Buchst. a und die Mindestgarantien dokumentieren, bis der EuGH endgültig entschieden hat.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -278,17 +384,28 @@
   "leitsatz": "",
   "id": "ECLI:EU:C:2026:837",
   "gebiete": [
-   "datenschutz"
+   "datenschutz",
+   "ki"
   ],
-  "titel": "Schlussanträge der Generalanwältin L. Medina vom 8. Oktober 2026.###",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
+  "titel": "Auskunftsrecht gegenüber Geldwäsche-Meldestelle: Anwendbarkeit von DSGVO und Richtlinie 2016/680",
+  "sachverhalt": "X verlangte von der estnischen Geldwäsche-Meldestelle (RAB) Auskunft darüber, ob ihn betreffende Informationen an Kreditinstitute oder ausländische Behörden weitergeleitet worden waren oder ob solche Anfragen an ihn gestellt wurden. Das RAB wies die Ersuchen unter Verweis auf nationale Verschwiegenheits- und Informationsregeln zurück, ohne das Vorliegen oder Nichtvorliegen von Daten zu bestätigen. Nach mehreren Verfahrensschritten, einer Entscheidung der Datenschutzaufsichtsbehörde und einer rückwirkenden Einstufung der Datenbankinhalte als reine Behördeninterna erklärte das Verwaltungsgericht Tallinn die Zugangsbeschränkungen für rechtswidrig, da § 60 Abs. 1 RahaPTS nicht klar und präzise sei; das Berufungsgericht bestätigte dies. Das Oberste Gericht Estlands legte dem EuGH vier Fragen zur Vorabentscheidung vor. Der Text liegt nur in gekürzter, vorläufiger Fassung vor; die Schlussanträge zu den Fragen 2 bis 4 sind im bereitgestellten Auszug nicht enthalten.",
+  "entscheidung": "Die Generalanwältin prüft zunächst die erste Vorlagefrage, ob die Datenverarbeitung durch eine zentrale Meldestelle als Verarbeitung durch eine „zuständige Behörde“ im Sinne von Art. 3 Nr. 7 der Richtlinie 2016/680 und damit in deren Anwendungsbereich fallen kann. Maßgeblich sind danach nicht die Einordnung als Ermittlungsbehörde nach nationalem Strafprozessrecht, sondern die konkreten Aufgaben der Stelle in der Kette der Verbrechensverhütung sowie der Verarbeitungszweck; beide Voraussetzungen müssen kumulativ vorliegen. Die im Auszug enthaltene Würdigung endet vor einer abschließenden Schlussfolgerung zur ersten Frage und enthält keine Antworten zu den Fragen 2 bis 4.",
+  "kurzfassung": "Der Schlussantrag der Generalanwältin Medina betrifft das Auskunftsrecht gegenüber einer estnischen Geldwäsche-Meldestelle und die Frage, ob deren Datenverarbeitung unter die DSGVO oder die Richtlinie 2016/680 fällt. Da der bereitgestellte Text gekürzt und vorläufig ist und die Würdigung zu den Fragen 2 bis 4 fehlt, lässt sich nur der Prüfungsrahmen der ersten Frage verlässlich wiedergeben, nicht das Gesamtergebnis.",
+  "kernaussagen": [
+   "Die Anwendbarkeit der Richtlinie 2016/680 im Bereich der Verbrechensverhütung hängt von den konkreten Aufträgen und Aufgaben der Behörde ab, nicht davon, ob sie nach nationalem Strafrecht Ermittlungsbehörde ist.",
+   "Für den Ausschluss nach Art. 2 Abs. 2 Buchst. d DSGVO müssen die Zweckbestimmung des Verarbeitungsvorgangs und die Eigenschaft der verarbeitenden Stelle als zuständige Behörde kumulativ erfüllt sein."
+  ],
+  "normen": [
+   "Art. 2 Abs. 2 Buchst. d DSGVO",
+   "Art. 2 Abs. 1 und Art. 1 Abs. 1 Richtlinie (EU) 2016/680",
+   "Art. 3 Nr. 7 Richtlinie (EU) 2016/680",
+   "Art. 23 DSGVO",
+   "Art. 15 Richtlinie (EU) 2016/680",
+   "Art. 41 Richtlinie (EU) 2015/849"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Verantwortliche und Berater sollten bei Auskunftsersuchen gegenüber Geldwäsche-Meldestellen und vergleichbaren Behörden prüfen, welcher Rechtsrahmen greift, und nationale Beschränkungsnormen auf Klarheit, Präzision, Zweck und Dauer hin kontrollieren.",
+  "ki_geprueft": true,
   "erfasst": "2026-11-23"
  },
  {
@@ -375,37 +492,6 @@
   "redaktionell": true
  },
  {
-  "gericht": "BGH 2. Zivilsenat",
-  "datum": "2026-07-21",
-  "aktenzeichen": "II ZB 21/22",
-  "ecli": "ECLI:DE:BGH:2026:210726BIIZB21.22.0",
-  "typ": "Beschluss",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300672026&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "1a. Schadensersatzansprüche aus § 33 Abs. 3 Satz 1, Abs. 1, § 19 Abs. 1 GWB aF und Art. 82 EGV sind nicht musterverfahrensfähig. 1b. Schadensersatzansprüche aus § 9 Satz 1 UWG aF sind nicht musterverfahrensfähig. 2a. Der Vorwurf einer sittenwidrigen Schädigung durch die Verbreitung einer unrichtigen Kapitalmarktinformation kann durch einen Verstoß gegen das Verbot der Marktmanipulation begründet werden, wenn weitergehende, die Sittenwidrigkeit begründende Merkmale vorliegen, etwa die Evidenz des Gesetzesverstoßes oder die in dem Gesetzesverstoß zum Ausdruck kommende Gesinnung. 2b. Ob eine für den Vorwurf der sittenwidrigen Schädigung relevante Irreführung des Sekundärmarktpublikums vorliegt, beurteilt sich aus der Sicht eines verständigen, mit den Marktgegebenheiten vertrauten, börsenkundigen Anlegers.",
-  "id": "ECLI:DE:BGH:2026:210726BIIZB21.22.0",
-  "gebiete": [
-   "datenschutz"
-  ],
-  "titel": "Porsche-Übernahmeversuch bei Volkswagen: Nicht musterverfahrensfähige kartell- und lauterkeitsrechtliche Schadensersatzansprüche sowie sittenwidrige vorsätzliche Schädigung bei Marktmanipulation",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 826 BGB",
-   "Art 82 EGVtr",
-   "§ 19 Abs 1 GWB vom 18.12.2007",
-   "§ 33 Abs 1 GWB vom 18.12.2007",
-   "§ 33 Abs 3 S 1 GWB vom 18.12.2007",
-   "§ 1 Abs 1 KapMuG vom 19.10.2012"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
   "id": "EuGH-C-199-24",
   "gericht": "EuGH",
   "datum": "2026-07-09",
@@ -485,94 +571,6 @@
   "redaktionell": true
  },
  {
-  "gericht": "BGH 3. Strafsenat",
-  "datum": "2026-06-10",
-  "aktenzeichen": "3 StR 97/26",
-  "ecli": "ECLI:DE:BGH:2026:100626B3STR97.26.0",
-  "typ": "Beschluss",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300362026&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "Dienstliche Äußerungen von Amtsträgern gegenüber Dritten können Gegenstand der Verletzung der Vertraulichkeit des Wortes sein. Die heimliche private Tonaufnahme einer Vernehmung ist grundsätzlich unbefugt, wenn zur Verfügung stehende verfahrensrechtliche Möglichkeiten einer offenen Aufnahme nicht genutzt werden.",
-  "id": "ECLI:DE:BGH:2026:100626B3STR97.26.0",
-  "gebiete": [
-   "datenschutz"
-  ],
-  "titel": "Strafrechtliche Grenzen heimlicher Tonaufnahmen bei Polizeivernehmungen",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 34 StGB",
-   "§ 201 Abs 1 Nr 1 StGB",
-   "Art 6 Abs 1 EUV 2016/679"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
-  "gericht": "BGH 5. Zivilsenat",
-  "datum": "2026-05-21",
-  "aktenzeichen": "V ZB 90/25",
-  "ecli": "ECLI:DE:BGH:2026:210526BVZB90.25.0",
-  "typ": "Beschluss",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300212026&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "1. In Zwangsversteigerungsverfahren gestattet § 42 ZVG jedem die Einsicht in die dort genannten Bestandteile der Verfahrensakte, ohne dass die hierin enthaltenen personenbezogenen Daten zuvor unkenntlich zu machen (zu „schwärzen“) sind. 2. Personen, die in Zwangsversteigerungsverfahren Akteneinsicht nehmen, dürfen die ihnen überlassenen Akteninhalte weder ganz noch teilweise öffentlich verbreiten oder sie Dritten zu verfahrensfremden Zwecken übermitteln oder zugänglich machen.",
-  "id": "ECLI:DE:BGH:2026:210526BVZB90.25.0",
-  "gebiete": [
-   "datenschutz"
-  ],
-  "titel": "Datenschutzrechtliche Zulässigkeit der Einsicht in Akten der Zwangsversteigerung ohne Schwärzung",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 42 ZVG",
-   "Art 6 Abs 1 UAbs 1 Buchst e EUV 2016/679",
-   "§ 299 Abs 4 S 2 ZPO",
-   "§ 869 ZPO"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
-  "gericht": "BAG 8. Senat",
-  "datum": "2026-04-16",
-  "aktenzeichen": "8 AZR 169/25",
-  "ecli": "ECLI:DE:BAG:2026:160426.U.8AZR169.25.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KARE600072272&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "Das einheitliche Auskunftsrecht nach Art. 15 Abs. 1 iVm. Abs. 3 Satz 1 DSGVO (juris: EUV 2016/679) bezieht sich grundsätzlich nur auf die in einem Dokument enthaltenen personenbezogenen Daten und nicht auf das gesamte Dokument.",
-  "id": "ECLI:DE:BAG:2026:160426.U.8AZR169.25.0",
-  "gebiete": [
-   "datenschutz"
-  ],
-  "titel": "Herausgabe der Kopie eines Compliance-Berichts",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "Art 4 Nr 1 EUV 2016/679",
-   "Art 12 Abs 1 EUV 2016/679",
-   "Art 15 Abs 1 EUV 2016/679",
-   "Art 16 EUV 2016/679",
-   "Art 17 EUV 2016/679",
-   "Art 18 EUV 2016/679"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
   "id": "OLGD-I20W2-26",
   "gericht": "OLG Düsseldorf",
   "datum": "2026-04-02",
@@ -650,30 +648,6 @@
   "redaktionell": true
  },
  {
-  "gericht": "BPatG München 4. Senat",
-  "datum": "2026-02-25",
-  "aktenzeichen": "4 Ni 25/24 (EP)",
-  "ecli": "ECLI:DE:BPatG:2026:250226U4Ni25.24EP.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE269032394&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2026:250226U4Ni25.24EP.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
   "id": "AGM-142C9786-25",
   "gericht": "AG München",
   "datum": "2026-02-13",
@@ -723,33 +697,6 @@
   "redaktionell": true
  },
  {
-  "gericht": "BPatG München 29. Senat",
-  "datum": "2025-11-24",
-  "aktenzeichen": "29 W (pat) 34/23",
-  "ecli": "ECLI:DE:BPatG:2025:241125B29Wpat34.23.0",
-  "typ": "Beschluss",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE259032137&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2025:241125B29Wpat34.23.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "Markenbeschwerdeverfahren – \"Hollywood Crime\" – keine Unterscheidungskraft für einen Teil der Waren und Dienstleistungen – Unterscheidungskraft und kein Freihaltungsbedürfnis für Dienstleistungen der Klassen 35 und 42",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 8 Abs 2 Nr 1 MarkenG",
-   "§ 8 Abs 2 Nr 2 MarkenG"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
   "id": "LGM-42O14139-24",
   "gericht": "LG München I",
   "datum": "2025-11-11",
@@ -777,37 +724,6 @@
   "redaktionell": true
  },
  {
-  "gericht": "BAG 8. Senat",
-  "datum": "2025-10-23",
-  "aktenzeichen": "8 AZR 300/24",
-  "ecli": "ECLI:DE:BAG:2025:231025.U.8AZR300.24.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KARE600071218&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "1. Eine Entgeltgleichheitsklage kann darauf gestützt werden, dass eine einzelne Vergleichsperson des anderen Geschlechts, die die gleiche oder eine gleichwertige Arbeit verrichtet, ein höheres Entgelt erhält (Paarvergleich). Dies gilt unabhängig davon, wie groß die Gruppe vergleichbarer Personen des anderen Geschlechts ist. 2. Die Kausalitätsvermutung iSv. § 22 AGG setzt bei Entgeltgleichheitsklagen nicht voraus, dass eine überwiegende Wahrscheinlichkeit für eine Benachteiligung wegen des Geschlechts besteht.",
-  "id": "ECLI:DE:BAG:2025:231025.U.8AZR300.24.0",
-  "gebiete": [
-   "datenschutz"
-  ],
-  "titel": "Entgeltgleichheit - Paarvergleich - Beweislast",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 22 AGG",
-   "§ 3 Abs 1 EntgTranspG",
-   "§ 7 EntgTranspG",
-   "Art 157 AEUV",
-   "Art 6 EUV 2016/679",
-   "Art 19 EGRL 54/2006"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
   "id": "BGH-VIZR426-24",
   "gericht": "BGH, VI. Zivilsenat",
   "datum": "2025-07-29",
@@ -833,114 +749,5 @@
   "quelle": "CURIA (Rechtsprechung der Mitgliedstaaten)",
   "ki_geprueft": false,
   "redaktionell": true
- },
- {
-  "gericht": "BPatG München 17. Senat",
-  "datum": "2025-01-28",
-  "aktenzeichen": "17 W (pat) 23/23",
-  "ecli": "ECLI:DE:BPatG:2025:280125B17Wpat23.23.0",
-  "typ": "Beschluss",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE259031812&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2025:280125B17Wpat23.23.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
-  "gericht": "BPatG München 4. Senat",
-  "datum": "2024-05-17",
-  "aktenzeichen": "4 Ni 49/22 (EP), 4 Ni 53/22 (EP)",
-  "ecli": "ECLI:DE:BPatG:2024:170524U4Ni49.22EP.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031553&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2024:170524U4Ni49.22EP.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
-  "gericht": "BPatG München 6. Senat",
-  "datum": "2023-12-12",
-  "aktenzeichen": "6 Ni 18/21 (EP)",
-  "ecli": "ECLI:DE:BPatG:2023:121223U6Ni18.21EP.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031519&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2023:121223U6Ni18.21EP.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "Patentnichtigkeitsklageverfahren – „Gerät für eine extrakorporale Behandlungsvorrichtung zur Kontrolle der Blutentnahme und Infusion“ – Neuheit – erfinderische Tätigkeit",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 4 PatG",
-   "Art II § 6 Abs 1 Nr 1 IntPatÜbkG",
-   "Art 138 Abs 1 Buchst a EuPatÜbk",
-   "Art 54 EuPatÜbk",
-   "Art 56 EuPatÜbk"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
- },
- {
-  "gericht": "BPatG München 5. Senat",
-  "datum": "2023-11-28",
-  "aktenzeichen": "5 Ni 6/22 (EP)",
-  "ecli": "ECLI:DE:BPatG:2023:281123U5Ni6.22EP.0",
-  "typ": "Urteil",
-  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031486&psml=bsjrsprod.psml&max=true",
-  "quelle": "rechtsprechung-im-internet.de",
-  "leitsatz": "",
-  "id": "ECLI:DE:BPatG:2023:281123U5Ni6.22EP.0",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "Patentnichtigkeitsklageverfahren - „AUFZEICHNUNG UND MELDUNG VON FAHREIGENSCHAFTEN UNTER VERWENDUNG EINES DRAHTLOSEN MOBILGERÄTS“ - unzulässige Erweiterung - mangelnde Patentfähigkeit",
-  "sachverhalt": "",
-  "entscheidung": "",
-  "kurzfassung": "",
-  "kernaussagen": [],
-  "normen": [
-   "§ 21 PatG",
-   "§ 38 PatG",
-   "Art II § 6 Abs 1 Nr 1 IntPatÜbkG",
-   "Art 138 Abs 1 Buchst a EuPatÜbk",
-   "Art 56 EuPatÜbk",
-   "Art II § 6 Abs 1 Nr 3 IntPatÜbkG"
-  ],
-  "bedeutung": "mittel",
-  "praxis": "",
-  "ki_geprueft": false,
-  "erfasst": "2026-11-23"
  }
 ]
