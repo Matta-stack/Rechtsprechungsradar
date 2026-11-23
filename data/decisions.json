@@ -1,5 +1,173 @@
 [
  {
+  "gericht": "EuGH",
+  "datum": "2026-11-19",
+  "aktenzeichen": "C-528/25",
+  "ecli": "ECLI:EU:C:2026:1004",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0528",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:1004",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Urteil des Gerichtshofs (Vierte Kammer) vom 19. November 2026.#LK gegen Firmenauskunft P.U.R. GmbH.#Vorabentscheidungsersuchen der Landgericht Saarbrücken.#Vorlage zur Vorabentscheidung – Richtlinie 2002/58/EG – Art. 13 Abs. 3 und 5 – Schutz der Privatsphäre und personenbezogener Daten – Unerbetene ",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-19",
+  "aktenzeichen": "C-643/25",
+  "ecli": "ECLI:EU:C:2026:1001",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0643",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:1001",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Schlussanträge der Generalanwältin L. Medina vom 19. November 2026.###",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-11-17",
+  "aktenzeichen": "C-698/23",
+  "ecli": "ECLI:EU:C:2026:984",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62023CJ0698",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:984",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Urteil des Gerichtshofs (Große Kammer) vom 17. November 2026.#Europäischer Datenschutzbeauftragter gegen Europäisches Parlament und Rat der Europäischen Union.#Rechtsmittel – Institutionelles Recht – Zusammenarbeit auf dem Gebiet der Strafverfolgung – Verordnung (EU) 2016/794 – Verarbeitung personen",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-12",
+  "aktenzeichen": "C-601/25",
+  "ecli": "ECLI:EU:C:2026:974",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0601",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:974",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Schlussanträge des Generalanwalts D. Spielmann vom 12. November 2026.###",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-11-05",
+  "aktenzeichen": "C-205/25",
+  "ecli": "ECLI:EU:C:2026:933",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0205",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:933",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Urteil des Gerichtshofs (Dritte Kammer) vom 5. November 2026.#Joachim Lindenberg gegen Bayerisches Landesamt für Datenschutzaufsicht.#Vorabentscheidungsersuchen des Bayerischen Verwaltungsgerichts Ansbach.#Vorlage zur Vorabentscheidung – Rechtsangleichung – Schutz natürlicher Personen bei der Verarb",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-05",
+  "aktenzeichen": "C-654/25",
+  "ecli": "ECLI:EU:C:2026:948",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0654",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:948",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Schlussanträge des Generalanwalts M. Szpunar vom 5. November 2026.###",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-11-05",
+  "aktenzeichen": "C-468/24",
+  "ecli": "ECLI:EU:C:2026:936",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0468",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:936",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Urteil des Gerichtshofs (Vierte Kammer) vom 5. November 2026.#SR gegen Netz Niederösterreich GmbH.#Vorabentscheidungsersuchen des Landesgerichts St. Pölten.#Vorlage zur Vorabentscheidung – Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten – Richtlinie 2002/58/EG – Art. 5 Abs. ",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "EuGH-GA-C-250-25",
   "gericht": "EuGH (Generalanwalt)",
   "datum": "2026-11-03",
@@ -25,6 +193,103 @@
   "quelle": "EuGH, Pressemitteilung Nr. 155/26",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-15",
+  "aktenzeichen": "C-159/25",
+  "ecli": "ECLI:EU:C:2026:856",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0159",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:856",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Urteil des Gerichtshofs (Zweite Kammer) vom 15. Oktober 2026.#B. Ż. und V. sp. z o.o. gegen T. SA und Ł.W.#Vorlage zur Vorabentscheidung – Rechtsstaatlichkeit – Art. 19 Abs. 1 Unterabs. 2 EUV – Richterliche Unabhängigkeit – Unabhängiges, unparteiisches und durch Gesetz errichtetes Gericht – National",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-15",
+  "aktenzeichen": "C-879/24",
+  "ecli": "ECLI:EU:C:2026:857",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0879",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:857",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Urteil des Gerichtshofs (Dritte Kammer) vom 15. Oktober 2026.#Europäische Kommission gegen Königreich Dänemark.#Vertragsverletzung eines Mitgliedstaats – Richtlinie (EU) 2017/2397 – Anerkennung von Berufsqualifikationen in der Binnenschifffahrt – Art. 39 Abs. 3 – Beschränkte Umsetzungspflicht – Art.",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-10-15",
+  "aktenzeichen": "C-568/25",
+  "ecli": "ECLI:EU:C:2026:871",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0568",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:871",
+  "gebiete": [
+   "datenschutz",
+   "ki"
+  ],
+  "titel": "Schlussanträge der Generalanwältin L. Medina vom 15. Oktober 2026.###",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-10-08",
+  "aktenzeichen": "C-222/25",
+  "ecli": "ECLI:EU:C:2026:837",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0222",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:837",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Schlussanträge der Generalanwältin L. Medina vom 8. Oktober 2026.###",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
  },
  {
   "id": "OLGF-11U2-26",
@@ -110,6 +375,37 @@
   "redaktionell": true
  },
  {
+  "gericht": "BGH 2. Zivilsenat",
+  "datum": "2026-07-21",
+  "aktenzeichen": "II ZB 21/22",
+  "ecli": "ECLI:DE:BGH:2026:210726BIIZB21.22.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300672026&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1a. Schadensersatzansprüche aus § 33 Abs. 3 Satz 1, Abs. 1, § 19 Abs. 1 GWB aF und Art. 82 EGV sind nicht musterverfahrensfähig. 1b. Schadensersatzansprüche aus § 9 Satz 1 UWG aF sind nicht musterverfahrensfähig. 2a. Der Vorwurf einer sittenwidrigen Schädigung durch die Verbreitung einer unrichtigen Kapitalmarktinformation kann durch einen Verstoß gegen das Verbot der Marktmanipulation begründet werden, wenn weitergehende, die Sittenwidrigkeit begründende Merkmale vorliegen, etwa die Evidenz des Gesetzesverstoßes oder die in dem Gesetzesverstoß zum Ausdruck kommende Gesinnung. 2b. Ob eine für den Vorwurf der sittenwidrigen Schädigung relevante Irreführung des Sekundärmarktpublikums vorliegt, beurteilt sich aus der Sicht eines verständigen, mit den Marktgegebenheiten vertrauten, börsenkundigen Anlegers.",
+  "id": "ECLI:DE:BGH:2026:210726BIIZB21.22.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Porsche-Übernahmeversuch bei Volkswagen: Nicht musterverfahrensfähige kartell- und lauterkeitsrechtliche Schadensersatzansprüche sowie sittenwidrige vorsätzliche Schädigung bei Marktmanipulation",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 826 BGB",
+   "Art 82 EGVtr",
+   "§ 19 Abs 1 GWB vom 18.12.2007",
+   "§ 33 Abs 1 GWB vom 18.12.2007",
+   "§ 33 Abs 3 S 1 GWB vom 18.12.2007",
+   "§ 1 Abs 1 KapMuG vom 19.10.2012"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "EuGH-C-199-24",
   "gericht": "EuGH",
   "datum": "2026-07-09",
@@ -189,6 +485,94 @@
   "redaktionell": true
  },
  {
+  "gericht": "BGH 3. Strafsenat",
+  "datum": "2026-06-10",
+  "aktenzeichen": "3 StR 97/26",
+  "ecli": "ECLI:DE:BGH:2026:100626B3STR97.26.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300362026&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "Dienstliche Äußerungen von Amtsträgern gegenüber Dritten können Gegenstand der Verletzung der Vertraulichkeit des Wortes sein. Die heimliche private Tonaufnahme einer Vernehmung ist grundsätzlich unbefugt, wenn zur Verfügung stehende verfahrensrechtliche Möglichkeiten einer offenen Aufnahme nicht genutzt werden.",
+  "id": "ECLI:DE:BGH:2026:100626B3STR97.26.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Strafrechtliche Grenzen heimlicher Tonaufnahmen bei Polizeivernehmungen",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 34 StGB",
+   "§ 201 Abs 1 Nr 1 StGB",
+   "Art 6 Abs 1 EUV 2016/679"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "BGH 5. Zivilsenat",
+  "datum": "2026-05-21",
+  "aktenzeichen": "V ZB 90/25",
+  "ecli": "ECLI:DE:BGH:2026:210526BVZB90.25.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE300212026&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. In Zwangsversteigerungsverfahren gestattet § 42 ZVG jedem die Einsicht in die dort genannten Bestandteile der Verfahrensakte, ohne dass die hierin enthaltenen personenbezogenen Daten zuvor unkenntlich zu machen (zu „schwärzen“) sind. 2. Personen, die in Zwangsversteigerungsverfahren Akteneinsicht nehmen, dürfen die ihnen überlassenen Akteninhalte weder ganz noch teilweise öffentlich verbreiten oder sie Dritten zu verfahrensfremden Zwecken übermitteln oder zugänglich machen.",
+  "id": "ECLI:DE:BGH:2026:210526BVZB90.25.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Datenschutzrechtliche Zulässigkeit der Einsicht in Akten der Zwangsversteigerung ohne Schwärzung",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 42 ZVG",
+   "Art 6 Abs 1 UAbs 1 Buchst e EUV 2016/679",
+   "§ 299 Abs 4 S 2 ZPO",
+   "§ 869 ZPO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "BAG 8. Senat",
+  "datum": "2026-04-16",
+  "aktenzeichen": "8 AZR 169/25",
+  "ecli": "ECLI:DE:BAG:2026:160426.U.8AZR169.25.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KARE600072272&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "Das einheitliche Auskunftsrecht nach Art. 15 Abs. 1 iVm. Abs. 3 Satz 1 DSGVO (juris: EUV 2016/679) bezieht sich grundsätzlich nur auf die in einem Dokument enthaltenen personenbezogenen Daten und nicht auf das gesamte Dokument.",
+  "id": "ECLI:DE:BAG:2026:160426.U.8AZR169.25.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Herausgabe der Kopie eines Compliance-Berichts",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "Art 4 Nr 1 EUV 2016/679",
+   "Art 12 Abs 1 EUV 2016/679",
+   "Art 15 Abs 1 EUV 2016/679",
+   "Art 16 EUV 2016/679",
+   "Art 17 EUV 2016/679",
+   "Art 18 EUV 2016/679"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "OLGD-I20W2-26",
   "gericht": "OLG Düsseldorf",
   "datum": "2026-04-02",
@@ -266,6 +650,30 @@
   "redaktionell": true
  },
  {
+  "gericht": "BPatG München 4. Senat",
+  "datum": "2026-02-25",
+  "aktenzeichen": "4 Ni 25/24 (EP)",
+  "ecli": "ECLI:DE:BPatG:2026:250226U4Ni25.24EP.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE269032394&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2026:250226U4Ni25.24EP.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "AGM-142C9786-25",
   "gericht": "AG München",
   "datum": "2026-02-13",
@@ -315,6 +723,33 @@
   "redaktionell": true
  },
  {
+  "gericht": "BPatG München 29. Senat",
+  "datum": "2025-11-24",
+  "aktenzeichen": "29 W (pat) 34/23",
+  "ecli": "ECLI:DE:BPatG:2025:241125B29Wpat34.23.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE259032137&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2025:241125B29Wpat34.23.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Markenbeschwerdeverfahren – \"Hollywood Crime\" – keine Unterscheidungskraft für einen Teil der Waren und Dienstleistungen – Unterscheidungskraft und kein Freihaltungsbedürfnis für Dienstleistungen der Klassen 35 und 42",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 8 Abs 2 Nr 1 MarkenG",
+   "§ 8 Abs 2 Nr 2 MarkenG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "LGM-42O14139-24",
   "gericht": "LG München I",
   "datum": "2025-11-11",
@@ -342,6 +777,37 @@
   "redaktionell": true
  },
  {
+  "gericht": "BAG 8. Senat",
+  "datum": "2025-10-23",
+  "aktenzeichen": "8 AZR 300/24",
+  "ecli": "ECLI:DE:BAG:2025:231025.U.8AZR300.24.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KARE600071218&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. Eine Entgeltgleichheitsklage kann darauf gestützt werden, dass eine einzelne Vergleichsperson des anderen Geschlechts, die die gleiche oder eine gleichwertige Arbeit verrichtet, ein höheres Entgelt erhält (Paarvergleich). Dies gilt unabhängig davon, wie groß die Gruppe vergleichbarer Personen des anderen Geschlechts ist. 2. Die Kausalitätsvermutung iSv. § 22 AGG setzt bei Entgeltgleichheitsklagen nicht voraus, dass eine überwiegende Wahrscheinlichkeit für eine Benachteiligung wegen des Geschlechts besteht.",
+  "id": "ECLI:DE:BAG:2025:231025.U.8AZR300.24.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Entgeltgleichheit - Paarvergleich - Beweislast",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 22 AGG",
+   "§ 3 Abs 1 EntgTranspG",
+   "§ 7 EntgTranspG",
+   "Art 157 AEUV",
+   "Art 6 EUV 2016/679",
+   "Art 19 EGRL 54/2006"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
   "id": "BGH-VIZR426-24",
   "gericht": "BGH, VI. Zivilsenat",
   "datum": "2025-07-29",
@@ -367,5 +833,114 @@
   "quelle": "CURIA (Rechtsprechung der Mitgliedstaaten)",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "BPatG München 17. Senat",
+  "datum": "2025-01-28",
+  "aktenzeichen": "17 W (pat) 23/23",
+  "ecli": "ECLI:DE:BPatG:2025:280125B17Wpat23.23.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE259031812&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2025:280125B17Wpat23.23.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "BPatG München 4. Senat",
+  "datum": "2024-05-17",
+  "aktenzeichen": "4 Ni 49/22 (EP), 4 Ni 53/22 (EP)",
+  "ecli": "ECLI:DE:BPatG:2024:170524U4Ni49.22EP.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031553&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2024:170524U4Ni49.22EP.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "BPatG München 6. Senat",
+  "datum": "2023-12-12",
+  "aktenzeichen": "6 Ni 18/21 (EP)",
+  "ecli": "ECLI:DE:BPatG:2023:121223U6Ni18.21EP.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031519&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2023:121223U6Ni18.21EP.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Patentnichtigkeitsklageverfahren – „Gerät für eine extrakorporale Behandlungsvorrichtung zur Kontrolle der Blutentnahme und Infusion“ – Neuheit – erfinderische Tätigkeit",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 4 PatG",
+   "Art II § 6 Abs 1 Nr 1 IntPatÜbkG",
+   "Art 138 Abs 1 Buchst a EuPatÜbk",
+   "Art 54 EuPatÜbk",
+   "Art 56 EuPatÜbk"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
+ },
+ {
+  "gericht": "BPatG München 5. Senat",
+  "datum": "2023-11-28",
+  "aktenzeichen": "5 Ni 6/22 (EP)",
+  "ecli": "ECLI:DE:BPatG:2023:281123U5Ni6.22EP.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=JURE249031486&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BPatG:2023:281123U5Ni6.22EP.0",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Patentnichtigkeitsklageverfahren - „AUFZEICHNUNG UND MELDUNG VON FAHREIGENSCHAFTEN UNTER VERWENDUNG EINES DRAHTLOSEN MOBILGERÄTS“ - unzulässige Erweiterung - mangelnde Patentfähigkeit",
+  "sachverhalt": "",
+  "entscheidung": "",
+  "kurzfassung": "",
+  "kernaussagen": [],
+  "normen": [
+   "§ 21 PatG",
+   "§ 38 PatG",
+   "Art II § 6 Abs 1 Nr 1 IntPatÜbkG",
+   "Art 138 Abs 1 Buchst a EuPatÜbk",
+   "Art 56 EuPatÜbk",
+   "Art II § 6 Abs 1 Nr 3 IntPatÜbkG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "",
+  "ki_geprueft": false,
+  "erfasst": "2026-11-23"
  }
 ]
