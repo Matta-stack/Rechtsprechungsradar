@@ -54,31 +54,75 @@ def keyword_areas(doc: dict, areas: dict) -> list[str]:
     return hits
 
 
-def llm_classify(doc: dict, areas: dict, llm_cfg: dict) -> dict | None:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-    import anthropic  # nur nötig, wenn ein Schlüssel gesetzt ist
+TOOL = {
+    "name": "einordnung",
+    "description": "Einordnung einer Gerichtsentscheidung für einen Fach-Newsletter.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "gebiete": {"type": "array", "items": {"type": "string"}},
+            "titel": {"type": "string"},
+            "sachverhalt": {"type": "string"},
+            "entscheidung": {"type": "string"},
+            "kurzfassung": {"type": "string"},
+            "kernaussagen": {"type": "array", "items": {"type": "string"}},
+            "normen": {"type": "array", "items": {"type": "string"}},
+            "bedeutung": {"type": "string", "enum": ["hoch", "mittel", "gering"]},
+            "praxis": {"type": "string"},
+        },
+        "required": ["gebiete", "titel", "sachverhalt", "entscheidung", "kurzfassung", "bedeutung"],
+    },
+}
 
-    client = anthropic.Anthropic(api_key=api_key)
+
+class KIFehler(Exception):
+    """Die KI-Einordnung ist fehlgeschlagen; der Eintrag wird beim nächsten Lauf erneut versucht."""
+
+
+def llm_available() -> bool:
+    return bool(os.environ.get("ANTHROPIC_API_KEY"))
+
+
+def llm_classify(doc: dict, areas: dict, llm_cfg: dict) -> dict:
+    """Gibt die Einordnung zurück oder wirft KIFehler mit lesbarem Grund."""
+    if not llm_available():
+        raise KIFehler("kein ANTHROPIC_API_KEY gesetzt")
+    import anthropic
+
+    client = anthropic.Anthropic()
     prompt = PROMPT.format(
         gebiete=", ".join(a["label"] for a in areas.values()),
         keys=json.dumps(list(areas.keys())),
         text=doc.get("volltext", "")[: llm_cfg.get("max_chars", 24000)],
         **{k: doc.get(k, "") for k in ("gericht", "datum", "aktenzeichen", "typ", "normen", "leitsatz", "tenor")},
-    )
-    msg = client.messages.create(
-        model=llm_cfg["model"],
-        max_tokens=1600,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    raw = "".join(getattr(b, "text", "") for b in msg.content)
-    m = re.search(r"\{.*\}", raw, re.S)
-    if not m:
-        return None
+    ).replace("Antworte AUSSCHLIESSLICH mit JSON in diesem Format:", "Rufe das Werkzeug \"einordnung\" mit diesen Feldern auf:")
     try:
-        data = json.loads(m.group(0))
-    except json.JSONDecodeError:
-        return None
+        msg = client.messages.create(
+            model=llm_cfg["model"],
+            max_tokens=3000,
+            tools=[TOOL],
+            tool_choice={"type": "tool", "name": "einordnung"},
+            messages=[{"role": "user", "content": prompt}],
+        )
+    except Exception as exc:
+        raise KIFehler(f"API-Fehler: {type(exc).__name__}: {str(exc)[:300]}") from exc
+    data = next((b.input for b in msg.content if getattr(b, "type", "") == "tool_use"), None)
+    if not isinstance(data, dict):
+        raise KIFehler(f"keine strukturierte Antwort (stop_reason={msg.stop_reason})")
     data["gebiete"] = [g for g in data.get("gebiete", []) if g in areas]
     return data
+
+
+def selbsttest(areas: dict, llm_cfg: dict) -> None:
+    """Kurzer Test, ob API-Schlüssel und Modell funktionieren."""
+    probe = {
+        "gericht": "BGH", "datum": "2026-01-01", "aktenzeichen": "TEST", "typ": "Urteil",
+        "normen": "Art. 82 DSGVO", "leitsatz": "Kontrollverlust über Daten kann ein immaterieller Schaden sein.",
+        "tenor": "", "volltext": "Die Beklagte veröffentlichte versehentlich Kundendaten. Der Kläger verlangt Schadensersatz nach Art. 82 DSGVO.",
+    }
+    try:
+        r = llm_classify(probe, areas, llm_cfg)
+        print(f"KI-Selbsttest: OK (Modell {llm_cfg['model']}, Gebiete {r['gebiete']})")
+    except KIFehler as exc:
+        print(f"KI-Selbsttest: FEHLER – {exc}")
+        raise SystemExit(1)

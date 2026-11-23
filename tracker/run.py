@@ -72,8 +72,14 @@ def collect(cfg: dict) -> list[dict]:
 
 
 def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
-    known = {doc_id(d) for d in items}
+    # Einträge ohne KI-Prüfung (aus früheren Läufen) entfernen; sie werden neu bewertet
+    vorher = len(items)
+    items[:] = [i for i in items if i.get("redaktionell") or i.get("ki_geprueft")]
+    if vorher != len(items):
+        print(f"{vorher - len(items)} ungeprüfte Einträge entfernt, sie werden neu bewertet")
+    known = {d.get("id") or doc_id(d) for d in items}
     added = 0
+    fehler = 0
     print("Prüfung der gefundenen Entscheidungen:")
     for d in found:
         kw = classify.keyword_areas(d, cfg["areas"])
@@ -84,20 +90,28 @@ def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
             continue
         if not kw:
             continue
+        if not classify.llm_available():
+            continue  # ohne KI keine Veröffentlichung, nur Schlagwort-Treffer sind zu ungenau
         try:
             ai = classify.llm_classify(d, cfg["areas"], cfg["llm"])
-        except Exception as exc:  # KI-Fehler: Eintrag trotzdem mit Schlagwort-Zuordnung aufnehmen
-            print(f"  ! KI-Einordnung fehlgeschlagen ({d.get('aktenzeichen')}): {exc}")
-            ai = None
-        gebiete = ai["gebiete"] if ai else kw
+        except classify.KIFehler as exc:
+            print(f"  ! KI-Einordnung fehlgeschlagen ({d.get('aktenzeichen')}): {exc} – neuer Versuch beim nächsten Lauf")
+            fehler += 1
+            if fehler >= 5:
+                print("  ! 5 KI-Fehler in Folge – Lauf wird beendet, bitte Protokoll prüfen")
+                break
+            continue
+        fehler = 0
+        gebiete = ai["gebiete"]
         if not gebiete:
+            print(f"    KI: nicht einschlägig – {d.get('aktenzeichen')}")
             continue
         entry = {k: d.get(k, "") for k in ("gericht", "datum", "aktenzeichen", "ecli", "typ", "url", "quelle", "leitsatz")}
         entry.update(
             {
                 "id": doc_id(d),
                 "gebiete": gebiete,
-                "titel": ((ai or {}).get("titel") or d.get("titel", ""))[:300],
+                "titel": (ai.get("titel") or d.get("titel", "").replace("#", " – "))[:300],
                 "sachverhalt": (ai or {}).get("sachverhalt", ""),
                 "entscheidung": (ai or {}).get("entscheidung", ""),
                 "kurzfassung": (ai or {}).get("kurzfassung", ""),
@@ -105,7 +119,7 @@ def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
                 "normen": (ai or {}).get("normen", []) or [n.strip() for n in d.get("normen", "").split(",") if n.strip()][:6],
                 "bedeutung": (ai or {}).get("bedeutung", "mittel"),
                 "praxis": (ai or {}).get("praxis", ""),
-                "ki_geprueft": bool(ai),
+                "ki_geprueft": True,
                 "erfasst": dt.date.today().isoformat(),
             }
         )
@@ -160,6 +174,8 @@ def main() -> None:
     cfg = yaml.safe_load((ROOT / "config.yaml").read_text("utf-8"))
     items = load()
     if not args.build:
+        if classify.llm_available():
+            classify.selbsttest(cfg["areas"], cfg["llm"])
         added = process(cfg, items, collect(cfg))
         print(f"{added} neue Einträge")
         save(items)
