@@ -36,13 +36,13 @@ areas:
       - "KI-System"
       - "KI-Modell"
       - "Sprachmodell"
-      - "generative"
+      - "generative KI"
+      - "maschinelles Lernen"
       - "Text und Data Mining"
       - "Text- und Data-Mining"
       - "§ 44b UrhG"
       - "automatisierte Entscheidung"
       - "Art. 22 DSGVO"
-      - "Algorithmus"
 
 sources:
   rii:
