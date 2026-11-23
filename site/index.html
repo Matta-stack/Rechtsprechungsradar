@@ -81,6 +81,7 @@ ol.list { list-style: none; margin: 0; padding: 0 0 32px; }
 .body p { margin: 0 0 10px; max-width: 70ch; }
 .body ul { margin: 0 0 10px; padding-left: 18px; max-width: 70ch; }
 .body li { margin-bottom: 4px; }
+.lbl { font: 600 0.72rem/1 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 12px 0 6px; }
 .norms { font: 0.8rem var(--mono); color: var(--muted); margin-bottom: 8px; }
 .praxis { font-size: 0.92rem; border-left: 2px solid var(--rule); padding-left: 10px; color: var(--ink); }
 .praxis strong { font-weight: 600; }
@@ -223,7 +224,11 @@ footer p { margin: 0 0 6px; }
               ${d.gebiete.map(g => `<span class="tag ${g}">${esc(areas[g] || g)}</span>`).join("")}
               ${d.bedeutung === "hoch" ? `<span class="tag hoch">hohe Bedeutung</span>` : ""}
             </div>
-            ${d.kurzfassung ? `<p>${esc(d.kurzfassung)}</p>` : (d.leitsatz ? `<p><em>Leitsatz:</em> ${esc(d.leitsatz)}</p>` : "")}
+            ${d.sachverhalt
+              ? `<h3 class="lbl">Sachverhalt</h3><p>${esc(d.sachverhalt)}</p>` +
+                (d.entscheidung ? `<h3 class="lbl">Entscheidung</h3><p>${esc(d.entscheidung)}</p>` : "")
+              : (d.kurzfassung ? `<p>${esc(d.kurzfassung)}</p>` : (d.leitsatz ? `<p><em>Leitsatz:</em> ${esc(d.leitsatz)}</p>` : ""))}
+            ${(d.kernaussagen || []).length ? `<h3 class="lbl">Kernaussagen</h3>` : ""}
             ${(d.kernaussagen || []).length ? `<ul>${d.kernaussagen.map(k => `<li>${esc(k)}</li>`).join("")}</ul>` : ""}
             ${(d.normen || []).length ? `<div class="norms">${d.normen.map(esc).join(" · ")}</div>` : ""}
             ${d.praxis ? `<div class="praxis"><strong>Für die Praxis:</strong> ${esc(d.praxis)}</div>` : ""}
