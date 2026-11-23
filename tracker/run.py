@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import shutil
 from email.utils import format_datetime
 from pathlib import Path
@@ -37,7 +38,10 @@ def save(items: list[dict]) -> None:
 
 
 def collect(cfg: dict) -> list[dict]:
-    since = dt.date.today() - dt.timedelta(days=cfg["lookback_days"])
+    days = int(os.environ.get("LOOKBACK_DAYS") or cfg["lookback_days"])
+    since = dt.date.today() - dt.timedelta(days=days)
+    print(f"Zeitraum: seit {since.isoformat()} ({days} Tage)")
+    print("KI-Einordnung:", "aktiv" if os.environ.get("ANTHROPIC_API_KEY") else "aus (kein ANTHROPIC_API_KEY)")
     found: list[dict] = []
 
     def attempt(name: str, fn) -> list[dict] | None:
@@ -68,10 +72,14 @@ def collect(cfg: dict) -> list[dict]:
 def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
     known = {doc_id(d) for d in items}
     added = 0
+    print("Prüfung der gefundenen Entscheidungen:")
     for d in found:
+        kw = classify.keyword_areas(d, cfg["areas"])
+        print(f"  · {d.get('gericht','')[:30]:30} {d.get('aktenzeichen','')[:22]:22} "
+              f"{d.get('datum','')}  Text: {len(d.get('volltext','')):>6} Zeichen  "
+              f"Treffer: {', '.join(kw) or '–'}")
         if doc_id(d) in known or added >= cfg["max_new_per_run"]:
             continue
-        kw = classify.keyword_areas(d, cfg["areas"])
         if not kw:
             continue
         try:
@@ -87,7 +95,9 @@ def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
             {
                 "id": doc_id(d),
                 "gebiete": gebiete,
-                "titel": d.get("titel", "")[:300],
+                "titel": ((ai or {}).get("titel") or d.get("titel", ""))[:300],
+                "sachverhalt": (ai or {}).get("sachverhalt", ""),
+                "entscheidung": (ai or {}).get("entscheidung", ""),
                 "kurzfassung": (ai or {}).get("kurzfassung", ""),
                 "kernaussagen": (ai or {}).get("kernaussagen", []),
                 "normen": (ai or {}).get("normen", []) or [n.strip() for n in d.get("normen", "").split(",") if n.strip()][:6],

@@ -15,7 +15,10 @@ Prüfe die folgende Gerichtsentscheidung. Antworte AUSSCHLIESSLICH mit JSON in d
 
 {{
   "gebiete": [ ... Teilmenge von {keys}, leer wenn die Entscheidung für keines dieser Gebiete substanziell ist ... ],
-  "kurzfassung": "2-3 Sätze: Sachverhalt und Ergebnis, sachlich, ohne Wertung",
+  "titel": "prägnante Überschrift für Fachleser, max. 12 Wörter, ohne Aktenzeichen",
+  "sachverhalt": "4-6 Sätze: Wer stritt mit wem worüber, was war konkret passiert, was wurde beantragt, wie entschieden die Vorinstanzen. Konkret und anschaulich, aber ohne Namen von Privatpersonen.",
+  "entscheidung": "2-4 Sätze: Wie hat das Gericht entschieden und mit welcher tragenden Begründung?",
+  "kurzfassung": "genau 2 Sätze für einen Newsletter: worum ging es und was ist das Ergebnis",
   "kernaussagen": ["höchstens 3 Rechtssätze, jeweils ein Satz"],
   "normen": ["zentrale Normen, z. B. Art. 82 Abs. 1 DSGVO"],
   "bedeutung": "hoch | mittel | gering",
@@ -66,7 +69,7 @@ def llm_classify(doc: dict, areas: dict, llm_cfg: dict) -> dict | None:
     )
     msg = client.messages.create(
         model=llm_cfg["model"],
-        max_tokens=900,
+        max_tokens=1600,
         messages=[{"role": "user", "content": prompt}],
     )
     raw = "".join(getattr(b, "text", "") for b in msg.content)

@@ -36,11 +36,23 @@ def _get(url: str, tries: int = 2, **kw) -> requests.Response:
 
 # ------------------------------------------- Bundesgerichte über NeuRIS (neu)
 
-NEURIS = "https://testphase.rechtsinformationen.bund.de"
+NEURIS_HOSTS = ["https://rechtsinformationen.bund.de", "https://testphase.rechtsinformationen.bund.de"]
+NEURIS = NEURIS_HOSTS[0]
 
 
 def fetch_neuris(since: dt.date, max_pages: int = 10) -> list[dict]:
     """Neue Entscheidungen der Bundesgerichte über das Rechtsinformationsportal des Bundes."""
+    global NEURIS
+    last_exc: Exception | None = None
+    for host in NEURIS_HOSTS:
+        try:
+            _get(f"{host}/v1/case-law", tries=1, params={"size": 1})
+            NEURIS = host
+            break
+        except Exception as exc:
+            last_exc = exc
+    else:
+        raise RuntimeError(f"keine NeuRIS-Adresse erreichbar ({last_exc})")
     out, seen = [], set()
     for page in range(max_pages):
         r = _get(
@@ -95,18 +107,32 @@ def _text(el: ET.Element | None) -> str:
 
 # ---------------------------------------------------------------- Bundesgerichte
 
-def fetch_rii(toc_url: str, since: dt.date) -> list[dict]:
-    """Neue Entscheidungen der Bundesgerichte seit `since`."""
+def _loose_date(raw: str) -> dt.date | None:
+    digits = re.sub(r"\D", "", raw or "")[:8]
+    try:
+        return dt.datetime.strptime(digits, "%Y%m%d").date()
+    except ValueError:
+        return None
+
+
+def fetch_rii(toc_url: str, since: dt.date, max_docs: int = 400) -> list[dict]:
+    """Seit `since` neu veröffentlichte Entscheidungen der Bundesgerichte.
+
+    Maßgeblich ist das Veröffentlichungs-/Änderungsdatum (<modified>), nicht das
+    Entscheidungsdatum: Urteile erscheinen oft erst Wochen nach der Verkündung.
+    """
     toc = ET.fromstring(_get(toc_url).content)
     out = []
     for item in toc.iter("item"):
-        datum_raw = (item.findtext("entsch-datum") or "").strip()
-        try:
-            datum = dt.datetime.strptime(datum_raw, "%Y%m%d").date()
-        except ValueError:
+        datum = _loose_date(item.findtext("entsch-datum") or "")
+        if not datum:
             continue
-        if datum < since:
+        geaendert = _loose_date(item.findtext("modified") or "") or datum
+        if max(datum, geaendert) < since:
             continue
+        if len(out) >= max_docs:
+            print(f"  rii: Obergrenze von {max_docs} Dokumenten erreicht")
+            break
         link = (item.findtext("link") or "").strip()
         if not link:
             continue
@@ -195,12 +221,9 @@ def fetch_eu(sparql_url: str, text_url: str, since: dt.date) -> list[dict]:
             continue
         seen.add(celex)
         typ = "Urteil" if celex[5:7] == "CJ" else "Schlussanträge"
-        try:
-            html = _get(text_url.format(celex=celex)).text
-        except Exception as exc:
-            print(f"  ! eu: {celex}: {exc}")
-            continue
-        volltext = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html))).strip()
+        volltext = _eu_text(celex, text_url)
+        if not volltext:
+            print(f"  ! eu: kein deutscher Volltext für {celex} (evtl. noch nicht übersetzt)")
         az = _case_number(celex)
         out.append(
             {
@@ -221,6 +244,35 @@ def fetch_eu(sparql_url: str, text_url: str, since: dt.date) -> list[dict]:
         )
         time.sleep(0.5)
     return out
+
+
+def _html_to_text(html: str) -> str:
+    html = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html)
+    return re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html))).strip()
+
+
+def _looks_like_judgment(text: str) -> bool:
+    return len(text) > 3000 and any(w in text for w in ("Rechtssache", "URTEIL", "Urteil", "SCHLUSSANTRÄGE"))
+
+
+def _eu_text(celex: str, text_url: str) -> str:
+    """Deutscher Volltext: erst direkt aus CELLAR, dann über die EUR-Lex-Seite."""
+    attempts = [
+        (f"http://publications.europa.eu/resource/celex/{celex}",
+         {"Accept": "text/html, application/xhtml+xml;q=0.9", "Accept-Language": "deu, de"}),
+        (text_url.format(celex=celex), {}),
+    ]
+    for url, extra in attempts:
+        try:
+            r = requests.get(url, headers={**UA, **extra}, timeout=TIMEOUT, allow_redirects=True)
+            if r.status_code != 200:
+                continue
+            text = _html_to_text(r.text)
+            if _looks_like_judgment(text):
+                return text
+        except requests.RequestException:
+            continue
+    return ""
 
 
 def _case_number(celex: str) -> str:
