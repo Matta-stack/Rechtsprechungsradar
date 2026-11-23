@@ -14,6 +14,12 @@ max_new_per_run: 60     # Sicherheitsgrenze für KI-Kosten
 areas:
   datenschutz:
     label: "Datenschutzrecht"
+    beschreibung: >-
+      Einschlägig, wenn die Entscheidung Fragen der DSGVO, des BDSG, der ePrivacy-Richtlinie/TDDDG
+      oder des Schutzes personenbezogener Daten tragend beantwortet (z. B. Auskunft, Löschung,
+      Rechtsgrundlagen, Schadensersatz nach Art. 82, Aufsichtsbehörden, Werbeeinwilligung,
+      Beschäftigtendatenschutz). Nicht einschlägig: bloße Erwähnung von Daten, Akteneinsicht ohne
+      Datenschutzbezug, allgemeines Verfahrens- oder Verfassungsrecht.
     keywords:
       - "DSGVO"
       - "DS-GVO"
@@ -28,6 +34,12 @@ areas:
       - "Art. 82"
   ki:
     label: "KI-Recht"
+    beschreibung: >-
+      Einschlägig nur, wenn künstliche Intelligenz, maschinelles Lernen, KI-Systeme/-Modelle,
+      automatisierte Entscheidungen (Art. 22 DSGVO, Scoring durch Algorithmen) oder die KI-Verordnung
+      tragender Gegenstand sind, einschließlich Urheberrecht und Haftung bei KI-Training oder
+      KI-Erzeugnissen. Nicht einschlägig: gewöhnliche Software, Digitalisierung allgemein,
+      Urheber-, Marken- oder Patentrecht ohne KI-Bezug, Rechtsstaatlichkeit, Zufallsverfahren.
     keywords:
       - "künstliche Intelligenz"
       - "Künstliche Intelligenz"
