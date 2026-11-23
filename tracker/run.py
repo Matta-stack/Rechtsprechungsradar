@@ -39,13 +39,29 @@ def save(items: list[dict]) -> None:
 def collect(cfg: dict) -> list[dict]:
     since = dt.date.today() - dt.timedelta(days=cfg["lookback_days"])
     found: list[dict] = []
-    if cfg["sources"]["rii"]["enabled"]:
-        print("Bundesgerichte …")
-        found += sources.fetch_rii(cfg["sources"]["rii"]["toc_url"], since)
+
+    def attempt(name: str, fn) -> list[dict] | None:
+        # Fällt eine Quelle aus, läuft der Rest trotzdem weiter.
+        print(f"{name} …")
+        try:
+            res = fn()
+            print(f"  {len(res)} Entscheidungen")
+            return res
+        except Exception as exc:
+            print(f"  ! {name} nicht erreichbar: {type(exc).__name__}: {exc}")
+            return None
+
+    # Bundesgerichte: zuerst NeuRIS, sonst rechtsprechung-im-internet.de
+    bund = attempt("Bundesgerichte (rechtsinformationen.bund.de)", lambda: sources.fetch_neuris(since))
+    if bund is None and cfg["sources"]["rii"]["enabled"]:
+        bund = attempt("Bundesgerichte (rechtsprechung-im-internet.de)",
+                       lambda: sources.fetch_rii(cfg["sources"]["rii"]["toc_url"], since))
+    found += bund or []
+
     if cfg["sources"]["eu"]["enabled"]:
-        print("EuGH …")
-        found += sources.fetch_eu(cfg["sources"]["eu"]["sparql_url"], cfg["sources"]["eu"]["text_url"], since)
-    print(f"  {len(found)} Entscheidungen im Zeitraum gefunden")
+        found += attempt("EuGH (EUR-Lex)", lambda: sources.fetch_eu(
+            cfg["sources"]["eu"]["sparql_url"], cfg["sources"]["eu"]["text_url"], since)) or []
+    print(f"Insgesamt {len(found)} Entscheidungen im Zeitraum")
     return found
 
 
@@ -58,7 +74,11 @@ def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
         kw = classify.keyword_areas(d, cfg["areas"])
         if not kw:
             continue
-        ai = classify.llm_classify(d, cfg["areas"], cfg["llm"])
+        try:
+            ai = classify.llm_classify(d, cfg["areas"], cfg["llm"])
+        except Exception as exc:  # KI-Fehler: Eintrag trotzdem mit Schlagwort-Zuordnung aufnehmen
+            print(f"  ! KI-Einordnung fehlgeschlagen ({d.get('aktenzeichen')}): {exc}")
+            ai = None
         gebiete = ai["gebiete"] if ai else kw
         if not gebiete:
             continue

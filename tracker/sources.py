@@ -18,20 +18,72 @@ from html import unescape
 import requests
 
 UA = {"User-Agent": "Rechtsprechungs-Radar/0.1 (nicht-kommerzielles Monitoring; Kontakt siehe Impressum)"}
-TIMEOUT = 60
+TIMEOUT = (15, 60)  # (Verbindungsaufbau, Lesen) in Sekunden
 
 
-def _get(url: str, **kw) -> requests.Response:
-    for attempt in range(3):
+def _get(url: str, tries: int = 2, **kw) -> requests.Response:
+    for attempt in range(tries):
         try:
             r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
             r.raise_for_status()
             return r
         except requests.RequestException:
-            if attempt == 2:
+            if attempt == tries - 1:
                 raise
             time.sleep(5 * (attempt + 1))
     raise RuntimeError("unreachable")
+
+
+# ------------------------------------------- Bundesgerichte über NeuRIS (neu)
+
+NEURIS = "https://testphase.rechtsinformationen.bund.de"
+
+
+def fetch_neuris(since: dt.date, max_pages: int = 10) -> list[dict]:
+    """Neue Entscheidungen der Bundesgerichte über das Rechtsinformationsportal des Bundes."""
+    out, seen = [], set()
+    for page in range(max_pages):
+        r = _get(
+            f"{NEURIS}/v1/case-law",
+            params={"dateFrom": since.isoformat(), "size": 100, "pageIndex": page},
+        )
+        members = r.json().get("member", [])
+        if not members:
+            break
+        for m in members:
+            it = m.get("item", {})
+            key = it.get("documentNumber") or it.get("@id")
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            snippets = " ".join(t.get("text", "") for t in m.get("textMatches", []) if t.get("text"))
+            volltext = snippets
+            try:  # Volltext als HTML, falls angeboten
+                html = _get(f"{NEURIS}{it['@id']}.html", tries=1).text
+                volltext = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", html))).strip() or snippets
+            except Exception:
+                pass
+            gericht = " ".join(x for x in (it.get("courtName") or it.get("courtType", ""), it.get("judicialBody", "")) if x)
+            out.append(
+                {
+                    "quelle": "rechtsinformationen.bund.de",
+                    "gericht": gericht,
+                    "datum": (it.get("decisionDate") or "")[:10],
+                    "aktenzeichen": ", ".join(it.get("fileNumbers") or []),
+                    "ecli": it.get("ecli", ""),
+                    "typ": it.get("documentType") or "Entscheidung",
+                    "titel": it.get("headline", ""),
+                    "normen": "",
+                    "leitsatz": "",
+                    "tenor": "",
+                    "volltext": volltext,
+                    "url": f"{NEURIS}/case-law/{it.get('documentNumber', '')}",
+                }
+            )
+            time.sleep(0.3)
+        if len(members) < 100:
+            break
+    return [d for d in out if d["datum"] and d["datum"] >= since.isoformat()]
 
 
 def _text(el: ET.Element | None) -> str:
