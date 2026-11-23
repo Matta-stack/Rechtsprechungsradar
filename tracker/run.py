@@ -56,7 +56,9 @@ def collect(cfg: dict) -> list[dict]:
             return None
 
     # Bundesgerichte: zuerst NeuRIS, sonst rechtsprechung-im-internet.de
-    bund = attempt("Bundesgerichte (rechtsinformationen.bund.de)", lambda: sources.fetch_neuris(since))
+    bund = None
+    if cfg["sources"].get("neuris", {}).get("enabled"):  # derzeit abgeschaltet (Adresse liefert 410)
+        bund = attempt("Bundesgerichte (rechtsinformationen.bund.de)", lambda: sources.fetch_neuris(since))
     if bund is None and cfg["sources"]["rii"]["enabled"]:
         bund = attempt("Bundesgerichte (rechtsprechung-im-internet.de)",
                        lambda: sources.fetch_rii(cfg["sources"]["rii"]["toc_url"], since))

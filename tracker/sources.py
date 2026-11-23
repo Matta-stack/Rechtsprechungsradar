@@ -115,24 +115,32 @@ def _loose_date(raw: str) -> dt.date | None:
         return None
 
 
-def fetch_rii(toc_url: str, since: dt.date, max_docs: int = 400) -> list[dict]:
+def fetch_rii(toc_url: str, since: dt.date, max_docs: int = 800) -> list[dict]:
     """Seit `since` neu veröffentlichte Entscheidungen der Bundesgerichte.
 
     Maßgeblich ist das Veröffentlichungs-/Änderungsdatum (<modified>), nicht das
     Entscheidungsdatum: Urteile erscheinen oft erst Wochen nach der Verkündung.
     """
     toc = ET.fromstring(_get(toc_url).content)
-    out = []
+    # Alte Entscheidungen, die nur nachträglich geändert wurden, interessieren nicht:
+    # nur Entscheidungen der letzten 18 Monate berücksichtigen.
+    oldest = since - dt.timedelta(days=540)
+    kandidaten = []
     for item in toc.iter("item"):
         datum = _loose_date(item.findtext("entsch-datum") or "")
-        if not datum:
+        if not datum or datum < oldest:
             continue
         geaendert = _loose_date(item.findtext("modified") or "") or datum
         if max(datum, geaendert) < since:
             continue
-        if len(out) >= max_docs:
-            print(f"  rii: Obergrenze von {max_docs} Dokumenten erreicht")
-            break
+        kandidaten.append((max(datum, geaendert), datum, item))
+    # Neueste zuerst, damit bei Erreichen der Obergrenze nichts Aktuelles fehlt
+    kandidaten.sort(key=lambda k: k[0], reverse=True)
+    print(f"  rii: {len(kandidaten)} Kandidaten im Zeitraum")
+    if len(kandidaten) > max_docs:
+        print(f"  rii: Obergrenze {max_docs} – ältere Kandidaten werden beim nächsten Lauf geholt")
+    out = []
+    for _, datum, item in kandidaten[:max_docs]:
         link = (item.findtext("link") or "").strip()
         if not link:
             continue
@@ -163,6 +171,8 @@ def _parse_rii_zip(blob: bytes) -> dict:
     gruende = " ".join(
         t for t in (g("gruende"), g("entscheidungsgruende"), g("tatbestand")) if t
     )
+    if not gruende:  # manche Dokumente nutzen andere Felder: dann ganzes Dokument
+        gruende = _text(root)
     return {
         "doknr": g("doknr"),
         "ecli": g("ecli"),
@@ -217,6 +227,8 @@ def fetch_eu(sparql_url: str, text_url: str, since: dt.date) -> list[dict]:
     seen, out = set(), []
     for b in r.json()["results"]["bindings"]:
         celex = b["celex"]["value"]
+        if "_" in celex:  # Zusammenfassungen/Leitsätze/Informationen: nur Hauptdokument
+            continue
         if celex in seen:
             continue
         seen.add(celex)
