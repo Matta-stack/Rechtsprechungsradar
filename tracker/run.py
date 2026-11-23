@@ -74,9 +74,10 @@ def collect(cfg: dict) -> list[dict]:
 def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
     # Einträge ohne KI-Prüfung (aus früheren Läufen) entfernen; sie werden neu bewertet
     vorher = len(items)
-    items[:] = [i for i in items if i.get("redaktionell") or i.get("ki_geprueft")]
+    items[:] = [i for i in items if i.get("redaktionell")
+                or (i.get("ki_geprueft") and i.get("ki_version", 1) >= classify.KI_VERSION)]
     if vorher != len(items):
-        print(f"{vorher - len(items)} ungeprüfte Einträge entfernt, sie werden neu bewertet")
+        print(f"{vorher - len(items)} Einträge (ungeprüft oder ältere KI-Version) entfernt, sie werden neu bewertet")
     known = {d.get("id") or doc_id(d) for d in items}
     added = 0
     fehler = 0
@@ -120,6 +121,8 @@ def process(cfg: dict, items: list[dict], found: list[dict]) -> int:
                 "bedeutung": (ai or {}).get("bedeutung", "mittel"),
                 "praxis": (ai or {}).get("praxis", ""),
                 "ki_geprueft": True,
+                "ki_version": classify.KI_VERSION,
+                "einschlaegigkeit": ai.get("einschlaegigkeit", {}),
                 "erfasst": dt.date.today().isoformat(),
             }
         )

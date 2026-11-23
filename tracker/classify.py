@@ -11,10 +11,11 @@ import os
 import re
 
 PROMPT = """Du bist wissenschaftlicher Mitarbeiter in einer auf {gebiete} spezialisierten Kanzlei.
-Prüfe die folgende Gerichtsentscheidung. Antworte AUSSCHLIESSLICH mit JSON in diesem Format:
+Prüfe die folgende Gerichtsentscheidung. Rufe das Werkzeug "einordnung" mit diesen Feldern auf:
 
 {{
-  "gebiete": [ ... Teilmenge von {keys}, leer wenn die Entscheidung für keines dieser Gebiete substanziell ist ... ],
+  "einschlaegigkeit": {{ Punktwert 0-3 für jeden dieser Schlüssel: {keys} }},
+  "begruendung_gebiete": "1 Satz: warum diese Punktwerte",
   "titel": "prägnante Überschrift für Fachleser, max. 12 Wörter, ohne Aktenzeichen",
   "sachverhalt": "4-6 Sätze: Wer stritt mit wem worüber, was war konkret passiert, was wurde beantragt, wie entschieden die Vorinstanzen. Konkret und anschaulich, aber ohne Namen von Privatpersonen.",
   "entscheidung": "2-4 Sätze: Wie hat das Gericht entschieden und mit welcher tragenden Begründung?",
@@ -25,10 +26,16 @@ Prüfe die folgende Gerichtsentscheidung. Antworte AUSSCHLIESSLICH mit JSON in d
   "praxis": "1 Satz: Was bedeutet das für Unternehmen/Berater?"
 }}
 
+Definition der Rechtsgebiete:
+{definitionen}
+
 Regeln:
 - Stütze dich nur auf den mitgelieferten Text. Erfinde keine Aktenzeichen, Daten oder Zitate.
-- Ein Gebiet nur angeben, wenn es für die Entscheidung tragend ist, nicht bei bloßer Erwähnung.
-- Ist der Text unvollständig, sag das in der Kurzfassung.
+- Bewerte für JEDES Gebiet die Einschlägigkeit von 0 bis 3:
+  0 = gar nicht, 1 = nur am Rande erwähnt, 2 = ein tragender Teil der Entscheidung, 3 = Kernthema.
+  Sei streng. Im Zweifel 0 oder 1. Die meisten EuGH-Urteile betreffen keines der Gebiete.
+- Bei Urteilen steht das Ergebnis (Tenor) meist am Ende des Textes; nutze es für "entscheidung".
+- Fehlt das Ergebnis tatsächlich, schreibe das knapp, statt zu spekulieren.
 
 Gericht: {gericht}
 Datum: {datum}
@@ -38,7 +45,7 @@ Normen: {normen}
 Leitsatz: {leitsatz}
 Tenor: {tenor}
 
-Text (gekürzt):
+Text (bei langen Entscheidungen: Anfang und Ende, Mitte gekürzt):
 {text}
 """
 
@@ -60,7 +67,12 @@ TOOL = {
     "input_schema": {
         "type": "object",
         "properties": {
-            "gebiete": {"type": "array", "items": {"type": "string"}},
+            "einschlaegigkeit": {
+                "type": "object",
+                "description": "Punktwert 0-3 je Gebiets-Schlüssel",
+                "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 3},
+            },
+            "begruendung_gebiete": {"type": "string", "description": "1 Satz, warum diese Punktwerte"},
             "titel": {"type": "string"},
             "sachverhalt": {"type": "string"},
             "entscheidung": {"type": "string"},
@@ -70,9 +82,20 @@ TOOL = {
             "bedeutung": {"type": "string", "enum": ["hoch", "mittel", "gering"]},
             "praxis": {"type": "string"},
         },
-        "required": ["gebiete", "titel", "sachverhalt", "entscheidung", "kurzfassung", "bedeutung"],
+        "required": ["einschlaegigkeit", "begruendung_gebiete", "titel", "sachverhalt", "entscheidung", "kurzfassung", "bedeutung"],
     },
 }
+
+
+KI_VERSION = 2  # erhöhen, wenn sich Prompt/Regeln ändern -> ältere Einträge werden neu bewertet
+
+
+def _kopf_und_ende(text: str, max_chars: int) -> str:
+    """Anfang (Sachverhalt, Vorlagefragen) und Ende (Würdigung, Tenor) behalten."""
+    if len(text) <= max_chars:
+        return text
+    kopf = max_chars // 3
+    return text[:kopf] + "\n[…Mittelteil gekürzt…]\n" + text[-(max_chars - kopf):]
 
 
 class KIFehler(Exception):
@@ -93,9 +116,10 @@ def llm_classify(doc: dict, areas: dict, llm_cfg: dict) -> dict:
     prompt = PROMPT.format(
         gebiete=", ".join(a["label"] for a in areas.values()),
         keys=json.dumps(list(areas.keys())),
-        text=doc.get("volltext", "")[: llm_cfg.get("max_chars", 24000)],
+        text=_kopf_und_ende(doc.get("volltext", ""), llm_cfg.get("max_chars", 24000)),
+        definitionen="\n".join(f"- {k} ({a['label']}): {a.get('beschreibung', '')}" for k, a in areas.items()),
         **{k: doc.get(k, "") for k in ("gericht", "datum", "aktenzeichen", "typ", "normen", "leitsatz", "tenor")},
-    ).replace("Antworte AUSSCHLIESSLICH mit JSON in diesem Format:", "Rufe das Werkzeug \"einordnung\" mit diesen Feldern auf:")
+    )
     try:
         msg = client.messages.create(
             model=llm_cfg["model"],
@@ -109,7 +133,10 @@ def llm_classify(doc: dict, areas: dict, llm_cfg: dict) -> dict:
     data = next((b.input for b in msg.content if getattr(b, "type", "") == "tool_use"), None)
     if not isinstance(data, dict):
         raise KIFehler(f"keine strukturierte Antwort (stop_reason={msg.stop_reason})")
-    data["gebiete"] = [g for g in data.get("gebiete", []) if g in areas]
+    punkte = data.get("einschlaegigkeit") or {}
+    data["gebiete"] = [k for k in areas if int(punkte.get(k, 0) or 0) >= 2]
+    if not data.get("kurzfassung"):
+        data["kurzfassung"] = (data.get("sachverhalt") or "").split(". ")[0][:400]
     return data
 
 

@@ -21,16 +21,16 @@ UA = {"User-Agent": "Rechtsprechungs-Radar/0.1 (nicht-kommerzielles Monitoring; 
 TIMEOUT = (15, 60)  # (Verbindungsaufbau, Lesen) in Sekunden
 
 
-def _get(url: str, tries: int = 2, **kw) -> requests.Response:
+def _get(url: str, tries: int = 2, timeout=None, **kw) -> requests.Response:
     for attempt in range(tries):
         try:
-            r = requests.get(url, headers=UA, timeout=TIMEOUT, **kw)
+            r = requests.get(url, headers=UA, timeout=timeout or TIMEOUT, **kw)
             r.raise_for_status()
             return r
         except requests.RequestException:
             if attempt == tries - 1:
                 raise
-            time.sleep(5 * (attempt + 1))
+            time.sleep(20 * (attempt + 1))
     raise RuntimeError("unreachable")
 
 
@@ -121,7 +121,7 @@ def fetch_rii(toc_url: str, since: dt.date, max_docs: int = 800) -> list[dict]:
     Maßgeblich ist das Veröffentlichungs-/Änderungsdatum (<modified>), nicht das
     Entscheidungsdatum: Urteile erscheinen oft erst Wochen nach der Verkündung.
     """
-    toc = ET.fromstring(_get(toc_url).content)
+    toc = ET.fromstring(_get(toc_url, tries=4, timeout=(45, 120)).content)
     # Alte Entscheidungen, die nur nachträglich geändert wurden, interessieren nicht:
     # nur Entscheidungen der letzten 18 Monate berücksichtigen.
     oldest = since - dt.timedelta(days=540)
