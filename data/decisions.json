@@ -1,5 +1,32 @@
 [
  {
+  "id": "EuGH-GA-C-250-25",
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-03",
+  "aktenzeichen": "C-250/25",
+  "typ": "Schlussanträge",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Like Company / Google Ireland – erstes EuGH-Verfahren zu generativer KI",
+  "kurzfassung": "Ein ungarischer Presseverlag macht geltend, Googles Chatbot Gemini sei mit seinen Artikeln trainiert worden und könne sie auf Abruf zusammenfassen. Er beruft sich auf das Leistungsschutzrecht der Presseverleger. Erster Generalanwalt Szpunar hat seine Schlussanträge vorgelegt; das Urteil steht noch aus.",
+  "kernaussagen": [
+   "Erstes Vorabentscheidungsverfahren zu generativer KI vor dem EuGH.",
+   "Betrifft Training von Sprachmodellen und KI-Zusammenfassungen von Presseartikeln (u. a. Leistungsschutzrecht der Presseverleger).",
+   "Die Schlussanträge binden den Gerichtshof nicht."
+  ],
+  "normen": [
+   "Art. 15 RL (EU) 2019/790",
+   "Art. 4 RL (EU) 2019/790"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Leitentscheidung für KI-Training und Ausgaben in der EU zu erwarten; laufende Lizenz- und Opt-out-Strategien im Blick behalten.",
+  "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155de.pdf",
+  "quelle": "EuGH, Pressemitteilung Nr. 155/26",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
   "id": "OLGF-11U2-26",
   "gericht": "OLG Frankfurt am Main",
   "datum": "2026-10-01",
@@ -24,33 +51,6 @@
   "url": "https://cms.law/de/deu/legal-updates/kein-schutzverlust-durch-ki-olg-frankfurt-staerkt-rechte-von-urhebern",
   "quelle": "CMS Legal Update",
   "vorinstanz": "LG Frankfurt a. M., 2-06 O 401/25",
-  "ki_geprueft": false,
-  "redaktionell": true
- },
- {
-  "id": "EuGH-GA-C-250-25",
-  "gericht": "EuGH (Generalanwalt)",
-  "datum": "2026-11-03",
-  "aktenzeichen": "C-250/25",
-  "typ": "Schlussanträge",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "Like Company / Google Ireland – erstes EuGH-Verfahren zu generativer KI",
-  "kurzfassung": "Ein ungarischer Presseverlag macht geltend, Googles Chatbot Gemini sei mit seinen Artikeln trainiert worden und könne sie auf Abruf zusammenfassen. Er beruft sich auf das Leistungsschutzrecht der Presseverleger. Erster Generalanwalt Szpunar hat seine Schlussanträge vorgelegt; das Urteil steht noch aus.",
-  "kernaussagen": [
-   "Erstes Vorabentscheidungsverfahren zu generativer KI vor dem EuGH.",
-   "Betrifft Training von Sprachmodellen und KI-Zusammenfassungen von Presseartikeln (u. a. Leistungsschutzrecht der Presseverleger).",
-   "Die Schlussanträge binden den Gerichtshof nicht."
-  ],
-  "normen": [
-   "Art. 15 RL (EU) 2019/790",
-   "Art. 4 RL (EU) 2019/790"
-  ],
-  "bedeutung": "hoch",
-  "praxis": "Leitentscheidung für KI-Training und Ausgaben in der EU zu erwarten; laufende Lizenz- und Opt-out-Strategien im Blick behalten.",
-  "url": "https://curia.europa.eu/site/upload/docs/application/pdf/2026-11/cp260155de.pdf",
-  "quelle": "EuGH, Pressemitteilung Nr. 155/26",
   "ki_geprueft": false,
   "redaktionell": true
  },
@@ -80,6 +80,32 @@
   "praxis": "Bestätigt die Linie aus GEMA/OpenAI für Musik-KI; Memorisierung ist das zentrale Haftungsrisiko für Modellanbieter.",
   "url": "https://www.gesetze-bayern.de/Content/Document/Y-300-Z-BECKRS-B-2026-N-17961",
   "quelle": "gesetze-bayern.de (amtliche Veröffentlichung)",
+  "ki_geprueft": false,
+  "redaktionell": true
+ },
+ {
+  "id": "VO-2026-1744",
+  "gericht": "EU-Gesetzgeber",
+  "datum": "2026-07-27",
+  "aktenzeichen": "VO (EU) 2026/1744",
+  "typ": "Gesetzgebung",
+  "gebiete": [
+   "ki"
+  ],
+  "titel": "Digital-Omnibus zur KI-Verordnung in Kraft",
+  "kurzfassung": "Die Verordnung (EU) 2026/1744 vom 8. Juli 2026 ändert die KI-Verordnung und ist am 27. Juli 2026 in Kraft getreten. Kern ist die Verschiebung der Pflichten für Hochrisiko-KI-Systeme; zudem kommen neue verbotene Praktiken hinzu.",
+  "kernaussagen": [
+   "Hochrisiko-Pflichten werden verschoben (nach Fachberichten: Anhang III auf Dezember 2027, Anhang I auf August 2028).",
+   "Die Verbote des Art. 5 und die KI-Kompetenzpflicht des Art. 4 gelten weiter."
+  ],
+  "normen": [
+   "VO (EU) 2024/1689",
+   "VO (EU) 2026/1744"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Compliance-Fahrpläne an die neuen Fristen anpassen; Transparenzpflichten nicht übersehen.",
+  "url": "https://www.ihk.de/ihklw/produkte/beratung-und-service/ecommerce-und-internet/digital-omnibus-verordnung-zur-ki-tritt-in-kraft-7142858",
+  "quelle": "IHK Lüneburg-Wolfsburg",
   "ki_geprueft": false,
   "redaktionell": true
  },
@@ -339,32 +365,6 @@
   "praxis": "Zusammen lesen mit EuGH C-199/24: Das Medienprivileg ist weit, aber nicht pauschal.",
   "url": "https://curia.europa.eu/site/jcms/p1_1000070159/cs/bundesgerichtshof-urteil-vom-29-juli-2025-vi-zr-426/24",
   "quelle": "CURIA (Rechtsprechung der Mitgliedstaaten)",
-  "ki_geprueft": false,
-  "redaktionell": true
- },
- {
-  "id": "VO-2026-1744",
-  "gericht": "EU-Gesetzgeber",
-  "datum": "2026-07-27",
-  "aktenzeichen": "VO (EU) 2026/1744",
-  "typ": "Gesetzgebung",
-  "gebiete": [
-   "ki"
-  ],
-  "titel": "Digital-Omnibus zur KI-Verordnung in Kraft",
-  "kurzfassung": "Die Verordnung (EU) 2026/1744 vom 8. Juli 2026 ändert die KI-Verordnung und ist am 27. Juli 2026 in Kraft getreten. Kern ist die Verschiebung der Pflichten für Hochrisiko-KI-Systeme; zudem kommen neue verbotene Praktiken hinzu.",
-  "kernaussagen": [
-   "Hochrisiko-Pflichten werden verschoben (nach Fachberichten: Anhang III auf Dezember 2027, Anhang I auf August 2028).",
-   "Die Verbote des Art. 5 und die KI-Kompetenzpflicht des Art. 4 gelten weiter."
-  ],
-  "normen": [
-   "VO (EU) 2024/1689",
-   "VO (EU) 2026/1744"
-  ],
-  "bedeutung": "hoch",
-  "praxis": "Compliance-Fahrpläne an die neuen Fristen anpassen; Transparenzpflichten nicht übersehen.",
-  "url": "https://www.ihk.de/ihklw/produkte/beratung-und-service/ecommerce-und-internet/digital-omnibus-verordnung-zur-ki-tritt-in-kraft-7142858",
-  "quelle": "IHK Lüneburg-Wolfsburg",
   "ki_geprueft": false,
   "redaktionell": true
  }
