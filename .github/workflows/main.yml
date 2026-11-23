@@ -2,8 +2,13 @@ name: Rechtsprechung aktualisieren
 
 on:
   schedule:
-    - cron: "17 5 * * *"
-  workflow_dispatch: {}
+    - cron: "17 5 * * *"   # täglich ca. 6:17 Uhr deutscher Zeit
+  workflow_dispatch:        # manuell startbar ("Run workflow")
+    inputs:
+      tage:
+        description: "Wie viele Tage zurück suchen? (leer = 14; für den ersten Aufbau z. B. 120)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -26,6 +31,7 @@ jobs:
       - name: Neue Entscheidungen holen und einordnen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LOOKBACK_DAYS: ${{ inputs.tage }}
         run: python -m tracker.run
       - name: Daten speichern
         run: |
