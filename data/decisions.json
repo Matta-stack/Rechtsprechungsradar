@@ -231,6 +231,88 @@
   "erfasst": "2026-11-23"
  },
  {
+  "gericht": "EuGH",
+  "datum": "2026-11-05",
+  "aktenzeichen": "C-881/24",
+  "ecli": "ECLI:EU:C:2026:938",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0881",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:938",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "EuGH: Subjektive Unparteilichkeit im internen Auswahlverfahren einer EU-Mission",
+  "sachverhalt": "Eine ehemalige internationale Vertragsbedienstete der EU-Rechtsstaatlichkeitsmission Eulex Kosovo war als Staatsanwältin auf mehreren befristeten Verträgen beschäftigt. Nachdem sie in einem internen Auswahlverfahren 2014 nicht bestanden hatte, wurde dieses wegen der Zusammensetzung des Prüfungsausschusses aufgehoben; die Vorgesetzte, die den Ausschuss geleitet hatte, war dabei nach Angaben der Akte Mitglied gewesen. Im internen Auswahlverfahren 2016, das wegen einer Verringerung der Staatsanwaltsstellen stattfand, wurde die Klägerin im mündlichen Gespräch mit der Note 0 ausgeschlossen, weil sie eine Schlüsselfrage nicht beantwortete, und ihr letzter Vertrag wurde nicht verlängert. Sie machte geltend, die Vorgesetzte, die auch 2016 den Vorsitz im Prüfungsausschuss führte, sei subjektiv befangen gewesen. Das Gericht der Europäischen Union hatte nach Zurückverweisung in der Sache eine Klage abgewiesen, die Entscheidungen des Gerichts waren im Rechtsmittelverfahren angegriffen.",
+  "entscheidung": "Der Gerichtshof hat das angefochtene Urteil aufgehoben, soweit das Gericht den Rügeteil zur subjektiven Unparteilichkeit verneint und darauf die Klageabweisung gestützt hatte; insoweit wird die Sache entschieden und die Anträge auf Feststellung der Rechtswidrigkeit und Schadensersatz werden zurückgewiesen. Im Übrigen wird das Rechtsmittel zurückgewiesen. Tragend ist, dass die Klägerin keine objektiven, schlüssigen und übereinstimmenden Indizien für persönliche Voreingenommenheit der Vorgesetzten im Gespräch 2016 beigebracht hat; die kritischen Kommentare aus 2014 wurden zwar als objektives Indiz gewertet, aber durch andere Umstände entkräftet. Die Kosten tragen die Parteien jeweils selbst.",
+  "kurzfassung": "Der EuGH prüfte, ob eine Vorgesetzte bei einem internen Auswahlverfahren der EU-Mission Eulex Kosovo subjektiv befangen war und dadurch die Nichtverlängerung eines befristeten Vertrags rechtswidrig wurde. Das Ergebnis: Der Befangenheitsvorwurf wurde für das Auswahlverfahren 2016 nicht bewiesen, das angefochtene Urteil wird insoweit aufgehoben und die Klage abgewiesen.",
+  "kernaussagen": [
+   "Die Rüge einer fehlenden subjektiven Unparteilichkeit muss durch objektive, schlüssige und übereinstimmende Indizien für Voreingenommenheit oder persönliche Vorurteile belegt werden.",
+   "Kritische Beurteilungskommentare können ein objektives Indiz für Voreingenommenheit sein, wenn sie sich nicht im Rahmen des Ermessens eines Beurteilenden halten und nicht durch stichhaltige Beweise gestützt sind.",
+   "Ein Einwand gegen die Mitwirkung eines Prüfungsausschussmitglieds allein belegt noch keine Befangenheit des Mitglieds im späteren Auswahlgespräch."
+  ],
+  "normen": [
+   "Art. 41 der Charta der Grundrechte der Europäischen Union",
+   "Art. 56 der Satzung des Gerichtshofs der Europäischen Union",
+   "Art. 184 Abs. 2 und Art. 138 der Verfahrensordnung des Gerichtshofs",
+   "Art. 10 Abs. 3 der Gemeinsamen Aktion 2008/124/GASP"
+  ],
+  "bedeutung": "gering",
+  "praxis": "Für Beratende von EU-Bediensteten und Auswahlverfahren gilt: Wer Befangenheit rügt, braucht konkrete, übereinstimmende Indizien, da bloße Vorwürfe oder Einwände gegen Ausschussmitglieder nicht genügen; Verfahrensmängel bei der Zusammensetzung von Ausschüssen können aber für sich zur Aufhebung führen.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 2,
+   "mietrecht": 0,
+   "sozialrecht": 0,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-11-05",
+  "aktenzeichen": "C-606/25",
+  "ecli": "ECLI:EU:C:2026:951",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CC0606",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:951",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Altersgrenze von 35 Jahren für Staatsanwaltsstelle als Altersdiskriminierung",
+  "sachverhalt": "Die Confederazione Generale Italiana del Lavoro (CGIL) des Trentino wendet sich gegen ein Auswahlverfahren der italienischen Avvocatura dello Stato für Stellen als Procuratore dello Stato, bei dem die Teilnahme auf Bewerber bis 35 Jahre beschränkt ist. Die Altersgrenze gilt für die Zulassung zum Auswahlverfahren, also die Anmeldung, nicht erst für den Erfolg darin. Die Avvocatura dello Stato vertritt den Staat vor Gericht; Procuratori und Avvocati dello Stato üben dabei im Wesentlichen dieselben Hauptaufgaben aus, Procuratori können nach Beförderung in die Gruppe der Avvocati dello Stato aufsteigen. Die Kassationsbeschwerde betrifft die Frage, ob die Altersgrenze mit dem Verbot der Altersdiskriminierung vereinbar ist. Das vorlegende Gericht, der italienische Kassationsgerichtshof, hat den EuGH um Vorabentscheidung ersucht; die Gründe der italienischen Regierung, insbesondere Ausbildung und Sicherung einer ausreichend langen Dienstzeit vor dem Ruhestand sowie eine ausgewogene Altersstruktur, sind zu prüfen.",
+  "entscheidung": "Der Generalanwalt schlägt vor, die Altersgrenze nicht als gerechtfertigt anzusehen. Die Ziele der beruflichen Ausbildung und der ausreichend langen Dienstzeit vor dem Ruhestand seien zwar grundsätzlich legitim, die Regelung weise aber Inkohärenzen auf, weil für den Zugang zum Auswahlverfahren der Avvocati dello Stato keine Altersgrenze gilt und deren Fehlen nicht begründet wurde. Auch das Ziel einer ausgewogenen Altersstruktur sei nicht geeignet, vorbehaltlich der Prüfung durch das vorlegende Gericht, ob die Mittel angemessen und erforderlich sind.",
+  "kurzfassung": "Ein italienisches Auswahlverfahren für Staatsanwälte der Avvocatura dello Stato beschränkt die Teilnahme auf Bewerber bis 35 Jahre; die CGIL des Trentino hält das für Altersdiskriminierung. Der Generalanwalt des EuGH hält die Altersgrenze für nicht gerechtfertigt, weil sie inkohärent ist und die Begründung nicht trägt.",
+  "kernaussagen": [
+   "Eine Altersgrenze für die Teilnahme an einem Auswahlverfahren ist eine Ungleichbehandlung wegen des Alters, die nur nach Art. 6 Abs. 1 der Richtlinie 2000/78 gerechtfertigt werden kann.",
+   "Die Rechtfertigung durch berufliche Ausbildung oder eine ausreichend lange Dienstzeit vor dem Ruhestand scheitert, wenn die Regelung inkohärent ist, etwa wenn vergleichbare Stellen ohne Altersgrenze ausgeschrieben werden.",
+   "Das Ziel einer ausgewogenen Altersstruktur kann eine Altersgrenze nur rechtfertigen, wenn sie geeignet und erforderlich ist; dies prüft das vorlegende Gericht."
+  ],
+  "normen": [
+   "Art. 6 Abs. 1 Richtlinie 2000/78/EG",
+   "Art. 2 Abs. 2 Richtlinie 2000/78/EG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Öffentliche Arbeitgeber, die Altersgrenzen für Einstellungs- oder Zulassungsverfahren vorsehen, müssen deren Rechtfertigung nach Art. 6 Abs. 1 der Richtlinie 2000/78 konsistent begründen und auf Vergleichsgruppen achten.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 2,
+   "mietrecht": 0,
+   "sozialrecht": 0,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
   "id": "EuGH-GA-C-250-25",
   "gericht": "EuGH (Generalanwalt)",
   "datum": "2026-11-03",
@@ -256,6 +338,92 @@
   "quelle": "EuGH, Pressemitteilung Nr. 155/26",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-22",
+  "aktenzeichen": "C-359/25",
+  "ecli": "ECLI:EU:C:2026:898",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0359",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:898",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Zwangspensionierung von Diplomaten mit 65 Jahren und Altersdiskriminierung",
+  "sachverhalt": "Ein im Ruhestand befindlicher Beamter des diplomatischen Dienstes des griechischen Außenministeriums wehrt sich gegen ein Präsidialdekret, aufgrund dessen er von Rechts wegen in den Ruhestand getreten ist. Nach der einschlägigen nationalen Regelung treten Diplomaten mit Vollendung des 65. Lebensjahrs und 35 ruhegehaltsfähigen Dienstjahren automatisch in den Ruhestand, während andere Beamte und Bedienstete diese Altersgrenze nicht in gleicher Weise trifft. Der Kläger macht geltend, darin liege eine unzulässige Diskriminierung wegen des Alters. Das vorlegende griechische Staatsrat (Symvoulio tis Epikrateias) hat dem EuGH die Frage zur Auslegung der Richtlinie 2000/78/EG vorgelegt. Über die Klage selbst hat der EuGH nicht entschieden; die Entscheidung über den Ausgang liegt beim nationalen Gericht.",
+  "entscheidung": "Der EuGH stellt fest, dass die automatische Zwangspensionierung eine unmittelbare Ungleichbehandlung wegen des Alters im Sinne von Art. 2 Abs. 2 Buchst. a der Richtlinie 2000/78 darstellt. Sie kann aber nach Art. 6 Abs. 1 gerechtfertigt sein, wenn sie ein legitimes Ziel der Beschäftigungs- oder Arbeitsmarktpolitik verfolgt (Generationenwechsel, ausgewogene Altersstruktur, Zugang junger Beamter) und in ihrem normativen Kontext angemessen und erforderlich ist. Die Prüfung dieser Voraussetzungen, insbesondere der Kohärenz und Erforderlichkeit, obliegt dem vorlegenden Gericht; die Richtlinie steht der Regelung daher nicht entgegen, sofern diese Bedingungen erfüllt sind.",
+  "kurzfassung": "Der EuGH musste klären, ob die automatische Zwangspensionierung griechischer Diplomaten mit 65 Jahren gegen das Verbot der Altersdiskriminierung verstößt. Ergebnis: Die Regelung ist als unmittelbare Altersungleichbehandlung zwar eine Ungleichbehandlung, kann aber nach Art. 6 Abs. 1 der Richtlinie 2000/78 gerechtfertigt sein, sofern sie ein legitimes Beschäftigungsziel verfolgt und angemessen und erforderlich ist.",
+  "kernaussagen": [
+   "Eine nationale Regelung, die Beamte des diplomatischen Dienstes mit Vollendung des 65. Lebensjahrs von Rechts wegen in den Ruhestand treten lässt, begründet eine unmittelbare Ungleichbehandlung wegen des Alters im Sinne von Art. 2 Abs. 2 Buchst. a der Richtlinie 2000/78/EG.",
+   "Die Erleichterung des Generationenwechsels und die Verjüngung des diplomatischen Dienstes sowie die Schaffung einer ausgewogenen Altersstruktur können legitime Ziele der Beschäftigungs- und Arbeitsmarktpolitik im Sinne von Art. 6 Abs. 1 der Richtlinie 2000/78/EG sein.",
+   "Ob eine solche Altersgrenze angemessen und erforderlich ist, muss das nationale Gericht unter Berücksichtigung der Schutzbedürftigkeit älterer Beamter prüfen."
+  ],
+  "normen": [
+   "Richtlinie 2000/78/EG Art. 1",
+   "Richtlinie 2000/78/EG Art. 2 Abs. 2 Buchst. a",
+   "Richtlinie 2000/78/EG Art. 6 Abs. 1",
+   "Richtlinie 2000/78/EG Art. 3 Abs. 1 Buchst. c",
+   "Gesetz 3566/2007 Art. 98 Abs. 1 und 3 (griechisches Recht)"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Mitgliedstaatliche Altersgrenzen für den Ruhestand bestimmter Beschäftigtengruppen sind nicht per se unzulässig, bedürfen aber einer kohärenten, auf ein legitimes Beschäftigungsziel gestützten und verhältnismäßigen Rechtfertigung nach Art. 6 Abs. 1 der Richtlinie 2000/78/EG.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 2,
+   "mietrecht": 0,
+   "sozialrecht": 1,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-22",
+  "aktenzeichen": "C-813/24",
+  "ecli": "ECLI:EU:C:2026:883",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0813",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:883",
+  "gebiete": [
+   "baurecht"
+  ],
+  "titel": "Kurzzeitvermietung: Städtebauliche Genehmigung nach der Dienstleistungsrichtlinie",
+  "sachverhalt": "Die Smartflats SA, die Unterkünfte kurzzeitig vermietet, wurde von der Region Brüssel-Hauptstadt daran gehindert, eine Wohnung als Touristenunterkunft zu betreiben. Nach der regionalen Ordonnanz vom 8. Mai 2014 bedarf die Beherbergung von Touristen einer vorherigen Genehmigung, die unter anderem eine Bescheinigung über die städtebauliche Konformität der Immobilie voraussetzt. Diese Bescheinigung hängt wiederum von einer städtebaulichen Genehmigung ab, wenn die Nutzung als Hotelbetrieb eine Änderung der Zweckbestimmung von Wohnraum bedeutet. Das vorlegende Gericht, die Cour d'appel de Bruxelles, zweifelte an der Vereinbarkeit dieser Regelung mit der Dienstleistungsrichtlinie 2006/123/EG und legte dem EuGH mehrere Fragen vor. Im Kern ging es um die Anwendbarkeit der Richtlinie auf Raumordnungsvorschriften, die Rechtfertigung der Genehmigungspflicht sowie um Frist, Begründung und Rechtsbehelf im Bescheinigungsverfahren.",
+  "entscheidung": "Der EuGH hat die Art. 9, 10 und 13 der Richtlinie 2006/123/EG dahin ausgelegt, dass die Richtlinie auf Raumordnungs- und städtebauliche Vorschriften anwendbar ist, wenn diese Teil einer Genehmigungsregelung für die Beherbergung von Touristen sind, und dass eine Genehmigungspflicht zum Schutz von Touristen und der städtischen Umwelt zulässig sein kann, sofern sie erforderlich und verhältnismäßig ist. Das Ermessen der Gemeinden bei der Einstufung als Hotelbetrieb ist nur zulässig, wenn es hinreichend begrenzt ist und vor Willkür schützt. Die Bescheinigungsverfahren müssen eine angemessene, vorab bekannt gemachte Bearbeitungsfrist, eine Begründungspflicht und einen Rechtsbehelf vorsehen; ist die Regelung nicht unionsrechtskonform auslegbar, bleibt nur die abtrennbare Voraussetzung unangewendet, andernfalls die gesamte Regelung.",
+  "kurzfassung": "Der EuGH musste klären, ob eine Brüsseler Genehmigungspflicht für Kurzzeitvermietung mit der Dienstleistungsrichtlinie vereinbar ist, die eine städtebauliche Konformitätsbescheinigung verlangt. Das Ergebnis: Die Genehmigungspflicht kann zulässig sein, das Verfahren muss aber Fristen, Begründung und Rechtsbehelf vorsehen, und unvereinbare Teile sind unangewendet zu lassen.",
+  "kernaussagen": [
+   "Raumordnungs- und städtebauliche Vorschriften fallen in den Anwendungsbereich der Dienstleistungsrichtlinie, wenn sie Bestandteil einer Genehmigungsregelung für die Tätigkeit der Touristenbeherbergung sind.",
+   "Eine vorherige Genehmigungspflicht für die Beherbergung von Touristen kann zum Schutz von Touristen und der städtischen Umwelt zulässig sein, wenn sie erforderlich und verhältnismäßig ist.",
+   "Verfahren zur Ausstellung einer städtebaulichen Konformitätsbescheinigung müssen eine vorab bekannt gemachte angemessene Frist, eine Begründungspflicht und einen Rechtsbehelf vorsehen."
+  ],
+  "normen": [
+   "Art. 2 Richtlinie 2006/123/EG",
+   "Art. 9 Abs. 1 Buchst. b und c Richtlinie 2006/123/EG",
+   "Art. 10 Abs. 1, 2 und 6 Richtlinie 2006/123/EG",
+   "Art. 13 Abs. 3 und 5 Richtlinie 2006/123/EG",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Kommunale Genehmigungsregelungen für Kurzzeitvermietung müssen auf nichtdiskriminierende, verhältnismäßige Kriterien gestützt sein und für Bescheinigungsverfahren feste Fristen, Begründungen und Rechtsbehelfe vorsehen, sonst drohen Unanwendbarkeit der Voraussetzung oder der gesamten Regelung.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 0,
+   "mietrecht": 1,
+   "sozialrecht": 0,
+   "baurecht": 2
+  },
+  "erfasst": "2026-11-24"
  },
  {
   "gericht": "BGH 1. Zivilsenat",
@@ -381,6 +549,131 @@
   "erfasst": "2026-11-23"
  },
  {
+  "gericht": "EuGH",
+  "datum": "2026-10-08",
+  "aktenzeichen": "C-808/24",
+  "ecli": "ECLI:EU:C:2026:836",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CJ0808",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:836",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Bereitschaftsdienst eines Feuerwehrmanns: Staatshaftung für Verstoß gegen Arbeitszeitrichtlinie",
+  "sachverhalt": "Ein slowakischer Feuerwehrmann und Rettungsassistent verlangte von dem Innenministerium Ersatz eines immateriellen Schadens. Sein am Arbeitsplatz geleisteter Bereitschaftsdienst war nach nationalem Recht nicht als Arbeitszeit angerechnet worden, wodurch die wöchentliche Höchstarbeitszeit von 48 Stunden im Bezugszeitraum von sechs Monaten überschritten wurde. Er machte eine Verletzung seines Rechts auf Achtung des Privat- und Familienlebens sowie auf ausreichende Ruhezeiten und Gesundheitsschutz geltend. Das Bezirksgericht Lučenec gab der Klage statt und verurteilte den Staat zur Zahlung einer Entschädigung, deren Höhe es unter anderem nach dem Ausmaß der Überschreitung bemaß. Das Ministerium legte dagegen Rechtsmittel ein, woraufhin das Gericht dem Gerichtshof Fragen zur Vorabentscheidung vorlegte.",
+  "entscheidung": "Der Gerichtshof entschied, dass Art. 2 Nr. 1 der Richtlinie 2003/88 nicht bezweckt, dem Einzelnen Rechte zu verleihen, sodass ein Verstoß dagegen allein keinen unionsrechtlichen Schadensersatzanspruch begründen kann. Art. 6 Buchst. b der Richtlinie verleiht dagegen Rechte, sodass ein Anspruch bei einem hinreichend qualifizierten Verstoß, Kausalität und Schaden möglich ist. Die Höhe des Ersatzes ist nicht nach der Dauer des Verstoßes gegen das Unionsrecht, sondern nach dem konkret und unmittelbar kausal entstandenen Schaden zu bemessen, unter Beachtung des Äquivalenz- und Effektivitätsgrundsatzes.",
+  "kurzfassung": "Ein slowakischer Feuerwehrmann klagte auf Schadensersatz, weil sein am Arbeitsplatz geleisteter Bereitschaftsdienst nicht als Arbeitszeit galt und die 48-Stunden-Grenze überschritten wurde. Der EuGH stellt klar, dass nur der Verstoß gegen Art. 6 Buchst. b der Arbeitszeitrichtlinie einen Schadensersatzanspruch begründen kann, während sich die Höhe nach dem tatsächlich entstandenen Schaden richtet und nicht nach der Dauer des Verstoßes.",
+  "kernaussagen": [
+   "Art. 2 Nr. 1 der Richtlinie 2003/88/EG verleiht dem Einzelnen keine Rechte, sodass ein Verstoß dagegen allein keinen unionsrechtlichen Schadensersatzanspruch begründet.",
+   "Art. 6 Buchst. b der Richtlinie 2003/88/EG verleiht dem Einzelnen Rechte, deren Verletzung bei hinreichend qualifiziertem Verstoß einen Staatshaftungsanspruch auslösen kann.",
+   "Die Höhe des Schadensersatzes für einen Verstoß gegen Art. 6 Buchst. b bemisst sich nach dem tatsächlich und konkret kausal entstandenen Schaden, nicht nach der Dauer des Verstoßes, unter Beachtung von Äquivalenz- und Effektivitätsgrundsatz."
+  ],
+  "normen": [
+   "Richtlinie 2003/88/EG Art. 2 Nr. 1",
+   "Richtlinie 2003/88/EG Art. 2 Nr. 2",
+   "Richtlinie 2003/88/EG Art. 6 Buchst. b",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Für Arbeitgeber im öffentlichen Dienst mit Bereitschaftsdiensten bedeutet das, dass die Überschreitung der 48-Stunden-Grenze und der konkrete Schaden für die Haftung maßgeblich sind, während eine bloße Nichtanrechnung des Bereitschaftsdienstes allein keinen Anspruch begründet.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 3,
+   "mietrecht": 0,
+   "sozialrecht": 1,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-08",
+  "aktenzeichen": "C-706/23",
+  "ecli": "ECLI:EU:C:2026:832",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62023CJ0706",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:832",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Urlaubsentgelt und Verpflegungszulage bei kumulierten Arbeitsverträgen im Schulbereich",
+  "sachverhalt": "Eine rumänische Sekundarschule (Arbeitgeberin) stritt mit einer Gewerkschaft, die im Auftrag von 14 Lehrkräften handelte, über Ansprüche dieser Arbeitnehmer. Die Lehrkräfte hatten jeweils einen unbefristeten Vollzeitarbeitsvertrag („Grundvertrag“) und zusätzlich einen befristeten Teilzeitarbeitsvertrag mit Stundenvergütung. Streitig war, ob das Urlaubsentgelt nur auf Basis des Vollzeitvertrags berechnet werden darf und ob die Verpflegungszulage nur die im Vollzeitvertrag geleistete Arbeitszeit berücksichtigen darf. Das vorlegende Berufungsgericht Iași ersuchte den EuGH um Vorabentscheidung zur Auslegung der Richtlinie 2003/88, der Charta und der beiden Rahmenvereinbarungen. Die Vorinstanzen hatten die Ungleichbehandlung unter Verweis auf die nationale Regelung als gerechtfertigt angesehen; das Berufungsgericht hielt dies für zweifelhaft.",
+  "entscheidung": "Der EuGH entschied, dass Art. 7 Abs. 1 der Richtlinie 2003/88 im Licht von Art. 31 Abs. 2 GRC sowie Paragraf 4 der beiden Rahmenvereinbarungen einer nationalen Regelung entgegenstehen, nach der beim Urlaubsentgelt die im befristeten Teilzeitvertrag geleistete Arbeit und die dort erzielten Einkünfte unberücksichtigt bleiben. Ebenso stehen diese Vorschriften einer Regelung und Praxis entgegen, nach der die Verpflegungszulage nur auf Basis der im Vollzeitvertrag geleisteten Arbeitszeit gewährt und nicht in das Urlaubsentgelt einbezogen wird. Tragend ist, dass die Zulage Teil des Entgelts ist, sodass die Schlechterstellung von Teilzeitbeschäftigten nur bei sachlichen Gründen zulässig wäre; eine pauschale Rechtfertigung durch eine allgemeine gesetzliche Norm genügt nicht, und das Ziel der Kontinuität der Lehrtätigkeit rechtfertigt die Ungleichbehandlung hier nicht.",
+  "kurzfassung": "Der EuGH musste klären, ob Lehrkräfte mit kumulierten Verträgen (unbefristet in Vollzeit plus befristet in Teilzeit) beim Urlaubsentgelt und bei der Verpflegungszulage benachteiligt werden dürfen. Ergebnis: Eine nationale Regelung, die die Arbeit und Einkünfte aus dem befristeten Teilzeitvertrag ausklammert, verstößt gegen das Unionsrecht (Urlaubsrichtlinie, Rahmenvereinbarungen zu Teilzeit- und befristeter Arbeit), sofern keine sachlichen Gründe vorliegen.",
+  "kernaussagen": [
+   "Eine nationale Regelung, die bei kumulierten Verträgen die Arbeit und Einkünfte aus einem befristeten Teilzeitvertrag beim Urlaubsentgelt unberücksichtigt lässt, verstößt gegen Art. 7 Abs. 1 der Richtlinie 2003/88 im Licht von Art. 31 Abs. 2 GRC und Paragraf 4 der Rahmenvereinbarungen.",
+   "Eine in einer allgemeinen und abstrakten Norm wie einem Gesetz oder Tarifvertrag vorgesehene Ungleichbehandlung rechtfertigt sich nicht ohne Weiteres; der Begriff der sachlichen Gründe verlangt genau bezeichnete, konkrete Umstände.",
+   "Eine Verpflegungszulage, die Teil des Entgelts ist, gehört zu den Beschäftigungsbedingungen, und ihre Vorenthaltung gegenüber Teilzeitbeschäftigten muss sachlich gerechtfertigt sein."
+  ],
+  "normen": [
+   "Art. 7 Abs. 1 Richtlinie 2003/88/EG",
+   "Art. 31 Abs. 2 GRC",
+   "Paragraf 4 Nr. 1 und Nr. 2 Rahmenvereinbarung über Teilzeitarbeit (Richtlinie 97/81/EG)",
+   "Paragraf 4 Nr. 1 Rahmenvereinbarung über befristete Arbeitsverträge (Richtlinie 1999/70/EG)",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Arbeitgeber mit kumulierten Vollzeit- und befristeten Teilzeitverträgen müssen Urlaubsentgelt und entgeltbezogene Zulagen grundsätzlich auch auf Basis des Teilzeitvertrags berechnen, sofern keine konkreten sachlichen Gründe belegt werden können.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 3,
+   "mietrecht": 0,
+   "sozialrecht": 0,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "EuGH (Generalanwalt)",
+  "datum": "2026-10-08",
+  "aktenzeichen": "C-893/24",
+  "ecli": "ECLI:EU:C:2026:834",
+  "typ": "Schlussanträge",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62024CC0893",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:834",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Verhältnismäßigkeit und gerichtliche Kontrolle einer EU-Disziplinarstrafe",
+  "sachverhalt": "Ein ehemaliger Beamter des Generalsekretariats des Rates wurde verdächtigt, zwischen 2009 und 2019 zu Unrecht Familienzulagen für unterhaltsberechtigte Personen bezogen zu haben, nachdem das OLAF Unregelmäßigkeiten festgestellt hatte. Die Anstellungsbehörde verhängte im September 2021 die Disziplinarstrafe der Entfernung aus dem Dienst, obwohl der Disziplinarrat nur die Herabstufung in eine niedrigere Funktions- und Besoldungsgruppe empfohlen hatte. Der Beamte klagte vor dem Gericht und rügte unter anderem einen Verstoß gegen Art. 10 des Anhangs IX des Statuts sowie offensichtliche Beurteilungsfehler bei der Schwere des Dienstvergehens. Das Gericht bestätigte die Entscheidung des Rates und hielt die Strafe für verhältnismäßig. Mit dem Rechtsmittel rügt der Beamte nun im Kern, das Gericht habe die Verhältnismäßigkeit falsch geprüft.",
+  "entscheidung": "Der Generalanwalt schlägt vor, den dritten Rechtsmittelgrund zu prüfen und das Rechtsmittel insoweit im Hinblick auf die Angemessenheit der Strafe zu beurteilen; das Ergebnis steht im Text nur teilweise fest (der Schluss ist gekürzt). Tragend ist die Erwägung, dass Art. 47 der Charta eine wirksame gerichtliche Kontrolle verlangt, die über eine bloß formale oder auf offensichtliche Beurteilungsfehler beschränkte Prüfung hinausgehen kann, wenn die Verhältnismäßigkeit der Strafe zu prüfen ist. Der Generalanwalt stützt sich dabei auf EGMR-Rechtsprechung (Art. 6 EMRK) und die Rechtsprechung zum Ermessensspielraum der Anstellungsbehörde.",
+  "kurzfassung": "Ein ehemaliger EU-Beamter wurde wegen zu Unrecht bezogener Familienzulagen aus dem Dienst entfernt und klagte gegen die Strafe. Der Generalanwalt befasst sich mit dem Umfang der gerichtlichen Kontrolle der Verhältnismäßigkeit einer Disziplinarstrafe im Lichte von Art. 47 der Grundrechtecharta; das Ergebnis ist im Text nur vorläufig erkennbar.",
+  "kernaussagen": [
+   "Die Anwendung von Art. 10 des Anhangs IX des Statuts setzt eine rechtliche Einstufung der Tat voraus, deren Schwere im Licht der dort genannten Faktoren zu beurteilen ist.",
+   "Die gerichtliche Kontrolle einer Disziplinarstrafe muss im Lichte von Art. 47 der Charta wirksam sein und darf sich nicht auf eine rein formale oder oberflächliche Prüfung beschränken."
+  ],
+  "normen": [
+   "Art. 10 des Anhangs IX des Statuts der Beamten der EU",
+   "Art. 47 der Charta der Grundrechte der EU",
+   "Art. 6 EMRK"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Wer Disziplinarstrafen im EU-öffentlichen Dienst verteidigt oder angreift, muss den Umfang der gerichtlichen Verhältnismäßigkeitskontrolle im Lichte von Art. 47 GRCh und EMRK-Rechtsprechung berücksichtigen.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 2,
+   "mietrecht": 0,
+   "sozialrecht": 0,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
   "id": "OLGF-11U2-26",
   "gericht": "OLG Frankfurt am Main",
   "datum": "2026-10-01",
@@ -407,6 +700,49 @@
   "vorinstanz": "LG Frankfurt a. M., 2-06 O 401/25",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-10-01",
+  "aktenzeichen": "C-459/25",
+  "ecli": "ECLI:EU:C:2026:810",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0459",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:810",
+  "gebiete": [
+   "mietrecht"
+  ],
+  "titel": "Missbräuchliche Mietklausel: Prozesskosten trägt der Mieter nach nationalem Verfahrensrecht",
+  "sachverhalt": "Eine niederländische Wohnungsstiftung vermietete einen Parkplatz an eine natürliche Person. Der Mietvertrag sah vor, dass alle gerichtlichen und außergerichtlichen Kosten, die dem Vermieter bei Vertragsverstößen des Mieters entstehen, dem Mieter auferlegt werden. Nachdem der Mieter die Miete nicht gezahlt hatte, erhob die Vermieterin Klage auf Auflösung des Mietvertrags, Räumung, Zahlung von 482,50 Euro und eines Nutzungsentgelts sowie Tragung sämtlicher Kosten. Der Kantonrechter erklärte die Klausel zumindest hinsichtlich der außergerichtlichen Kosten für missbräuchlich und hielt auch die Auferlegung sämtlicher gerichtlichen Kosten vorläufig für missbräuchlich, da sie die gesetzliche Kostendeckelung übersteigen könne. Der Hoge Raad legte dem EuGH die Frage vor, ob die Richtlinie 93/13 dem entgegensteht, dass der unterlegene Verbraucher nach nationalem Kostenverteilungsrecht zur Kostentragung verurteilt wird, wenn die Klausel nichtig ist und der Vertrag fortbestehen kann.",
+  "entscheidung": "Der EuGH hat entschieden, dass Art. 6 Abs. 1 und Art. 7 Abs. 1 der Richtlinie 93/13 im Licht des Effektivitätsgrundsatzes nicht entgegenstehen, dass der unterlegene Verbraucher nach dem nationalen Verfahrensrecht zur Kostentragung verurteilt wird. Die nationalen Kostenverteilungsvorschriften (Art. 237 Abs. 1 ZPO, Vergütungssystem mit Deckelung, Art. 242 ZPO) sind keine dispositiven Vorschriften, die das Vertragsgleichgewicht widerspiegeln, weshalb die missbräuchliche Klausel nicht durch sie ersetzt werden darf. Die Kostenverteilung fällt aber in die Verfahrensautonomie der Mitgliedstaaten; Äquivalenz- und Effektivitätsgrundsatz sind gewahrt, weil die Deckelung und die Herabsetzungsbefugnis den Zugang zu den Gerichten sichern.",
+  "kurzfassung": "Der EuGH musste klären, ob eine für missbräuchlich erklärte Mietklausel, die dem Mieter sämtliche Prozesskosten auferlegt, durch das nationale Kostenverteilungsrecht ersetzt werden darf. Ergebnis: Die Richtlinie 93/13 steht der gesetzlichen Kostenverteilung zulasten des unterlegenen Verbrauchers nicht entgegen, die Klausel selbst bleibt aber unanwendbar.",
+  "kernaussagen": [
+   "Eine für missbräuchlich und nichtig erklärte Klausel darf nicht durch eine dispositive nationale Vorschrift ersetzt werden, wenn der Vertrag ohne die Klausel fortbestehen kann.",
+   "Nationale Vorschriften zur Kostenverteilung und Kostendeckelung im Gerichtsverfahren sind keine dispositiven Vorschriften im Sinne der Rechtsprechung, da sie nicht das Vertragsgleichgewicht widerspiegeln.",
+   "Die Verteilung der Prozesskosten fällt in die Verfahrensautonomie der Mitgliedstaaten, sofern Äquivalenz- und Effektivitätsgrundsatz gewahrt sind."
+  ],
+  "normen": [
+   "Richtlinie 93/13/EWG Art. 6 Abs. 1",
+   "Richtlinie 93/13/EWG Art. 7 Abs. 1",
+   "Richtlinie 93/13/EWG Art. 8b",
+   "Art. 237 Abs. 1 Zivilprozessordnung (Niederlande)",
+   "Art. 242 Zivilprozessordnung (Niederlande)"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Vermieter, die Mietverträge mit Verbrauchern verwenden, können Klauseln, die dem Mieter sämtliche Prozesskosten auferlegen, nicht darauf stützen, dass das nationale Kostenrecht sie ersetzt; sie bleiben unwirksam, und der Verbraucher trägt nur die gesetzlich zu verteilenden, gedeckelten Kosten.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 0,
+   "mietrecht": 2,
+   "sozialrecht": 0,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-24"
  },
  {
   "gericht": "BGH 12. Zivilsenat",
