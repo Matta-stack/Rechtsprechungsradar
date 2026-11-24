@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rechtsprechungs-Radar</title>
+<meta name="description" content="Neue Entscheidungen von Bundesgerichten und EuGH zu Datenschutz- und KI-Recht, kurz eingeordnet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: Kopf mit Filterleiste, darunter eine Spalte Entscheidungen wie ein Fundstellenverzeichnis (Datum/Gericht links, Inhalt rechts) */
+:root {
+  --paper: #f3f4f1;
+  --sheet: #ffffff;
+  --ink: #18202b;
+  --muted: #5b6573;
+  --rule: #d9dcd6;
+  --accent: #1d4f7a;          /* Datenschutz */
+  --accent-2: #8a5a0b;        /* KI-Recht */
+  --hi: #b4361f;              /* hohe Bedeutung */
+  --tint: #e8edf2;
+  --tint-2: #f4ecdc;
+  --display: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --muted: #9aa4b2; --rule: #2c3440;
+    --accent: #7fb0dc; --accent-2: #e0b25c; --hi: #ef7a61; --tint: #1d2a38; --tint-2: #2e2614;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161c; --sheet: #1a2028; --ink: #e6e9ee; --muted: #9aa4b2; --rule: #2c3440;
+  --accent: #7fb0dc; --accent-2: #e0b25c; --hi: #ef7a61; --tint: #1d2a38; --tint-2: #2e2614;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--paper); color: var(--ink); font: 16px/1.55 var(--body); }
+a { color: var(--accent); }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 20px; }
+
+header { border-bottom: 1px solid var(--rule); background: var(--sheet); }
+.mast { display: flex; flex-wrap: wrap; gap: 8px 24px; align-items: baseline; justify-content: space-between; padding: 28px 0 14px; }
+h1 { font: 600 clamp(1.6rem, 3.4vw, 2.2rem)/1.15 var(--display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+.sub { color: var(--muted); margin: 6px 0 0; max-width: 62ch; }
+.stand { font: 500 0.8rem/1.3 var(--mono); color: var(--muted); white-space: nowrap; }
+.preview { margin: 0 0 16px; padding: 10px 14px; background: var(--tint-2); border-left: 3px solid var(--accent-2); font-size: 0.9rem; }
+
+.filters { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; padding: 0 0 18px; }
+.seg { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--rule); border-radius: 6px; overflow: hidden; }
+.seg button { font: 500 0.9rem var(--body); padding: 7px 14px; border: 0; background: var(--sheet); color: var(--ink); cursor: pointer; }
+.seg button + button { border-left: 1px solid var(--rule); }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--sheet); }
+select, input[type="search"] { font: 0.9rem var(--body); padding: 7px 10px; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); color: var(--ink); }
+input[type="search"] { flex: 1 1 220px; min-width: 0; }
+label.check { display: inline-flex; gap: 6px; align-items: center; font-size: 0.9rem; color: var(--muted); cursor: pointer; }
+
+.summary { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 18px 0 8px; color: var(--muted); font-size: 0.9rem; }
+.summary b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+ol.list { list-style: none; margin: 0; padding: 0 0 32px; }
+.entry { display: grid; grid-template-columns: 150px 1fr; gap: 6px 24px; padding: 22px 0; border-top: 1px solid var(--rule); position: relative; }
+.entry.hoch::before { content: ""; position: absolute; left: -12px; top: 24px; bottom: 24px; width: 3px; background: var(--hi); border-radius: 2px; }
+.meta { font-size: 0.85rem; color: var(--muted); display: flex; flex-direction: column; gap: 2px; }
+.meta .date { font: 500 0.95rem var(--mono); color: var(--ink); font-variant-numeric: tabular-nums; }
+.meta .court { font-weight: 600; color: var(--ink); }
+.body h2 { font: 600 1.18rem/1.3 var(--display); margin: 0 0 4px; text-wrap: balance; }
+.az { font: 0.85rem var(--mono); color: var(--muted); margin-bottom: 10px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.tag { font: 500 0.75rem/1 var(--body); padding: 4px 8px; border-radius: 4px; }
+.tag.datenschutz { background: var(--tint); color: var(--accent); }
+.tag.ki { background: var(--tint-2); color: var(--accent-2); }
+.tag { background: var(--tint); color: var(--accent); }
+.tag.mk { background: transparent; color: var(--muted); border: 1px dashed var(--rule); }
+.tag.hoch { background: transparent; color: var(--hi); border: 1px solid var(--hi); }
+.tag.typ { background: transparent; color: var(--muted); border: 1px solid var(--rule); }
+.body p { margin: 0 0 10px; max-width: 70ch; }
+.body ul { margin: 0 0 10px; padding-left: 18px; max-width: 70ch; }
+.body li { margin-bottom: 4px; }
+.lbl { font: 600 0.72rem/1 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 12px 0 6px; }
+.norms { font: 0.8rem var(--mono); color: var(--muted); margin-bottom: 8px; }
+.praxis { font-size: 0.92rem; border-left: 2px solid var(--rule); padding-left: 10px; color: var(--ink); }
+.praxis strong { font-weight: 600; }
+.src { font-size: 0.85rem; margin-top: 10px; color: var(--muted); }
+.empty { padding: 40px 0; color: var(--muted); }
+
+footer { border-top: 1px solid var(--rule); background: var(--sheet); font-size: 0.85rem; color: var(--muted); }
+footer .wrap { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px 32px; padding: 26px 20px 34px; }
+footer h3 { font: 600 0.9rem var(--body); color: var(--ink); margin: 0 0 6px; }
+footer p { margin: 0 0 6px; }
+
+@media (max-width: 640px) {
+  .entry { grid-template-columns: 1fr; }
+  .meta { flex-direction: row; flex-wrap: wrap; gap: 4px 12px; }
+  .entry.hoch::before { left: -10px; }
+}
+@media (prefers-reduced-motion: no-preference) { .seg button { transition: background .15s; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="mast">
+      <div>
+        <h1 id="title">Rechtsprechungs-Radar Datenschutz &amp; KI</h1>
+        <p class="sub" id="subtitle">Neue Entscheidungen von Bundesgerichten und EuGH, täglich aktualisiert und kurz eingeordnet</p>
+      </div>
+      <div class="stand" id="stand"></div>
+    </div>
+    <div class="preview" id="previewNote" hidden>Vorschau: Die Einträge sind redaktionell zusammengestellt. Im Livebetrieb kommen neue Entscheidungen täglich automatisch hinzu.</div>
+    <div class="filters" role="search">
+      <div class="seg" id="areaSeg" aria-label="Rechtsgebiet"></div>
+      <label for="courtSel" class="check" style="color:var(--ink)">Gericht
+        <select id="courtSel">
+          <option value="">alle</option>
+          <option value="bund">Bundesgerichte</option>
+          <option value="eu">EuGH</option>
+          <option value="inst">Instanzgerichte</option>
+          <option value="gesetz">Gesetzgebung</option>
+        </select>
+      </label>
+      <input type="search" id="q" placeholder="Suche: Aktenzeichen, Norm, Stichwort" aria-label="Suche">
+      <label class="check"><input type="checkbox" id="onlyHigh"> nur hohe Bedeutung</label>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="summary" id="summary"></div>
+  <ol class="list" id="list"></ol>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h3>Kein Ersatz für Rechtsberatung</h3>
+      <p>Die Zusammenfassungen ordnen Entscheidungen knapp ein und können Fehler enthalten. Maßgeblich ist allein der Originaltext, der jeweils verlinkt ist.</p>
+    </div>
+    <div>
+      <h3>Quellen</h3>
+      <p>rechtsprechung-im-internet.de (Bundesgerichte), EUR-Lex und CURIA (EuGH), amtliche Landesportale. Gerichtsentscheidungen sind amtliche Werke (§ 5 UrhG).</p>
+    </div>
+    <div>
+      <h3>Abonnieren</h3>
+      <p id="feeds">RSS-Feeds je Rechtsgebiet folgen mit dem Livebetrieb.</p>
+      <p id="author"></p>
+    </div>
+  </div>
+</footer>
+
+<script id="inline-data"></script>
+<script>
+(function () {
+  const state = { area: "", court: "", q: "", high: false };
+  const BUND = /^(BGH|BAG|BVerwG|BFH|BSG|BVerfG|BPatG)/;
+
+  function courtGroup(d) {
+    if (d.typ === "Gesetzgebung") return "gesetz";
+    if (d.gericht.startsWith("EuGH")) return "eu";
+    if (BUND.test(d.gericht)) return "bund";
+    return "inst";
+  }
+  function fmtDate(iso) {
+    const [y, m, dd] = iso.split("-");
+    return `${dd}.${m}.${y}`;
+  }
+  function esc(s) {
+    return String(s || "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  }
+
+  function render(data) {
+    const items = data.items.slice().sort((a, b) => b.datum.localeCompare(a.datum));
+    const areas = data.areas;
+    document.getElementById("stand").textContent = "Stand " + data.stand;
+    if (data.preview) document.getElementById("previewNote").hidden = false;
+    if (data.site && data.site.author) document.getElementById("author").textContent = "Herausgegeben von " + data.site.author;
+    if (data.feeds) {
+      document.getElementById("feeds").innerHTML = Object.entries(areas)
+        .map(([k, v]) => `<a href="feed-${k}.xml">RSS ${esc(v)}</a>`).join(" · ");
+    }
+
+    const seg = document.getElementById("areaSeg");
+    seg.innerHTML = [["", "Alle"], ...Object.entries(areas)]
+      .map(([k, v]) => `<button type="button" data-area="${k}" aria-pressed="${state.area === k}">${esc(v)}</button>`).join("");
+    seg.onclick = e => {
+      const b = e.target.closest("button"); if (!b) return;
+      state.area = b.dataset.area; draw();
+      seg.querySelectorAll("button").forEach(x => x.setAttribute("aria-pressed", x.dataset.area === state.area));
+    };
+    document.getElementById("courtSel").onchange = e => { state.court = e.target.value; draw(); };
+    document.getElementById("q").oninput = e => { state.q = e.target.value.trim().toLowerCase(); draw(); };
+    document.getElementById("onlyHigh").onchange = e => { state.high = e.target.checked; draw(); };
+
+    function draw() {
+      const shown = items.filter(d =>
+        (!state.area || d.gebiete.includes(state.area)) &&
+        (!state.court || courtGroup(d) === state.court) &&
+        (!state.high || d.bedeutung === "hoch") &&
+        (!state.q || JSON.stringify(d).toLowerCase().includes(state.q))
+      );
+      const count = k => shown.filter(d => d.gebiete.includes(k)).length;
+      document.getElementById("summary").innerHTML =
+        `<span><b>${shown.length}</b> Einträge</span>` +
+        Object.entries(areas).map(([k, v]) => `<span>${esc(v)}: <b>${count(k)}</b></span>`).join("") +
+        `<span>davon hohe Bedeutung: <b>${shown.filter(d => d.bedeutung === "hoch").length}</b></span>`;
+
+      const list = document.getElementById("list");
+      if (!shown.length) { list.innerHTML = `<li class="empty">Keine Einträge für diese Auswahl. Filter zurücksetzen oder Suchbegriff ändern.</li>`; return; }
+      list.innerHTML = shown.map(d => `
+        <li class="entry ${d.bedeutung === "hoch" ? "hoch" : ""}">
+          <div class="meta">
+            <span class="date">${fmtDate(d.datum)}</span>
+            <span class="court">${esc(d.gericht)}</span>
+            <span>${esc(d.typ)}</span>
+          </div>
+          <div class="body">
+            <h2>${esc(d.titel || d.aktenzeichen)}</h2>
+            <div class="az">${esc(d.aktenzeichen)}${d.ecli ? " · " + esc(d.ecli) : ""}${d.vorinstanz ? " · Vorinstanz: " + esc(d.vorinstanz) : ""}</div>
+            <div class="tags">
+              ${d.gebiete.map(g => `<span class="tag ${g}">${esc(areas[g] || g)}</span>`).join("")}
+              ${Object.values(d.merkmale || {}).flat().map(m => `<span class="tag mk">${esc(m)}</span>`).join("")}
+              ${d.bedeutung === "hoch" ? `<span class="tag hoch">hohe Bedeutung</span>` : ""}
+            </div>
+            ${d.sachverhalt
+              ? `<h3 class="lbl">Sachverhalt</h3><p>${esc(d.sachverhalt)}</p>` +
+                (d.entscheidung ? `<h3 class="lbl">Entscheidung</h3><p>${esc(d.entscheidung)}</p>` : "")
+              : (d.kurzfassung ? `<p>${esc(d.kurzfassung)}</p>` : (d.leitsatz ? `<p><em>Leitsatz:</em> ${esc(d.leitsatz)}</p>` : ""))}
+            ${(d.kernaussagen || []).length ? `<h3 class="lbl">Kernaussagen</h3>` : ""}
+            ${(d.kernaussagen || []).length ? `<ul>${d.kernaussagen.map(k => `<li>${esc(k)}</li>`).join("")}</ul>` : ""}
+            ${(d.normen || []).length ? `<div class="norms">${d.normen.map(esc).join(" · ")}</div>` : ""}
+            ${d.praxis ? `<div class="praxis"><strong>Für die Praxis:</strong> ${esc(d.praxis)}</div>` : ""}
+            <div class="src">Quelle: <a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.quelle || "Originaltext")} ↗</a></div>
+          </div>
+        </li>`).join("");
+    }
+    draw();
+  }
+
+  if (window.TRACKER_DATA) render(window.TRACKER_DATA);
+  else fetch("data.json").then(r => r.json()).then(d => { d.feeds = true; render(d); })
+    .catch(() => { document.getElementById("list").innerHTML = '<li class="empty">Daten konnten nicht geladen werden. Bitte später neu laden.</li>'; });
+})();
+</script>
+</body>
+</html>

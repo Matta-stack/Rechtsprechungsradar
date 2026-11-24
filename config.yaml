@@ -3,13 +3,13 @@
 # Die KI-Prüfung entscheidet danach endgültig über die Relevanz.
 
 site:
-  title: "Rechtsprechungs-Radar Datenschutz & KI"
-  subtitle: "Neue Entscheidungen von Bundesgerichten und EuGH, täglich aktualisiert und kurz eingeordnet"
+  title: "Rechtsprechungs-Radar"
+  subtitle: "Neue Entscheidungen von Bundesgerichten und EuGH zu Datenschutz, KI, Arbeits-, Miet-, Sozial- und Baurecht, täglich eingeordnet"
   base_url: ""          # z. B. https://deinname.github.io/rechtsprechungs-tracker
   author: "Dr. Gagandeep Matta"
 
 lookback_days: 14       # wie weit zurück beim täglichen Lauf gesucht wird
-max_new_per_run: 60     # Sicherheitsgrenze für KI-Kosten
+max_new_per_run: 120    # Sicherheitsgrenze für KI-Kosten
 
 areas:
   datenschutz:
@@ -55,6 +55,63 @@ areas:
       - "§ 44b UrhG"
       - "automatisierte Entscheidung"
       - "Art. 22 DSGVO"
+
+  arbeitsrecht:
+    label: "Arbeitsrecht"
+    gerichte: ["BAG"]       # alle Entscheidungen des BAG werden geprüft (keine Schlagworte nötig)
+    weitere_gerichte:       # andere Gerichte nur mit diesen Schlagworten
+      EuGH: ["Arbeitnehmer", "2003/88", "Arbeitszeit", "Jahresurlaub", "2000/78", "Leiharbeit", "Betriebsübergang", "Massenentlassung"]
+    beschreibung: >-
+      Einschlägig bei Fragen des Individual- und Kollektivarbeitsrechts: Kündigung, Befristung,
+      Vergütung, Urlaub, Arbeitszeit, Betriebsverfassung, Tarifrecht, AGG, Betriebsübergang,
+      Arbeitnehmerüberlassung. Nicht einschlägig: reine Prozesskostenhilfe- oder Kostenentscheidungen
+      ohne arbeitsrechtliche Aussage.
+    keywords: []
+    merkmale: ["Kündigung", "Befristung", "Vergütung und Mindestlohn", "Urlaub", "Arbeitszeit und Zeiterfassung",
+               "Betriebsrat und Mitbestimmung", "Tarifvertrag", "Gleichbehandlung und AGG", "Betriebsübergang",
+               "Arbeitnehmerüberlassung", "Arbeitsvertrag und AGB-Kontrolle", "Wettbewerbsverbot",
+               "Betriebliche Altersversorgung", "Beschäftigtendatenschutz", "Verfahrensrecht"]
+  mietrecht:
+    label: "Mietrecht"
+    gerichte: ["BGH"]
+    beschreibung: >-
+      Einschlägig bei Wohnraum- und Gewerberaummiete sowie Wohnungseigentumsrecht (WEG): Mieterhöhung,
+      Mietpreisbremse, Betriebskosten, Schönheitsreparaturen, Mängel, Kündigung, Eigenbedarf, Kaution,
+      Modernisierung, Verwalter und Beschlussanfechtung. Nicht einschlägig: Pacht- oder Leasingverträge
+      ohne mietrechtliche Kernaussage, Grundstückskauf.
+    keywords: ["Mietvertrag", "Mieter", "Vermieter", "Wohnraum", "Mietverhältnis", "Miete", "Betriebskosten",
+               "Wohnungseigentum", "WEG", "Eigenbedarf", "§ 535 BGB", "§ 543 BGB", "§ 558 BGB", "§ 573 BGB"]
+    merkmale: ["Wohnraummiete", "Gewerberaummiete", "Mieterhöhung und Mietpreisbremse", "Betriebskosten",
+               "Schönheitsreparaturen", "Mängel und Minderung", "Eigenbedarf", "Kündigung wegen Zahlungsverzug",
+               "Sonstige Kündigung", "Kaution", "Modernisierung", "Untervermietung", "Wohnungseigentum (WEG)",
+               "Formularklauseln"]
+  sozialrecht:
+    label: "Sozialrecht"
+    gerichte: ["BSG"]
+    weitere_gerichte:
+      EuGH: ["883/2004", "soziale Sicherheit", "Familienleistungen", "Sozialhilfe"]
+    beschreibung: >-
+      Einschlägig bei Fragen der Sozialgesetzbücher und des sozialgerichtlichen Verfahrens:
+      Grundsicherung, Arbeitslosengeld, Kranken-, Renten-, Unfall- und Pflegeversicherung,
+      Schwerbehinderung und Rehabilitation, Versicherungspflicht und Statusfeststellung.
+    keywords: []
+    merkmale: ["Bürgergeld und Grundsicherung (SGB II/XII)", "Arbeitslosengeld (SGB III)", "Krankenversicherung (SGB V)",
+               "Rentenversicherung (SGB VI)", "Unfallversicherung (SGB VII)", "Rehabilitation und Schwerbehinderung (SGB IX)",
+               "Pflegeversicherung (SGB XI)", "Versicherungspflicht und Statusfeststellung", "Familienleistungen",
+               "Erstattung und Rückforderung", "Verfahrensrecht (SGG/SGB X)"]
+  baurecht:
+    label: "Baurecht"
+    gerichte: ["BGH", "BVerwG"]
+    beschreibung: >-
+      Einschlägig bei privatem Baurecht (Bauvertrag, VOB/B, Architekten- und Ingenieurvertrag, HOAI,
+      Mängel, Nachträge) und öffentlichem Baurecht (Bauplanungsrecht, Bebauungsplan, Baugenehmigung,
+      Nachbarschutz) sowie Vergaberecht bei Bauleistungen. Nicht einschlägig: allgemeines Werkvertragsrecht
+      ohne Baubezug.
+    keywords: ["VOB/B", "Bauvertrag", "Bauträger", "HOAI", "Architekt", "BauGB", "Bebauungsplan", "Baugenehmigung",
+               "Bauvorhaben", "Bauleistung", "§ 650a", "§ 650b", "Nachbarschutz", "GWB"]
+    merkmale: ["Bauvertrag und VOB/B", "Architekten- und Ingenieurrecht (HOAI)", "Mängel und Gewährleistung",
+               "Nachträge und Vergütung", "Bauträgerrecht", "Bauplanungsrecht und Bebauungsplan",
+               "Baugenehmigung und Bauordnungsrecht", "Nachbarschutz", "Vergaberecht", "Immissionsschutz"]
 
 sources:
   rii:
