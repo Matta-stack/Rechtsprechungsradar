@@ -258,6 +258,49 @@
   "redaktionell": true
  },
  {
+  "gericht": "BGH 1. Zivilsenat",
+  "datum": "2026-10-21",
+  "aktenzeichen": "I ZR 227/25",
+  "ecli": "ECLI:DE:BGH:2026:211026UIZR227.25.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE307362026&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "Auskunftspflicht der SCHUFA 1. Der Auskunftsanspruch aus Art. 15 Abs. 1 Buchst. h DSGVO setzt das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art. 22 Abs. 1 DSGVO voraus. Die Anwendbarkeit des Art. 22 Abs. 1 DSGVO hängt von drei kumulativen Voraussetzungen ab, nämlich davon, dass erstens eine Entscheidung vorliegen muss, zweitens diese Entscheidung ausschließlich auf einer automatisierten Verarbeitung - einschließlich Profiling - beruhen muss und drittens sie gegenüber der betroffenen Person rechtliche Wirkung entfalten oder sie in ähnlicher Weise erheblich beeinträchtigen muss (Fortführung von EuGH, Urteil vom 7. Dezember 2023 - C-634/21, NJW 2024, 413 [juris Rn. 43] - SCHUFA Holding [Scoring]). 2. Berechnet eine Wirtschaftsauskunftei automatisiert in Form eines Wahrscheinlichkeitswerts die Fähigkeit einer Person zur Erfüllung künftiger Zahlungsverpflichtungen, stellt dies eine auf einer automatisierten Verarbeitung - nämlich Profiling im Sinn von Art. 4 Nr. 4 DSGVO - beruhende Entscheidung dar (Fortführung von EuGH, Urteil vom 7. Dezember 2023 - C-634/21, NJW 2024, 413 [juris Rn. 44 bis 46] - SCHUFA Holding [Scoring]). Der Auskunftsanspruch aus Art. 15 Abs. 1 Buchst. h DSGVO setzt zusätzlich voraus, dass diese Entscheidung dem betroffenen Anspruchsteller gegenüber rechtliche Wirkung entfaltet oder ihn in ähnlicher Weise erheblich beeinträchtigt, indem es maßgeblich von dem Wahrscheinlichkeitswert, der einem Dritten übermittelt wird, abhängt, ob dieser ein Vertragsverhältnis mit dem Anspruchsteller begründet, durchführt oder beendet (Fortführung von EuGH, Urteil vom 7. Dezember 2023 - C-634/21, NJW 2024, 413 [juris Rn.47 bis 50 und 73] - SCHUFA Holding [Scoring]). 3. Die Darlegungs- und Beweislast für die Voraussetzungen des Auskunftsanspruchs aus Art. 15 Abs. 1 Buchst. h, Art. 22 Abs. 1 DSGVO liegt beim Anspruchsteller. Mit Blick auf den unionsrechtlichen Effektivitätsgrundsatz sind daran jedoch keine zu hohen Anforderungen zu stellen. Für die Darlegung einer Entscheidung einer Wirtschaftsauskunftei, die den Anspruchsteller erheblich beeinträchtigt, reicht daher Vortrag des Anspruchstellers, nach dem die Wirtschaftsauskunftei einen Scorewert an ein Unternehmen übermittelt hat und es in zeitlichem Zusammenhang damit zu einer für den Anspruchsteller nachteiligen Entscheidung bei der Anbahnung oder Durchführung eines Vertragsverhältnisses mit diesem oder einem verbundenen Unternehmen gekommen ist. Ist dies dargelegt und gegebenenfalls bewiesen, besteht eine tatsächliche Vermutung dafür, dass die Entscheidung des Unternehmens maßgeblich auf die von der Wirtschaftsauskunftei getroffene Entscheidung zurückzuführen ist.",
+  "id": "ECLI:DE:BGH:2026:211026UIZR227.25.0",
+  "gebiete": [
+   "datenschutz",
+   "ki"
+  ],
+  "titel": "SCHUFA-Scoring: Umfang des Auskunftsanspruchs bei automatisierter Entscheidung",
+  "sachverhalt": "Ein Privatkläger verlangte von einer Wirtschaftsauskunftei Auskunft darüber, wie seine Bonitätsscorewerte berechnet werden, insbesondere eine nachvollziehbare und nachprüfbare Darlegung der verwendeten Merkmale, ihrer Gewichtung und der Aussagekraft der Werte. Die Beklagte hatte ihm mit Schreiben vom 4. Oktober 2023 eine Tabelle mit übermittelten Scorewerten, Datenarten und Risikobewertungen übersandt, nicht jedoch eine Erläuterung der Gewichtung oder Berechnung. Das Landgericht wies die Klage insoweit ab. Das Oberlandesgericht Dresden verurteilte die Beklagte auf Grundlage von Art. 15 Abs. 1 Buchst. h, Art. 22 DSGVO zu einer laienverständlichen Erläuterung der Gewichtung der Kriterien und der Aussagekraft der Scorewerte sowie zur Erstattung eines Teils der Anwaltskosten. Die Beklagte verfolgte mit der Revision die vollständige Klageabweisung weiter.",
+  "entscheidung": "Der BGH hob das Berufungsurteil im Kostenpunkt und insoweit auf, als zum Nachteil der Beklagten erkannt wurde, und verwies die Sache zurück. Tragend ist, dass der Auskunftsanspruch nach Art. 15 Abs. 1 Buchst. h DSGVO das Vorliegen einer automatisierten Entscheidung im Sinne des Art. 22 Abs. 1 DSGVO voraussetzt, die dem Betroffenen gegenüber rechtliche Wirkung entfaltet oder ihn in ähnlicher Weise erheblich beeinträchtigt; das Berufungsgericht hat dies bezüglich des Basisscorewerts nicht hinreichend geprüft. Die Erläuterungspflicht zu Verfahren und Grundsätzen der Scorewertbildung hat der BGH dagegen bestätigt, eine Auskunft über die Aussagekraft der Scorewerte hat er verneint.",
+  "kurzfassung": "Ein Betroffener verlangte von einer Wirtschaftsauskunftei detaillierte Auskunft über die Berechnung seiner Bonitätsscorewerte. Der BGH bestätigte die Erläuterungspflicht zur Logik des Scorings, verlangte aber für den Basisscorewert eine vorrangige Prüfung des Art. 22 DSGVO und verwies die Sache zurück.",
+  "kernaussagen": [
+   "Der Auskunftsanspruch nach Art. 15 Abs. 1 Buchst. h DSGVO setzt eine automatisierte Entscheidung im Sinne des Art. 22 Abs. 1 DSGVO voraus, die rechtliche Wirkung entfaltet oder erheblich beeinträchtigt.",
+   "Die Berechnung eines Wahrscheinlichkeitswerts über die Zahlungsfähigkeit durch eine Wirtschaftsauskunftei ist eine auf Profiling beruhende Entscheidung im Sinne des Art. 4 Nr. 4 DSGVO.",
+   "Der Verantwortliche muss das Verfahren und die Grundsätze der Scorewertbildung so erläutern, dass der Betroffene nachvollziehen kann, welche Daten auf welche Art verwendet wurden; die Offenlegung einer mathematischen Formel oder des Algorithmus schuldet er nicht."
+  ],
+  "normen": [
+   "Art. 15 Abs. 1 Buchst. h DSGVO",
+   "Art. 22 Abs. 1 DSGVO",
+   "Art. 22 Abs. 3 DSGVO",
+   "Art. 4 Nr. 4 DSGVO",
+   "Art. 12 Abs. 1 DSGVO",
+   "Art. 15 Abs. 4 DSGVO",
+   "§ 308 Abs. 1 ZPO",
+   "§ 37a Abs. 4 BDSG (künftig geltend)"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Wirtschaftsauskunfteien müssen Betroffenen bei Scoring laienverständlich die Verfahrensgrundsätze, Datenkategorien und deren Gewichtung erläutern, ohne den Algorithmus offenlegen zu müssen; Berater sollten prüfen, ob Art. 22 DSGVO im Einzelfall greift, und zugleich den ab 20. November 2026 geltenden § 37a Abs. 4 BDSG im Blick behalten.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 2
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
   "gericht": "EuGH (Generalanwalt)",
   "datum": "2026-10-15",
   "aktenzeichen": "C-568/25",
@@ -366,6 +409,92 @@
   "redaktionell": true
  },
  {
+  "gericht": "BGH 12. Zivilsenat",
+  "datum": "2026-09-02",
+  "aktenzeichen": "XII ZB 5/26",
+  "ecli": "ECLI:DE:BGH:2026:020926BXIIZB5.26.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=KORE307332026&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. Die nach einer Annahme als Kind wirksam werdende, auf der Grundlage des Namensänderungsgesetzes erfolgende Änderung des Vornamens des Annehmenden ist nicht als Folgebeurkundung in den Geburtseintrag des angenommenen Kindes aufzunehmen (im Anschluss an Senatsbeschluss vom 2. Juni 2021 - XII ZB 405/20, FamRZ 2021, 1543). 2. § 27 Abs. 3 Nr. 5 PStG ist in einem solchen Fall weder unmittelbar noch entsprechend anzuwenden, weil diese Norm nicht eine isolierte Vornamensänderung nach §§ 3, 11 NamÄndG zum Gegenstand hat, sondern die Änderung des Geschlechtseintrags und des Vornamens nach § 2 Abs. 1 Satz 1, Abs. 3 Satz 1 SBGG.",
+  "id": "ECLI:DE:BGH:2026:020926BXIIZB5.26.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Keine Folgebeurkundung isolierter Vornamensänderung eines Adoptiv-Elternteils im Geburtenregister",
+  "sachverhalt": "Eine Person, die im Geburtenregister weiblich eingetragen ist, wurde gemeinsam mit einem Elternteil als Adoptierende eines im Jahr 2023 geborenen Kindes angenommen; der Adoptionsbeschluss des Amtsgerichts Pankow vom Juni 2024 wurde am 25. Juni 2024 zugestellt. Im Oktober 2025 wurden die Vornamen der Person im Wege der öffentlich-rechtlichen Namensänderung nach dem Namensänderungsgesetz in einen geschlechtsneutralen Vornamen geändert, ohne dass der Geschlechtseintrag geändert wurde. Die Person beantragte, im Geburtseintrag des Kindes mit dem neuen Vornamen und nicht-binärer Geschlechtsangabe aufgenommen zu werden; das Amtsgericht Schöneberg wies das Standesamt jedoch an, die ursprünglichen Vornamen und die Angabe weiblich einzutragen, und das Kammergericht wies die Beschwerde zurück. Die zugelassene Rechtsbeschwerde richtete sich gegen diese Entscheidung.",
+  "entscheidung": "Der BGH hat die Rechtsbeschwerde zurückgewiesen. Die Person ist infolge der Adoption mit den zum Zeitpunkt der Wirksamkeit der Annahme geltenden weiblichen Vornamen und der Geschlechtsangabe weiblich in den Geburtseintrag des Kindes aufzunehmen (§ 27 Abs. 3 Nr. 1, § 21 Abs. 1 Nr. 4 PStG). Eine nachträgliche Folgebeurkundung der isolierten öffentlich-rechtlichen Vornamensänderung ist nicht vorgesehen: § 27 Abs. 3 Nr. 5 PStG erfasst nur Änderungen nach dem Selbstbestimmungsgesetz und ist weder direkt noch analog anwendbar, und § 27 PStG regelt die Folgebeurkundungen abschließend. Verfassungs- und unionsrechtliche Bedenken (Art. 2 Abs. 1, Art. 1 Abs. 1 GG; Art. 16, 5 Abs. 1 lit. d DSGVO, EuGH C-247/23) greifen nicht durch; eine Vorlage an den EuGH ist nicht veranlasst.",
+  "kurzfassung": "Der BGH musste klären, ob die nach einer Adoption erfolgte öffentlich-rechtliche Vornamensänderung eines Adoptiv-Elternteils im Geburtenregister des Kindes nachzutragen ist. Er verneint dies: Eingetragen werden die Daten zum Zeitpunkt der Wirksamkeit der Annahme, eine Folgebeurkundung für isolierte Namensänderungen gibt es nicht.",
+  "kernaussagen": [
+   "Maßgeblich für die Folgebeurkundung zur Annahme als Kind sind die Personenstandsdaten des annehmenden Elternteils zum Zeitpunkt der Wirksamkeit der Annahme.",
+   "§ 27 Abs. 3 Nr. 5 PStG erfasst nur Änderungen des Geschlechtseintrags und der Vornamen nach dem Selbstbestimmungsgesetz und ist auf isolierte Vornamensänderungen nach dem Namensänderungsgesetz weder direkt noch analog anwendbar.",
+   "Die Aufnahme einer isolierten Vornamensänderung eines Elternteils in den Geburtseintrag des Kindes ist mangels Rechtsgrundlage ausgeschlossen; dies verletzt weder Verfassungs- noch Unionsrecht."
+  ],
+  "normen": [
+   "§ 27 Abs. 3 Nr. 1 PStG",
+   "§ 21 Abs. 1 Nr. 4 PStG",
+   "§ 27 Abs. 3 Nr. 5 PStG",
+   "§ 68a Abs. 2 PStG",
+   "§§ 47, 48 PStG",
+   "§§ 3, 11 NamÄndG",
+   "§ 2 Abs. 1 S. 1, Abs. 3 SBGG",
+   "§ 197 Abs. 2 FamFG",
+   "Art. 2 Abs. 1, Art. 1 Abs. 1 GG",
+   "Art. 16 DSGVO",
+   "Art. 5 Abs. 1 lit. d DSGVO",
+   "Art. 23 Abs. 1 DSGVO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Standesämter und Berater sollten bei Adoptionen darauf achten, dass für die Folgebeurkundung die Personenstandsdaten des Annehmenden im Zeitpunkt der Wirksamkeit der Annahme maßgeblich sind, und eine spätere isolierte Namensänderung eines Elternteils nicht im Kindesregister nachtragen lassen, sofern keine Erklärung nach dem Selbstbestimmungsgesetz vorliegt.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 2,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "BFH 4. Senat",
+  "datum": "2026-08-04",
+  "aktenzeichen": "IV B 15/26",
+  "ecli": "ECLI:DE:BFH:2026:B.040826.IVB15.26.0",
+  "typ": "Beschluss",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202650147&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. NV: Die Vollstreckung eines auf Auskunftserteilung gemäß Art. 15 Abs. 1 und 2 der Datenschutz-Grundverordnung gerichteten rechtskräftigen Urteils eines Finanzgerichts richtet sich nach § 154 der Finanzgerichtsordnung. 2. NV: In einem entsprechenden Vollstreckungsverfahren kann der Auskunftsschuldner den Erfüllungseinwand erheben. 3. NV: Im Rahmen der Prüfung dieses Einwands ist auch im Vollstreckungsverfahren zu klären, ob eine (konkludente) Vollständigkeitserklärung vorliegt und ob Zweifel an deren Richtigkeit bestehen. Letztere können durch die Formulierung der Vollständigkeitserklärung selbst, durch eine offensichtliche Unvollständigkeit der Auskunft oder durch substantiierte Einwendungen des Auskunftsgläubigers veranlasst sein.",
+  "id": "ECLI:DE:BFH:2026:B.040826.IVB15.26.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Vollstreckung eines DSGVO-Auskunftsanspruchs: Erfüllungseinwand und Vollständigkeitserklärung",
+  "sachverhalt": "Eine Steuerpflichtige verlangte vom Finanzamt Auskunft über ihre bei der Finanzverwaltung gespeicherten personenbezogenen Daten nach Art. 15 DSGVO. Das Finanzgericht verurteilte das Finanzamt rechtskräftig zur Auskunftserteilung. Das Finanzamt erteilte daraufhin eine Datenauskunft, die mit einem einleitenden Satz zu Beschränkungen nach Art. 23 DSGVO versehen war, ohne dass dies erläutert wurde. Die Steuerpflichtige betrieb die Zwangsvollstreckung und rügte die Unvollständigkeit der Auskunft, insbesondere fehlende Zwecke, Kategorien, Empfänger, Speicherdauern und eine Negativerklärung. Das Finanzgericht wies den Vollstreckungsantrag nach Erläuterung des Finanzamts zurück, weil Erfüllung eingetreten sei; die inhaltliche Vollständigkeit sei im Vollstreckungsverfahren nicht zu prüfen. Mit der Beschwerde verfolgte die Steuerpflichtige die Vollstreckung weiter und regte eine Vorlage an den EuGH an.",
+  "entscheidung": "Der BFH hob den Beschluss des Finanzgerichts auf und verwies die Sache zurück. Das Finanzgericht hat die Bindungswirkung des vorangegangenen BFH-Beschlusses verkannt: Eine Vollständigkeitserklärung führt im Vollstreckungsverfahren nicht ohne Weiteres zur Erfüllung, sondern bei substantiierten Einwendungen oder offensichtlicher Unvollständigkeit ist deren Richtigkeit zu prüfen. Eine Vorlage an den EuGH wurde nicht entschieden, da die Sache zurückverwiesen wurde.",
+  "kurzfassung": "Ein Steuerpflichtiger wollte ein rechtskräftiges Finanzgerichtsurteil zur DSGVO-Auskunft gegen das Finanzamt vollstrecken, nachdem das Amt eine als vollständig bezeichnete Datenauskunft erteilt hatte. Der BFH hob die Entscheidung des Finanzgerichts auf, weil Erfüllung nicht allein durch eine Vollständigkeitserklärung angenommen werden darf, wenn der Schuldner substantiiert Unvollständigkeit rügt.",
+  "kernaussagen": [
+   "Die Vollstreckung eines auf Auskunft nach Art. 15 Abs. 1 und 2 DSGVO gerichteten Finanzgerichtsurteils richtet sich nach § 154 FGO.",
+   "Im Vollstreckungsverfahren kann der Auskunftsschuldner den Erfüllungseinwand erheben und muss dabei auch prüfen, ob eine Vollständigkeitserklärung vorliegt und ob Zweifel an ihrer Richtigkeit bestehen.",
+   "Zweifel an der Vollständigkeitserklärung können sich aus deren Formulierung, einer offensichtlichen Unvollständigkeit der Auskunft oder substantiierten Einwendungen des Auskunftsgläubigers ergeben."
+  ],
+  "normen": [
+   "Art. 15 Abs. 1 DSGVO",
+   "Art. 15 Abs. 2 DSGVO",
+   "Art. 23 DSGVO",
+   "§ 154 FGO",
+   "§ 126 Abs. 5 FGO",
+   "§ 888 ZPO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Verantwortliche sollten Auskunftsschreiben klar formulieren, Einschränkungen nach Art. 23 DSGVO begründen und Vollständigkeitserklärungen nur abgeben, wenn sie inhaltlich belastbar sind, da substantiierte Einwände die Erfüllung im Vollstreckungsverfahren infrage stellen können.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
   "id": "LGM-42O763-25",
   "gericht": "LG München I",
   "datum": "2026-07-31",
@@ -448,6 +577,91 @@
   "redaktionell": true
  },
  {
+  "gericht": "BFH 9. Senat",
+  "datum": "2026-06-30",
+  "aktenzeichen": "IX R 2/25",
+  "ecli": "ECLI:DE:BFH:2026:U.300626.IXR2.25.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202610168&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. Die Datenschutz-Grundverordnung (DSGVO) enthält keine Rechtsgrundlage, nach der der Verantwortliche verpflichtet wäre, die Richtigkeit und Vollständigkeit seiner Auskunft nach Art. 15 DSGVO eidesstattlich zu versichern. 2. Eine entsprechende Anwendung der zivilrechtlichen Regelungen zur eidesstattlichen Versicherung (§ 259 Abs. 2, § 260 Abs. 2 des Bürgerlichen Gesetzbuchs) ist im Anwendungsbereich von § 32i der Abgabenordnung zu Lasten einer Finanzbehörde ausgeschlossen.",
+  "id": "ECLI:DE:BFH:2026:U.300626.IXR2.25.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Keine eidesstattliche Versicherung zur DSGVO-Auskunft; Schadensersatzklage unzulässig",
+  "sachverhalt": "Ein Steuerpflichtiger verlangte im November 2021 von einer Finanzbehörde Auskunft über seine gespeicherten personenbezogenen Daten samt Kopien nach Art. 15 DSGVO. Die Behörde erteilte am 03.12.2021 Auskunft; auf die Bitte um eidesstattliche Versicherung der Richtigkeit und Vollständigkeit lehnte sie im Februar 2022 ab. Der Kläger erhob Klage, mit der er erstmals in der mündlichen Verhandlung vor dem Finanzgericht Schadensersatz von 1.500 €, eine Eidesleistung der Behörde und die Feststellung von DSGVO-Verstößen begehrte. Das Finanzgericht wies die Klage ab: Die Schadensersatzklage sei mangels vorheriger außergerichtlicher Geltendmachung unzulässig, die Feststellungsklage subsidiär und der Anspruch auf eidesstattliche Versicherung nicht begründet.",
+  "entscheidung": "Der BFH hat die Revision des Klägers zurückgewiesen. Die Schadensersatzklage ist mangels Beschwer nach § 40 Abs. 2 FGO unzulässig, weil der Anspruch vor Klageerhebung nicht außergerichtlich geltend gemacht wurde und die Behörde keine eindeutige Ablehnung erklärt hatte; Art. 79 und 82 DSGVO stehen dem nicht entgegen. Einen Anspruch auf eidesstattliche Versicherung gibt die DSGVO nicht her, und eine entsprechende Anwendung von § 259 Abs. 2, § 260 Abs. 2 BGB gegen eine Finanzbehörde ist nach § 32i AO ausgeschlossen, da sie den unionsrechtlich gebotenen Auskunftsanspruch nach Art. 15 DSGVO relativieren würde.",
+  "kurzfassung": "Ein Steuerpflichtiger wollte von einer Finanzbehörde nach einer Art.-15-DSGVO-Auskunft eine eidesstattliche Versicherung sowie Schadensersatz erzwingen. Der BFH bestätigte, dass es dafür keine Rechtsgrundlage gibt und die Schadensersatzklage ohne vorherige außergerichtliche Geltendmachung unzulässig ist.",
+  "kernaussagen": [
+   "Die DSGVO enthält keine Rechtsgrundlage, die den Verantwortlichen zu einer eidesstattlichen Versicherung über die Richtigkeit und Vollständigkeit einer Auskunft nach Art. 15 DSGVO verpflichtet.",
+   "Eine Schadensersatzklage nach Art. 82 DSGVO gegen eine Finanzbehörde ist mangels Beschwer nach § 40 Abs. 2 FGO grundsätzlich unzulässig, wenn der Anspruch nicht zuvor außergerichtlich geltend gemacht wurde.",
+   "Die entsprechende Anwendung von § 259 Abs. 2, § 260 Abs. 2 BGB zu Lasten einer Finanzbehörde ist im Anwendungsbereich von § 32i AO ausgeschlossen."
+  ],
+  "normen": [
+   "Art. 15 DSGVO",
+   "Art. 79 Abs. 1 DSGVO",
+   "Art. 82 Abs. 1 DSGVO",
+   "Art. 5 Abs. 1 und 2 DSGVO",
+   "§ 32i AO",
+   "§ 40 Abs. 2 FGO",
+   "§ 41 FGO",
+   "§ 259 Abs. 2 BGB",
+   "§ 260 Abs. 2 BGB"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Verantwortliche wie Finanzbehörden müssen Auskunftsansprüche nach Art. 15 DSGVO erfüllen, können aber nicht zu eidesstattlichen Versicherungen gezwungen werden. Betroffene sollten Schadensersatzansprüche gegen öffentliche Stellen vor Klage ausdrücklich außergerichtlich geltend machen.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "BFH 9. Senat",
+  "datum": "2026-06-30",
+  "aktenzeichen": "IX R 3/25",
+  "ecli": "ECLI:DE:BFH:2026:U.300626.IXR3.25.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202650156&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. NV: Die Datenschutz-Grundverordnung (DSGVO) enthält keine Rechtsgrundlage, nach der der Verantwortliche verpflichtet wäre, die Richtigkeit und Vollständigkeit seiner Auskunft nach Art. 15 DSGVO eidesstattlich zu versichern. 2. NV: Eine entsprechende Anwendung der zivilrechtlichen Regelungen zur eidesstattlichen Versicherung (§ 259 Abs. 2, § 260 Abs. 2 des Bürgerlichen Gesetzbuchs) ist im Anwendungsbereich von § 32i der Abgabenordnung zu Lasten einer Finanzbehörde ausgeschlossen.",
+  "id": "ECLI:DE:BFH:2026:U.300626.IXR3.25.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Keine eidesstattliche Versicherung zur Richtigkeit einer Art.-15-DSGVO-Auskunft durch Finanzamt",
+  "sachverhalt": "Eine minderjährige Steuerpflichtigen-fremde Person verlangte vom Finanzamt Auskunft nach Art. 15 DSGVO über dort gespeicherte personenbezogene Daten, die im Zusammenhang mit einer Außenprüfung bei ihrer Mutter standen. Das Finanzamt erteilte eine Auskunft, die es als „soweit ersichtlich“ bezeichnete und lediglich auf eine überschlägige Durchsicht stützte. Die Klägerin verlangte zusätzlich, dass das Amt an Eides statt versichere, die Auskunft sei zutreffend, richtig und vollständig; sie stützte dies auf Art. 5 Abs. 2 DSGVO sowie auf die zivilrechtlichen Regelungen in § 259 Abs. 2 und § 260 Abs. 2 BGB. Das Finanzgericht Berlin-Brandenburg wies die Klage ab, weil es an einer Anspruchsgrundlage fehle. Der Bundesfinanzhof wies die Revision als unbegründet zurück.",
+  "entscheidung": "Der BFH hat entschieden, dass weder die DSGVO noch – über eine analoge Anwendung – § 259 Abs. 2, § 260 Abs. 2 BGB einen Anspruch auf eidesstattliche Versicherung der Richtigkeit und Vollständigkeit einer Art.-15-Auskunft begründen. Die DSGVO enthält keine entsprechende Pflicht; die Rechenschaftspflicht nach Art. 5 Abs. 2 DSGVO erstreckt sich nicht darauf. Im Anwendungsbereich von § 32i AO ist eine analoge Anwendung der BGB-Regeln zu Lasten einer Finanzbehörde ausgeschlossen, weil die Interessenlage nicht vergleichbar ist und der gestufte Auskunftsanspruch des Art. 15 DSGVO sonst relativiert würde.",
+  "kurzfassung": "Eine Steuerpflichtige-fremde Klägerin wollte vom Finanzamt eidesstattlich bestätigt haben, dass eine Auskunft nach Art. 15 DSGVO richtig und vollständig ist. Der BFH hat die Revision zurückgewiesen: Weder die DSGVO noch die analog angewandten BGB-Regeln geben einen solchen Anspruch gegen eine Finanzbehörde.",
+  "kernaussagen": [
+   "Die DSGVO enthält keine Rechtsgrundlage, die den Verantwortlichen verpflichtet, die Richtigkeit und Vollständigkeit einer Auskunft nach Art. 15 DSGVO an Eides statt zu versichern.",
+   "Die Rechenschaftspflicht nach Art. 5 Abs. 2 DSGVO begründet keinen Anspruch auf eidesstattliche Versicherung, da sie sich auf die Grundsätze des Art. 5 Abs. 1 DSGVO bezieht.",
+   "Eine entsprechende Anwendung von § 259 Abs. 2, § 260 Abs. 2 BGB ist im Anwendungsbereich von § 32i AO zu Lasten einer Finanzbehörde ausgeschlossen."
+  ],
+  "normen": [
+   "Art. 5 Abs. 1 DSGVO",
+   "Art. 5 Abs. 2 DSGVO",
+   "Art. 15 DSGVO",
+   "Art. 79 Abs. 1 DSGVO",
+   "§ 259 BGB",
+   "§ 260 BGB",
+   "§ 32i AO",
+   "Art. 267 Abs. 3 AEUV"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Verantwortliche, insbesondere Behörden, müssen Art.-15-Auskünfte nicht eidesstattlich versichern; betroffene Personen können aber vollständige Auskunft verlangen, wenn Anhaltspunkte für Sorgfaltsmängel bestehen, und Finanzgerichte prüfen die Auskunft inhaltlich.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
   "id": "BGH-VIZR97-22",
   "gericht": "BGH, VI. Zivilsenat",
   "datum": "2026-06-23",
@@ -498,6 +712,47 @@
   "quelle": "DATEV magazin / BRAK",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "BVerwG 6. Senat",
+  "datum": "2026-05-20",
+  "aktenzeichen": "6 A 4.25",
+  "ecli": "ECLI:DE:BVerwG:2026:200526U6A4.25.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=WBRE202600398&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "",
+  "id": "ECLI:DE:BVerwG:2026:200526U6A4.25.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Negativauskunft des BND erfüllt Auskunftsanspruch nach § 362 BGB",
+  "sachverhalt": "Ein Rechtsanwalt verlangte vom Bundesnachrichtendienst Auskunft über die zu seiner Person gespeicherten Daten, weil er vermutete, vom BND überwacht worden zu sein, unter anderem im Zusammenhang mit einem Vaterschaftsstreit und einer Bewerbung beim BND. Der BND teilte im Juni 2024 formlos mit, in der Personenzentraldatei seien keine Daten zum Kläger gespeichert, ohne Rechtsbehelfsbelehrung. Der Kläger erhob im Mai 2025 Verpflichtungsklage beim Bundesverwaltungsgericht, da er die Auskunft für falsch hielt und weitere Auskunft über Überwachungsmaßnahmen begehrte. Die Beklagte beantragte Klageabweisung, verwies auf den Negativbefund und bekräftigte diesen durch eine dienstliche Erklärung. Ein Vorverfahren hatte nicht stattgefunden; das Gericht sah es als entbehrlich an, weil sich die Beklagte sachlich eingelassen hatte.",
+  "entscheidung": "Das Bundesverwaltungsgericht hat die Klage abgewiesen und dem Kläger die Kosten auferlegt. Der Auskunftsanspruch nach § 9 Satz 1 BNDG i. V. m. § 15 Abs. 1 Satz 1 BVerfSchG ist bereits erfüllt und nach dem auch im öffentlichen Recht geltenden § 362 Abs. 1 BGB erloschen, weil der Negativbefund den Betroffenen in die Lage versetzt, zu erkennen, was der BND über ihn weiß. Das Gericht hat die Richtigkeit des Negativbefunds nicht in Zweifel gezogen, da die vom Kläger vorgebrachten Vermutungen keine tatsächlichen Anhaltspunkte für eine Speicherung enthalten.",
+  "kurzfassung": "Ein Rechtsanwalt verlangte vom BND Auskunft über seine gespeicherten Daten und hielt die Negativauskunft für unrichtig. Das BVerwG wies die Klage ab, weil der Auskunftsanspruch durch den Negativbefund erfüllt und erloschen ist.",
+  "kernaussagen": [
+   "Der Auskunftsanspruch gegenüber dem BND ist erfüllt, wenn der Betroffene erkennen kann, was der BND über ihn weiß; liegen keine personenbezogenen Informationen vor, genügt die Übermittlung des Negativbefunds.",
+   "Der Auskunftsanspruch erlischt dann nach dem auch im öffentlichen Recht anwendbaren Rechtsgedanken des § 362 Abs. 1 BGB.",
+   "Bloße Vermutungen und Assoziationsketten ohne tatsächliche Anhaltspunkte stellen die Richtigkeit eines Negativbefunds nicht in Frage."
+  ],
+  "normen": [
+   "§ 9 Satz 1 BNDG",
+   "§ 15 Abs. 1 Satz 1 BVerfSchG",
+   "§ 15 Abs. 2 BVerfSchG",
+   "§ 362 Abs. 1 BGB",
+   "§ 68 VwGO",
+   "§ 86 Abs. 1 VwGO",
+   "§ 7 Abs. 1 BNDG"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Behörden können sich bei Negativauskünften auf Erfüllung berufen, müssen aber die Richtigkeit des Negativbefunds plausibel belegen können; Berater sollten Betroffenen bei unsubstanziierten Verdachtsbehauptungen realistische Erfolgsaussichten vermitteln.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
  },
  {
   "id": "OLGD-I20W2-26",
@@ -678,5 +933,132 @@
   "quelle": "CURIA (Rechtsprechung der Mitgliedstaaten)",
   "ki_geprueft": false,
   "redaktionell": true
+ },
+ {
+  "gericht": "BFH 9. Senat",
+  "datum": "2025-04-08",
+  "aktenzeichen": "IX R 8/24",
+  "ecli": "ECLI:DE:BFH:2025:U.080425.IXR8.24.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202550088&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. NV: Begehrt ein Steuerpflichtiger bei der Finanzbehörde Akteneinsicht und macht er im Klageverfahren erstmals einen Auskunftsanspruch nach Art. 15 der Datenschutz-Grundverordnung geltend, liegt eine Klageänderung vor. 2. NV: Die Klageänderung ist grundsätzlich unzulässig, wenn es an einer vorherigen Ablehnung des Auskunftsanspruchs seitens der Finanzbehörde und damit an der für die Klageerhebung notwendigen Beschwer fehlt.",
+  "id": "ECLI:DE:BFH:2025:U.080425.IXR8.24.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Akteneinsicht vs. DSGVO-Auskunft: Unzulässige Klageänderung im Steuerprozess",
+  "sachverhalt": "Die Kläger, Eigentümer einer Eigentumswohnung, stritten mit dem Finanzamt um die Herausgabe von Kopien der Bewertungs- und Betriebsprüfungsakten zu ihrer Immobilie, die für die Abschreibungsbemessung (AfA) relevant waren. Im Einspruchsverfahren hatten sie nur Akteneinsicht beantragt; das Finanzamt gewährte einen geschwärzten Auszug und lehnte weitergehende Einsicht ab. In der Klageschrift wurde allein auf die Offenlegung nach § 364 AO abgestellt, ein Auskunftsanspruch nach Art. 15 DSGVO wurde erstmals im erstinstanzlichen Verfahren mit Schriftsatz vom 4.12.2023 und 17.01.2024 geltend gemacht. Das Finanzgericht gab der Klage nur teilweise statt, hob die Ablehnung auf und verpflichtete das Finanzamt zur Neubescheidung, wies im Übrigen jedoch die Klage ab. Die Kläger verfolgten mit der Revision die Überlassung von Aktenkopien allein auf Grundlage von Art. 15 DSGVO.",
+  "entscheidung": "Der BFH wies die Revision als unbegründet zurück. Zwar habe das FG im Ergebnis zu Recht weder aus der AO noch aus Art. 15 DSGVO einen Anspruch auf Kopien der Steuerakten verneint, es hätte über den erstmals im Klageverfahren geltend gemachten Auskunftsanspruch aber nicht in der Sache entscheiden dürfen. Die Neufassung des Begehrens sei eine Klageänderung nach § 67 FGO, die mangels vorheriger Ablehnung durch das Finanzamt (fehlende Beschwer nach § 40 Abs. 2 FGO zum Zeitpunkt der Klageerhebung) unzulässig sei; ein Verzicht auf den Vorantrag komme nur bei klarer, endgültiger Ablehnung in Betracht, was hier nicht vorlag.",
+  "kurzfassung": "Steuerpflichtige begehrten vom Finanzamt Kopien von Bewertungs- und Prüfungsakten und machten dafür erstmals im Klageverfahren einen Auskunftsanspruch nach Art. 15 DSGVO geltend. Der BFH entschied, dass diese Klageänderung mangels vorheriger Ablehnung des Auskunftsbegehrens unzulässig war, die Revision daher ohne Erfolg blieb.",
+  "kernaussagen": [
+   "Die erstmals im Klageverfahren geltend gemachte Berufung auf einen Auskunftsanspruch nach Art. 15 DSGVO stellt eine Klageänderung im Sinne von § 67 FGO dar, wenn zuvor nur Akteneinsicht begehrt wurde.",
+   "Die Beschwer nach § 40 Abs. 2 FGO muss bereits bei Klageerhebung bestehen und kann nicht durch nachträgliche Korrektur des Begehrens geschaffen werden.",
+   "Auf den vorherigen Antrag bei der Finanzbehörde darf nur ausnahmsweise verzichtet werden, wenn diese klar und eindeutig die Ablehnung erklärt hat."
+  ],
+  "normen": [
+   "Art. 15 DSGVO",
+   "§ 40 Abs. 2 FGO",
+   "§ 67 FGO",
+   "§ 96 Abs. 1 FGO",
+   "Art. 103 Abs. 1 GG",
+   "Art. 267 Abs. 3 AEUV",
+   "§ 364 AO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Wer Auskunft nach Art. 15 DSGVO gegenüber Finanzbehörden durchsetzen will, muss dieses Begehren zuerst im Verwaltungsverfahren ausdrücklich stellen und eine Ablehnung abwarten, da eine erst im Klageverfahren nachgeschobene DSGVO-Auskunft regelmäßig unzulässig ist.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 2,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "BFH 9. Senat",
+  "datum": "2025-04-08",
+  "aktenzeichen": "IX R 22/22",
+  "ecli": "ECLI:DE:BFH:2025:U.080425.IXR22.22.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202520171&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. NV: Rechtliche Analysen als solche unterfallen nicht dem Auskunftsanspruch nach Art. 15 der Datenschutz-Grundverordnung, wohl aber die darin enthaltenen personenbezogenen Daten. 2. NV: Ein Auskunftsbegehren gilt nicht bereits als exzessiv, wenn die betroffene Person Einsicht in die Akten genommen hat, auf welche sich ihr Auskunftsbegehren bezieht.",
+  "id": "ECLI:DE:BFH:2025:U.080425.IXR22.22.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Auskunftsanspruch nach Art. 15 DSGVO gegen Finanzamt: Steuerfahndung, Akteneinsicht, Kopien",
+  "sachverhalt": "Ein Steuerpflichtiger, gegen den das Finanzamt eine Haftungsinanspruchnahme für fremde Steuerschulden geltend machte und gegen den die Steuerfahndungsstelle ein Steuerstrafverfahren führte, begehrte Auskunft nach Art. 15 DSGVO über die bei der Behörde gespeicherten personenbezogenen Daten, insbesondere Kopien der Schriftstücke mit Bezug zu ihm. Das Finanzamt lehnte das Begehren ab. Das Finanzgericht München trennte den Teil, der die Steuerfahndung betraf, ab und verwies ihn unanfechtbar an das Verwaltungsgericht; im Übrigen wies es die Klage ab. Es sah einen exzessiven Antrag wegen vorheriger Akteneinsicht sowie Ausschlussgründe nach § 32c AO als gegeben an. Der Kläger legte Revision ein.",
+  "entscheidung": "Der BFH hob das Urteil des FG auf und verwies die Sache zur anderweitigen Verhandlung zurück. Der Auskunftsanspruch nach Art. 15 DSGVO besteht gegenüber dem Finanzamt; rechtliche Analysen sind zwar nicht vom Auskunftsanspruch umfasst, wohl aber die darin enthaltenen personenbezogenen Daten. Die Annahme eines exzessiven Antrags wegen vorheriger Akteneinsicht und die Berufung auf § 32c AO wurden als rechtsfehlerhaft verworfen; für den Umfang der Kopien fehlen noch Feststellungen.",
+  "kurzfassung": "Ein Steuerpflichtiger verlangte vom Finanzamt Auskunft und Kopien der über ihn gespeicherten personenbezogenen Daten, das Finanzamt verweigerte dies unter Verweis auf Exzessivität und § 32c AO. Der BFH hob das klageabweisende Urteil auf: Die Akteneinsicht macht den Antrag nicht exzessiv und § 32c AO schließt den Anspruch nicht aus, der Umfang der Kopien muss aber noch geklärt werden.",
+  "kernaussagen": [
+   "Rechtliche Analysen als solche unterfallen nicht dem Auskunftsanspruch nach Art. 15 DSGVO, wohl aber die darin enthaltenen personenbezogenen Daten.",
+   "Ein Auskunftsbegehren gilt nicht bereits als exzessiv im Sinne von Art. 12 Abs. 5 DSGVO, wenn die betroffene Person zuvor Einsicht in die Akten genommen hat.",
+   "§ 32c Abs. 1 Nr. 1 AO schließt den Auskunftsanspruch nicht aus, wenn der Betroffene die Informationen bereits kennt, da dieser Tatbestand nur die Informationspflichten nach Art. 13 Abs. 4 und Art. 14 Abs. 5 DSGVO betrifft."
+  ],
+  "normen": [
+   "Art. 15 DSGVO",
+   "Art. 12 Abs. 5 DSGVO",
+   "Art. 13 Abs. 4 DSGVO",
+   "Art. 14 Abs. 5 Buchst. a DSGVO",
+   "§ 32c Abs. 1 Nr. 1 AO",
+   "§ 32a Abs. 1 AO",
+   "§ 32b Abs. 1 AO",
+   "Art. 4 Nr. 1 DSGVO",
+   "Art. 23 DSGVO"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Behörden dürfen Auskunftsbegehren nicht allein wegen vorheriger Akteneinsicht als exzessiv abtun oder pauschal auf § 32c AO stützen, sondern müssen Ausschlussgründe und Missbrauch konkret darlegen und belegen; Akteneinsicht ersetzt keine Auskunft, und Kopien setzen eine Darlegung der Unerlässlichkeit durch die betroffene Person voraus.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
+ },
+ {
+  "gericht": "BFH 9. Senat",
+  "datum": "2025-03-11",
+  "aktenzeichen": "IX R 23/22",
+  "ecli": "ECLI:DE:BFH:2025:U.110325.IXR23.22.0",
+  "typ": "Urteil",
+  "url": "https://www.rechtsprechung-im-internet.de/jportal/?quelle=jlink&docid=STRE202520113&psml=bsjrsprod.psml&max=true",
+  "quelle": "rechtsprechung-im-internet.de",
+  "leitsatz": "1. NV: Die Verarbeitung personenbezogener Daten durch eine oberste Landesbehörde unterfällt dem Anwendungsbereich der Datenschutz-Grundverordnung (DSGVO). Auf eine Differenzierung nach der Art der Aktenführung, der Art der Dokumente oder der Form der Bearbeitung kommt es nicht an. 2. NV: Der Verantwortliche kann sich zur Begrenzung des Auskunftsrechts nach Art. 15 DSGVO nicht darauf berufen, dass der Betroffene über die begehrten Informationen bereits verfügt.",
+  "id": "ECLI:DE:BFH:2025:U.110325.IXR23.22.0",
+  "gebiete": [
+   "datenschutz"
+  ],
+  "titel": "Auskunftsanspruch nach Art. 15 DSGVO gegen Finanzverwaltung: Reichweite und Akteneinsicht",
+  "sachverhalt": "Ein Steuerpflichtiger verlangte vom Finanzministerium seines Bundeslandes als oberster Landesfinanzbehörde mit Schreiben vom 18.11.2019 Akteneinsicht sowie Kopien der über ihn verarbeiteten Daten nach Art. 15 Abs. 1 und 3 DSGVO, einschließlich Hand- und Nebenakten und Bearbeitungsvermerken. Die Behörde teilte mit Bescheid vom 16.12.2019 nur teilweise Auskunft zu Stammdaten und den Unterlagen mit personenbezogenen Daten mit und lehnte das Weitere ab, insbesondere ein Recht auf Akteneinsicht. Das Finanzgericht München wies die Klage mit Urteil vom 05.05.2022 ab. Mit der Revision rügte der Kläger die Verletzung von Bundesrecht und machte ein Akteneinsichtsrecht aus Art. 15 DSGVO geltend.",
+  "entscheidung": "Der BFH hebt das Urteil des FG auf und verweist die Sache zur anderweitigen Verhandlung zurück. Die Verarbeitung personenbezogener Daten durch eine oberste Landesfinanzbehörde unterfällt unabhängig von Steuerart und Art der Aktenführung der DSGVO. Art. 15 DSGVO begründet jedoch nur einen Auskunfts- und Kopieanspruch, kein Akteneinsichtsrecht; ein solches muss sich aus dem nationalen Recht (Ermessensanspruch nach Rechtsstaatsprinzip und Art. 19 Abs. 4 GG) ergeben. Zudem kann sich der Verantwortliche zur Begrenzung des Auskunftsrechts nicht darauf berufen, dass der Betroffene die Informationen bereits kennt, da Art. 15 DSGVO insoweit keine Ausnahme vorsieht.",
+  "kurzfassung": "Ein Steuerpflichtiger verlangte von einem Finanzministerium Akteneinsicht und Kopien seiner Daten nach Art. 15 DSGVO, die Vorinstanz wies die Klage ab. Der BFH hob das Urteil auf: Die DSGVO gilt für die Datenverarbeitung der Finanzverwaltung, Akteneinsicht folgt aber nicht aus Art. 15 DSGVO, und die bloße Kenntnis des Betroffenen schließt den Auskunftsanspruch nicht aus.",
+  "kernaussagen": [
+   "Die DSGVO findet auf die Verarbeitung personenbezogener Daten durch eine oberste Landesfinanzbehörde unabhängig von Steuerart und Art der Aktenführung Anwendung.",
+   "Art. 15 DSGVO vermittelt einen Anspruch auf Kopie der personenbezogenen Daten, nicht aber ein Recht auf Akteneinsicht.",
+   "Art. 15 DSGVO sieht im Gegensatz zu Art. 13 Abs. 4 und Art. 14 Abs. 5 Buchst. a DSGVO keine Einschränkung vor, wenn die betroffene Person bereits über die Daten verfügt."
+  ],
+  "normen": [
+   "Art. 15 Abs. 1 DSGVO",
+   "Art. 15 Abs. 3 DSGVO",
+   "Art. 13 Abs. 4 DSGVO",
+   "Art. 14 Abs. 5 Buchst. a DSGVO",
+   "Art. 23 Abs. 1 DSGVO",
+   "§ 32c AO",
+   "§ 32a AO",
+   "§ 32b AO",
+   "§ 96 Abs. 1 Satz 2 Halbsatz 2 FGO"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Behörden und Unternehmen dürfen den Auskunftsanspruch nach Art. 15 DSGVO nicht mit dem Hinweis verweigern, der Betroffene kenne die Daten bereits, und müssen Akteneinsichtsbegehren gesondert nach nationalem Recht und ermessensfehlerfrei prüfen.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 3,
+   "ki": 0
+  },
+  "erfasst": "2026-11-24"
  }
 ]
