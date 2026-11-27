@@ -1,6 +1,91 @@
 [
  {
   "gericht": "EuGH",
+  "datum": "2026-11-26",
+  "aktenzeichen": "C-325/25",
+  "ecli": "ECLI:EU:C:2026:1026",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0325",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:1026",
+  "gebiete": [
+   "baurecht"
+  ],
+  "titel": "Vorrang für Windkraftprojekte bei der Genehmigungsabwägung",
+  "sachverhalt": "Der Projektentwickler Eneco Wind Belgium wollte in der Wallonischen Region zwei Windkraftanlagen errichten und betreiben. Die zuständigen Behörden lehnten die Genehmigung ab, weil dem Schutz der Landschaft und des kulturellen Erbes Vorrang eingeräumt wurde. Der Conseil d'État (Staatsrat, Belgien) legte dem EuGH die Frage vor, wie Art. 3 Abs. 2 der Verordnung (EU) 2022/2577 auszulegen ist. Im Kern ging es darum, ob Windkraftprojekte, die als Projekte von überwiegendem öffentlichem Interesse gelten, im Genehmigungsverfahren Vorrang vor konkurrierenden Interessen haben. Der Sachverhalt im Text enthält keine Angaben zu den Entscheidungen der Vorinstanzen.",
+  "entscheidung": "Der EuGH hat entschieden, dass die Mitgliedstaaten sicherstellen müssen, dass Projekte der erneuerbaren Energien, die als überwiegend im öffentlichen Interesse anerkannt sind, bei der fallweisen Abwägung der Rechtsinteressen Priorität erhalten, auch wenn das konkurrierende Interesse nicht in den Ausnahmen der Umweltrichtlinien liegt. Eine formelle Anerkennung ist nicht erforderlich, wenn das Interesse nach Art. 3 Abs. 1 der Verordnung vermutet wird. Die Priorität ist aber keine absolute, sondern eine grundsätzliche Priorität, von der die Behörden mit besonderer Begründung abweichen können. Tragend ist, dass die Verordnung zwar Beschleunigung bezweckt, den Mitgliedstaaten im Einzelfall aber Ermessen belassen muss, insbesondere in nicht harmonisierten Bereichen wie Landschafts- und Kulturerbeschutz.",
+  "kurzfassung": "Der EuGH musste klären, ob Windkraftprojekte bei der Genehmigung gegenüber dem Landschafts- und Kulturerbeschutz absolute Priorität haben. Ergebnis: Die Priorität ist nur grundsätzlich; Behörden dürfen mit besonderer Begründung davon abweichen.",
+  "kernaussagen": [
+   "Mitgliedstaaten müssen nach Art. 3 Abs. 2 der Verordnung 2022/2577 sicherstellen, dass Projekte der erneuerbaren Energien mit überwiegendem öffentlichem Interesse bei der fallweisen Abwägung Priorität erhalten.",
+   "Diese Priorität ist eine grundsätzliche und keine absolute Priorität; die Behörden können im Einzelfall mit besonderer Begründung abweichen.",
+   "Eine formelle Anerkennung des überwiegenden öffentlichen Interesses ist nicht erforderlich, wenn das Interesse nach Art. 3 Abs. 1 der Verordnung vermutet wird."
+  ],
+  "normen": [
+   "Verordnung (EU) 2022/2577 Art. 3 Abs. 1 und Abs. 2",
+   "Verordnung (EU) 2022/2577 Art. 1",
+   "Richtlinie 92/43/EWG Art. 6 Abs. 4",
+   "Richtlinie 2000/60/EG Art. 4 Abs. 7",
+   "Richtlinie 2009/147/EG Art. 9 Abs. 1 Buchst. a",
+   "Verordnung (EU) 2024/223 Art. 3a"
+  ],
+  "bedeutung": "hoch",
+  "praxis": "Genehmigungsbehörden müssen bei Windkraftprojekten mit überwiegendem öffentlichem Interesse einen gewichtigen Vorrang beachten, dürfen davon aber mit besonderer Begründung abweichen. Projektentwickler sollten Genehmigungen durch Auflagen zu Ausgleich und Abmilderung und den Nachweis fehlender Alternativen (Art. 3a) absichern.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 0,
+   "mietrecht": 0,
+   "sozialrecht": 0,
+   "baurecht": 2
+  },
+  "erfasst": "2026-11-27"
+ },
+ {
+  "gericht": "EuGH",
+  "datum": "2026-11-26",
+  "aktenzeichen": "C-680/25",
+  "ecli": "ECLI:EU:C:2026:1033",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0680",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:1033",
+  "gebiete": [
+   "arbeitsrecht"
+  ],
+  "titel": "Befristete Justizassistenten: Dienstalterszulage nach Paragraf 4 Rahmenvereinbarung",
+  "sachverhalt": "Eine befristet beschäftigte Justizassistentin am Tribunalul Suceava (Rumänien) verlangte eine Gehaltszulage, die von der Dienstzeit abhängt und nach ihrer Ansicht aufgrund ihres mehr als fünfjährigen Dienstalters zusteht. Nach der rumänischen Vergütungsregelung wird das Dienstalter für Justizassistenten jedoch nur bis zu fünf Jahren berücksichtigt, während anderes Fachpersonal der Justiz, etwa Richter und gleichgestelltes Personal, Dienstalterszuschläge bis über 20 Jahre erhält. Die Justizassistenten sind die einzigen befristet beschäftigten Angehörigen dieses Personals, und zwar für eine verlängerbare Amtszeit von fünf Jahren. Das vorlegende Regionalgericht Mureș fragte den EuGH, ob diese Ungleichbehandlung gegen das Verbot der Schlechterbehandlung befristet Beschäftigter nach Paragraf 4 der Rahmenvereinbarung verstößt. Die rumänische Regierung und die Europäische Kommission äußerten sich schriftlich.",
+  "entscheidung": "Der EuGH entschied, dass Paragraf 4 der Rahmenvereinbarung einer solchen nationalen Regelung nicht entgegensteht, sofern die befristet beschäftigten Justizassistenten nicht in einer mit den anderen Fachpersonal-Angehörigen vergleichbaren Lage sind, weil sie nicht in der gleichen oder einer ähnlichen Arbeit tätig sind. Tragend ist, dass der Schutz nur greift, wenn die Vergleichbarkeit der Tätigkeiten feststeht; die Vergleichbarkeit ist anhand von Art der Arbeit, Ausbildungsanforderungen und Arbeitsbedingungen zu beurteilen und nicht anhand des Ziels der konkreten Zulage. Die Prüfung der Vergleichbarkeit obliegt dem vorlegenden Gericht, und eine Prüfung der sachlichen Rechtfertigung erübrigt sich bei fehlender Vergleichbarkeit.",
+  "kurzfassung": "Der EuGH musste klären, ob eine auf fünf Jahre begrenzte Berücksichtigung des Dienstalters für befristete rumänische Justizassistenten gegen das Diskriminierungsverbot der Rahmenvereinbarung über befristete Arbeitsverträge verstößt. Das Ergebnis: Das Verbot greift nicht, wenn die Justizassistenten nicht in vergleichbarer Tätigkeit wie das unbefristete Fachpersonal arbeiten, was das vorlegende Gericht prüfen muss.",
+  "kernaussagen": [
+   "Paragraf 4 Nr. 1 der Rahmenvereinbarung über befristete Arbeitsverträge erfasst nur Ungleichbehandlungen gegenüber vergleichbaren Dauerbeschäftigten.",
+   "Die Vergleichbarkeit ist anhand einer Gesamtheit von Faktoren wie Art der Arbeit, Ausbildungsanforderungen und Arbeitsbedingungen zu beurteilen, nicht anhand des Ziels der betreffenden Zulage.",
+   "Eine Ungleichbehandlung, die auf einem anderen Kriterium als der Befristung beruht, fällt nicht unter das Verbot von Paragraf 4."
+  ],
+  "normen": [
+   "Paragraf 4 Nr. 1 und Nr. 4 der Rahmenvereinbarung über befristete Arbeitsverträge (Anhang der Richtlinie 1999/70/EG)",
+   "Paragraf 3 Nr. 2 der Rahmenvereinbarung",
+   "Art. 267 AEUV"
+  ],
+  "bedeutung": "mittel",
+  "praxis": "Für Arbeitgeber und Berater zeigt das Urteil, dass eine Schlechterstellung befristet Beschäftigter nur dann am Diskriminierungsverbot des Paragrafen 4 zu messen ist, wenn die Tätigkeit mit der unbefristeter Kollegen vergleichbar ist; die Begründung einer Ungleichbehandlung allein mit Unterschieden in Funktion oder Stellung schützt dabei nicht vor dem Vorwurf der Befristungsdiskriminierung, sondern schließt ihn nur aus, wenn die Tätigkeiten tatsächlich verschieden sind.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 3,
+   "mietrecht": 0,
+   "sozialrecht": 1,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-27"
+ },
+ {
+  "gericht": "EuGH",
   "datum": "2026-11-19",
   "aktenzeichen": "C-528/25",
   "ecli": "ECLI:EU:C:2026:1004",
