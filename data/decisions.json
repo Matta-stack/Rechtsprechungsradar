@@ -159,6 +159,49 @@
  },
  {
   "gericht": "EuGH",
+  "datum": "2026-11-19",
+  "aktenzeichen": "C-312/25",
+  "ecli": "ECLI:EU:C:2026:997",
+  "typ": "Urteil",
+  "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:62025CJ0312",
+  "quelle": "EUR-Lex / CELLAR",
+  "leitsatz": "",
+  "id": "ECLI:EU:C:2026:997",
+  "gebiete": [
+   "sozialrecht"
+  ],
+  "titel": "Beamtenbeitrag zum Krankheitsfürsorgesystem: Zulässigkeit einer Klage gegen Gehaltsabrechnung",
+  "sachverhalt": "Ein Beamter des Gerichtshofs der Europäischen Union wehrte sich gegen seinen monatlichen Beitrag zum Gemeinsamen Krankheitsfürsorgesystem (GKFS). Auslöser war ein Kommissionsbeschluss von November 2023, mit dem die allgemeinen Durchführungsbestimmungen geändert wurden, sodass die Erstattung medizinisch unterstützter Fortpflanzung auch außerhalb einer Pathologie möglich wurde. Der Beamte beantragte die Aufhebung seiner Gehaltsabrechnung vom Dezember 2023 und der folgenden Abrechnungen, soweit sie seinen GKFS-Beitrag betrafen, sowie der Zurückweisung seiner Verwaltungsbeschwerde. Das Gericht der Europäischen Union hat die Klage als unzulässig abgewiesen. Der Beamte legte dagegen Rechtsmittel beim Gerichtshof ein.",
+  "entscheidung": "Der Gerichtshof hat das Rechtsmittel zurückgewiesen und dem Rechtsmittelführer die Kosten auferlegt. Die Gehaltsabrechnung stellt keine beschwerende Maßnahme im Sinne der Art. 90 und 91 des Statuts dar, weil sie keine verbindlichen Rechtswirkungen erzeugt, die die Rechtsstellung des Beamten unmittelbar und sofort qualifiziert verändern; der Beitragssatz blieb unverändert und der Beschluss erlegt keine neue Pflicht auf. Das Recht auf wirksamen Rechtsschutz nach Art. 47 der Charta ändert die Zulässigkeitsvoraussetzungen nicht.",
+  "kurzfassung": "Ein Beamter wollte die Gehaltsabrechnung angreifen, weil der Kommissionsbeschluss zur Erstattung medizinisch unterstützter Fortpflanzung seinen GKFS-Beitrag mittelbar belaste. Der Gerichtshof hat das Rechtsmittel zurückgewiesen: Die Gehaltsabrechnung sei keine anfechtbare beschwerende Maßnahme.",
+  "kernaussagen": [
+   "Eine Gehaltsabrechnung kann nur dann eine beschwerende Maßnahme im Sinne der Art. 90 und 91 des Statuts sein, wenn sie unmittelbar und sofort die Rechtsstellung des Beamten in qualifizierter Weise verändert.",
+   "Ein immaterielles Interesse des Beamten an der Nichtfinanzierung bestimmter Leistungen erweitert die Zulässigkeitsvoraussetzungen einer Aufhebungsklage nicht.",
+   "Art. 47 der Charta ändert nicht die Zulässigkeitsvoraussetzungen für Klagen gegen Unionsorgane nach den Verträgen."
+  ],
+  "normen": [
+   "Art. 72 Abs. 1 Statut der Beamten der Europäischen Union",
+   "Art. 90 und 91 Statut der Beamten der Europäischen Union",
+   "Art. 3 Abs. 1 Unterabs. 1 der Gemeinsamen Regelung (GKFS)",
+   "Art. 47 Charta der Grundrechte der Europäischen Union",
+   "Art. 184 Abs. 2 und Art. 138 Abs. 1 Verfahrensordnung des Gerichtshofs"
+  ],
+  "bedeutung": "gering",
+  "praxis": "Beamte und Dienstherren sollten beachten, dass gegen Gehaltsabrechnungen nur dann vorgegangen werden kann, wenn diese selbst eine beschwerende Einzelmaßnahme verkörpern; gegen allgemeine Durchführungsbestimmungen ist der Rechtsschutz nur über eine konkrete beschwerende Maßnahme eröffnet.",
+  "ki_geprueft": true,
+  "ki_version": 2,
+  "einschlaegigkeit": {
+   "datenschutz": 0,
+   "ki": 0,
+   "arbeitsrecht": 1,
+   "mietrecht": 0,
+   "sozialrecht": 2,
+   "baurecht": 0
+  },
+  "erfasst": "2026-11-28"
+ },
+ {
+  "gericht": "EuGH",
   "datum": "2026-11-17",
   "aktenzeichen": "C-698/23",
   "ecli": "ECLI:EU:C:2026:984",
